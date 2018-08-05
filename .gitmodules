@@ -1,0 +1,6 @@
+[submodule "components/lv_examples"]
+	path = components/lv_examples
+	url = https://github.com/littlevgl/lv_examples
+[submodule "components/KairOS"]
+	path = components/KairOS
+	url = https://github.com/kairos-dev/KairOS

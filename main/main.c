@@ -5,15 +5,12 @@
 #include <freertos/task.h>
 #include <stdio.h>
 #include <string.h>
-#include <u8g2.h>
-#include <sh1106.h>
-#include <bmx280.h>
-#include <hmc5883l.h>
-
-#include "sdkconfig.h"
+#include <linked_list.h>
 
 void app_main()
 {
-    xTaskCreate(hmc5883l_test, "hmc5883l_test", 4096, NULL, 5, NULL);
-    xTaskCreate(&task_test_SSD1306i2c, "task_test_SSD1306i2c", 4096,NULL,4,NULL);
+    while(1)
+    {
+        printf("This is a test!\n");
+    }
 }

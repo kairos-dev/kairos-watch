@@ -3,7 +3,6 @@
 # project subdirectory.
 #
 
-PROJECT_NAME := KairOS
+PROJECT_NAME := KairosWatch
 
 include $(IDF_PATH)/make/project.mk
-
