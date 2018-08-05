@@ -3,6 +3,12 @@
 # project subdirectory.
 #
 
-PROJECT_NAME := KairosWatch
+PROJECT_NAME := hello-world
+
+# Add new components (source folders)
+# Must be before include $(IDF_PATH)/make/project.mk
+# $(PROJECT_PATH)/xxx didn't work -> use $(abspath xxx) instead
+EXTRA_COMPONENT_DIRS := $(abspath drv)	$(abspath lvgl) $(abspath lv_examples)
 
 include $(IDF_PATH)/make/project.mk
+
