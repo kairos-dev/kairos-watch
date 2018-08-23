@@ -4,3 +4,7 @@
 [submodule "components/KairOS"]
 	path = components/KairOS
 	url = https://github.com/kairos-dev/KairOS
+[submodule "lv_drivers"]
+	path = lv_drivers
+	url = https://github.com/littlevgl/lv_drivers
+	branch = new_api
