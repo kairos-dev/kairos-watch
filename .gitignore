@@ -2,6 +2,7 @@
 *.d
 *.DS_Store
 *.old
+*.vscode
 # Object files
 *.o
 *.ko
