@@ -9,7 +9,7 @@
 - [x] ~~Make test fuctions.~~
 - [] Read sensor **MAX30100**
 - [] Read keypad
-- [] Read Battery Level
+- [x] Read Battery Level
 - [] Add KairOS
 - [x] ~~Create Home Screen~~
 - [] Create Menu Screen

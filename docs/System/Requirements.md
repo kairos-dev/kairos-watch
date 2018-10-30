@@ -22,9 +22,9 @@ We all know that smartwatchs is on the rise. Most of these smartwathes are propr
 | 2 | Power On/Off| Smartwatch needs to be powered on/off | Must Have | After battery is connected, the power/home button needs to be pressed for 2 seconds to be powerd on/off |
 | 3 | Smartwatch connection | Smartwatch needs to share info with a smartphone | Must Have | Bluetooth Connection with a smartphone to share info between devices | 
 | 4 | Gestures Support | Gestures with accelerometer and gyroscope | Should Have | After a certain gesture the screen must be on | 
-| 5 | Read Vital Signals | Read some vital signals such as Heart Beat and SPO2 with MAX30100 sensor | Must Have | Maybe use the MAX30102 sensor | 
-| 6 | Read Steps | Incorporate a steps algorithm | Should Have | |
-| 7 | Read Calories burned | Incorporate a calories burned algorithm | Should Have | |
+| 5 | Read Vital Signals | Read some vital signals such as Heart Beat and SPO2 with MAX30100 sensor | Must Have | Maybe use the MAX30102 sensor and have an app to read it. | 
+| 6 | Read Steps | Incorporate a steps algorithm | Should Have | Must have an app to read it|
+| 7 | Read Calories burned | Incorporate a calories burned algorithm | Should Have | Must have an app to read it |
 
 
 ## User interaction and design
