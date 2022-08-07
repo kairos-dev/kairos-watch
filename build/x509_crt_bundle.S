@@ -1,4 +1,4 @@
-/* * Data converted from /home/artur/projects/personal/kairos/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from /home/artur/projects/personal/kairos-watch/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 .section .rodata.embedded

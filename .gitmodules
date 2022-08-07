@@ -1,3 +1,4 @@
 [submodule "components/core"]
 	path = components/core
 	url = git@github.com:kairos-dev/kairos-core.git
+  branch = "master"

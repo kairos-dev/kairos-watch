@@ -1,0 +1,43 @@
+-- Found Git: /usr/bin/git (found version "2.37.1") 
+-- The C compiler identification is GNU 11.2.0
+-- The CXX compiler identification is GNU 11.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: /home/artur/.espressif/tools/xtensa-esp32-elf/esp-2022r1-RC1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/artur/.espressif/tools/xtensa-esp32-elf/esp-2022r1-RC1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/artur/.espressif/tools/xtensa-esp32-elf/esp-2022r1-RC1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file /home/artur/projects/personal/kairos-watch/sdkconfig
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of time_t
+-- Check size of time_t - done
+-- Found Python3: /home/artur/.espressif/python_env/idf5.0_py3.10_env/bin/python (found version "3.10.5") found components: Interpreter 
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
+-- App "kairos" version: c36fad1-dirty
+-- Adding linker script /home/artur/projects/personal/kairos-watch/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /home/artur/esp/esp-idf/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script /home/artur/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /home/artur/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /home/artur/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /home/artur/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script /home/artur/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script /home/artur/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /home/artur/esp/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console core cxx driver efuse esp-tls esp_adc esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_netif esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_serial_slave_link esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport tinyusb ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /home/artur/esp/esp-idf/components/app_trace /home/artur/esp/esp-idf/components/app_update /home/artur/esp/esp-idf/components/bootloader /home/artur/esp/esp-idf/components/bootloader_support /home/artur/esp/esp-idf/components/bt /home/artur/esp/esp-idf/components/cmock /home/artur/esp/esp-idf/components/console /home/artur/projects/personal/kairos-watch/components/core /home/artur/esp/esp-idf/components/cxx /home/artur/esp/esp-idf/components/driver /home/artur/esp/esp-idf/components/efuse /home/artur/esp/esp-idf/components/esp-tls /home/artur/esp/esp-idf/components/esp_adc /home/artur/esp/esp-idf/components/esp_common /home/artur/esp/esp-idf/components/esp_eth /home/artur/esp/esp-idf/components/esp_event /home/artur/esp/esp-idf/components/esp_gdbstub /home/artur/esp/esp-idf/components/esp_hid /home/artur/esp/esp-idf/components/esp_http_client /home/artur/esp/esp-idf/components/esp_http_server /home/artur/esp/esp-idf/components/esp_https_ota /home/artur/esp/esp-idf/components/esp_https_server /home/artur/esp/esp-idf/components/esp_hw_support /home/artur/esp/esp-idf/components/esp_lcd /home/artur/esp/esp-idf/components/esp_local_ctrl /home/artur/esp/esp-idf/components/esp_netif /home/artur/esp/esp-idf/components/esp_phy /home/artur/esp/esp-idf/components/esp_pm /home/artur/esp/esp-idf/components/esp_psram /home/artur/esp/esp-idf/components/esp_ringbuf /home/artur/esp/esp-idf/components/esp_rom /home/artur/esp/esp-idf/components/esp_serial_slave_link /home/artur/esp/esp-idf/components/esp_system /home/artur/esp/esp-idf/components/esp_timer /home/artur/esp/esp-idf/components/esp_wifi /home/artur/esp/esp-idf/components/espcoredump /home/artur/esp/esp-idf/components/esptool_py /home/artur/esp/esp-idf/components/fatfs /home/artur/esp/esp-idf/components/freertos /home/artur/esp/esp-idf/components/hal /home/artur/esp/esp-idf/components/heap /home/artur/esp/esp-idf/components/http_parser /home/artur/esp/esp-idf/components/idf_test /home/artur/esp/esp-idf/components/ieee802154 /home/artur/esp/esp-idf/components/json /home/artur/esp/esp-idf/components/log /home/artur/esp/esp-idf/components/lwip /home/artur/projects/personal/kairos-watch/main /home/artur/esp/esp-idf/components/mbedtls /home/artur/esp/esp-idf/components/mqtt /home/artur/esp/esp-idf/components/newlib /home/artur/esp/esp-idf/components/nvs_flash /home/artur/esp/esp-idf/components/openthread /home/artur/esp/esp-idf/components/partition_table /home/artur/esp/esp-idf/components/perfmon /home/artur/esp/esp-idf/components/protobuf-c /home/artur/esp/esp-idf/components/protocomm /home/artur/esp/esp-idf/components/pthread /home/artur/esp/esp-idf/components/sdmmc /home/artur/esp/esp-idf/components/soc /home/artur/esp/esp-idf/components/spi_flash /home/artur/esp/esp-idf/components/spiffs /home/artur/esp/esp-idf/components/tcp_transport /home/artur/esp/esp-idf/components/tinyusb /home/artur/esp/esp-idf/components/ulp /home/artur/esp/esp-idf/components/unity /home/artur/esp/esp-idf/components/usb /home/artur/esp/esp-idf/components/vfs /home/artur/esp/esp-idf/components/wear_levelling /home/artur/esp/esp-idf/components/wifi_provisioning /home/artur/esp/esp-idf/components/wpa_supplicant /home/artur/esp/esp-idf/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/artur/projects/personal/kairos-watch/build

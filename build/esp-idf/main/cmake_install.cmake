@@ -1,4 +1,4 @@
-# Install script for directory: /home/artur/projects/personal/kairos/main
+# Install script for directory: /home/artur/projects/personal/kairos-watch/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
