@@ -1,0 +1,350 @@
+[0;32mI (13) boot: ESP-IDF v5.0-dev-4547-gfde4afc67a 2nd stage bootloader[0m
+[0;32mI (13) boot: compile time 00:10:40[0m
+[0;32mI (13) boot: chip revision: V100[0m
+[0;32mI (17) boot_comm: chip revision: 1, min. bootloader chip revision: 0[0m
+[0;32mI (24) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (28) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (33) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (38) boot: Enabling RNG early entropy source...[0m
+[0;32mI (43) boot: Partition Table:[0m
+[0;32mI (47) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (54) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (61) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (69) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (76) boot: End of partition table[0m
+[0;32mI (80) boot_comm: chip revision: 1, min. application chip revision: 0[0m
+[0;32mI (88) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0992ch ( 39212) map[0m
+[0;32mI (110) esp_image: segment 1: paddr=00019954 vaddr=3ffb0000 size=02698h (  9880) load[0m
+[0;32mI (114) esp_image: segment 2: paddr=0001bff4 vaddr=40080000 size=04024h ( 16420) load[0m
+[0;32mI (123) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=185e0h ( 99808) map[0m
+[0;32mI (161) esp_image: segment 4: paddr=00038608 vaddr=40084024 size=08d00h ( 36096) load[0m
+[0;32mI (176) esp_image: segment 5: paddr=00041310 vaddr=50000000 size=00010h (    16) load[0m
+[0;32mI (182) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (183) boot: Disabling RNG early entropy source...[0m
+[0;32mI (196) cpu_start: Pro cpu up.[0m
+[0;32mI (196) cpu_start: Starting app cpu, entry point is 0x4008117c[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (210) cpu_start: Pro cpu start user code[0m
+[0;32mI (210) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (210) cpu_start: Application information:[0m
+[0;32mI (215) cpu_start: Project name:     kairos[0m
+[0;32mI (220) cpu_start: App version:      1[0m
+[0;32mI (224) cpu_start: Compile time:     Aug  5 2022 18:21:25[0m
+[0;32mI (230) cpu_start: ELF file SHA256:  99fbd637ff9c3446...[0m
+[0;32mI (236) cpu_start: ESP-IDF:          v5.0-dev-4547-gfde4afc67a[0m
+[0;32mI (243) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (250) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (256) heap_init: At 3FFB2FF8 len 0002D008 (180 KiB): DRAM[0m
+[0;32mI (262) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (269) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (275) heap_init: At 4008CD24 len 000132DC (76 KiB): IRAM[0m
+[0;32mI (282) spi_flash: detected chip: gd[0m
+[0;32mI (286) spi_flash: flash io: dio[0m
+[0;33mW (289) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (303) cpu_start: Starting scheduler on PRO CPU.[0m
+[0;32mI (0) cpu_start: Starting scheduler on APP CPU.[0m
+[0;32mI (313) RTC: Initializing RTC[0m
+[0;31mE (313) i2c: i2c_master_cmd_begin(1478): i2c driver not installed[0m
+[0;31mE (323) i2cdev: Could not write to device [0x51 at 0]: 259 (ESP_ERR_INVALID_STATE)[0m
+ESP_ERROR_CHECK failed: esp_err_t 0x103 (ESP_ERR_INVALID_STATE) at 0x400d5dcd
+file: "./components/core/hal/rtc/rtc.c" line 29
+func: init_rtc
+expression: pcf8563_set_time(&dev, &time)
+
+abort() was called at PC 0x40086873 on core 0
+
+
+Backtrace: 0x40081bfa:0x3ffb5560 0x4008687d:0x3ffb5580 0x4008b8ea:0x3ffb55a0 0x40086873:0x3ffb5610 0x400d5dcd:0x3ffb5640 0x400d5a2e:0x3ffb5690 0x400d59ff:0x3ffb56b0 0x400d5927:0x3ffb56d0 0x400e841a:0x3ffb5700 0x40089295:0x3ffb5730
+
+
+
+
+ELF file SHA256: 99fbd637ff9c3446
+
+Rebooting...
+[0;32mI (13) boot: ESP-IDF v5.0-dev-4547-gfde4afc67a 2nd stage bootloader[0m
+[0;32mI (13) boot: compile time 00:10:40[0m
+[0;32mI (13) boot: chip revision: V100[0m
+[0;32mI (16) boot_comm: chip revision: 1, min. bootloader chip revision: 0[0m
+[0;32mI (23) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (28) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (33) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (37) boot: Enabling RNG early entropy source...[0m
+[0;32mI (43) boot: Partition Table:[0m
+[0;32mI (46) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (53) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (61) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (68) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (76) boot: End of partition table[0m
+[0;32mI (80) boot_comm: chip revision: 1, min. application chip revision: 0[0m
+[0;32mI (87) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0992ch ( 39212) map[0m
+[0;32mI (110) esp_image: segment 1: paddr=00019954 vaddr=3ffb0000 size=02698h (  9880) load[0m
+[0;32mI (114) esp_image: segment 2: paddr=0001bff4 vaddr=40080000 size=04024h ( 16420) load[0m
+[0;32mI (122) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=185e0h ( 99808) map[0m
+[0;32mI (160) esp_image: segment 4: paddr=00038608 vaddr=40084024 size=08d00h ( 36096) load[0m
+[0;32mI (175) esp_image: segment 5: paddr=00041310 vaddr=50000000 size=00010h (    16) load[0m
+[0;32mI (182) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (182) boot: Disabling RNG early entropy source...[0m
+[0;32mI (195) cpu_start: Pro cpu up.[0m
+[0;32mI (195) cpu_start: Starting app cpu, entry point is 0x4008117c[0m
+[0;32mI (189) cpu_start: App cpu up.[0m
+[0;32mI (210) cpu_start: Pro cpu start user code[0m
+[0;32mI (210) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (210) cpu_start: Application information:[0m
+[0;32mI (215) cpu_start: Project name:     kairos[0m
+[0;32mI (220) cpu_start: App version:      1[0m
+[0;32mI (224) cpu_start: Compile time:     Aug  5 2022 18:21:25[0m
+[0;32mI (230) cpu_start: ELF file SHA256:  99fbd637ff9c3446...[0m
+[0;32mI (236) cpu_start: ESP-IDF:          v5.0-dev-4547-gfde4afc67a[0m
+[0;32mI (243) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (250) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (256) heap_init: At 3FFB2FF8 len 0002D008 (180 KiB): DRAM[0m
+[0;32mI (262) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (268) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (275) heap_init: At 4008CD24 len 000132DC (76 KiB): IRAM[0m
+[0;32mI (282) spi_flash: detected chip: gd[0m
+[0;32mI (285) spi_flash: flash io: dio[0m
+[0;33mW (289) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (303) cpu_start: Starting scheduler on PRO CPU.[0m
+[0;32mI (0) cpu_start: Starting scheduler on APP CPU.[0m
+[0;32mI (313) RTC: Initializing RTC[0m
+[0;31mE (313) i2c: i2c_master_cmd_begin(1478): i2c driver not installed[0m
+[0;31mE (323) i2cdev: Could not write to device [0x51 at 0]: 259 (ESP_ERR_INVALID_STATE)[0m
+ESP_ERROR_CHECK failed: esp_err_t 0x103 (ESP_ERR_INVALID_STATE) at 0x400d5dcd
+file: "./components/core/hal/rtc/rtc.c" line 29
+func: init_rtc
+expression: pcf8563_set_time(&dev, &time)
+
+abort() was called at PC 0x40086873 on core 0
+
+
+Backtrace: 0x40081bfa:0x3ffb5560 0x4008687d:0x3ffb5580 0x4008b8ea:0x3ffb55a0 0x40086873:0x3ffb5610 0x400d5dcd:0x3ffb5640 0x400d5a2e:0x3ffb5690 0x400d59ff:0x3ffb56b0 0x400d5927:0x3ffb56d0 0x400e841a:0x3ffb5700 0x40089295:0x3ffb5730
+
+
+
+
+ELF file SHA256: 99fbd637ff9c3446
+
+Rebooting...
+[0;32mI (13) boot: ESP-IDF v5.0-dev-4547-gfde4afc67a 2nd stage bootloader[0m
+[0;32mI (13) boot: compile time 00:10:40[0m
+[0;32mI (13) boot: chip revision: V100[0m
+[0;32mI (16) boot_comm: chip revision: 1, min. bootloader chip revision: 0[0m
+[0;32mI (23) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (28) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (33) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (37) boot: Enabling RNG early entropy source...[0m
+[0;32mI (43) boot: Partition Table:[0m
+[0;32mI (46) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (53) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (61) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (68) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (76) boot: End of partition table[0m
+[0;32mI (80) boot_comm: chip revision: 1, min. application chip revision: 0[0m
+[0;32mI (87) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0992ch ( 39212) map[0m
+[0;32mI (110) esp_image: segment 1: paddr=00019954 vaddr=3ffb0000 size=02698h (  9880) load[0m
+[0;32mI (114) esp_image: segment 2: paddr=0001bff4 vaddr=40080000 size=04024h ( 16420) load[0m
+[0;32mI (122) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=185e0h ( 99808) map[0m
+[0;32mI (160) esp_image: segment 4: paddr=00038608 vaddr=40084024 size=08d00h ( 36096) load[0m
+[0;32mI (175) esp_image: segment 5: paddr=00041310 vaddr=50000000 size=00010h (    16) load[0m
+[0;32mI (182) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (182) boot: Disabling RNG early entropy source...[0m
+[0;32mI (195) cpu_start: Pro cpu up.[0m
+[0;32mI (195) cpu_start: Starting app cpu, entry point is 0x4008117c[0m
+[0;32mI (189) cpu_start: App cpu up.[0m
+[0;32mI (210) cpu_start: Pro cpu start user code[0m
+[0;32mI (210) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (210) cpu_start: Application information:[0m
+[0;32mI (215) cpu_start: Project name:     kairos[0m
+[0;32mI (220) cpu_start: App version:      1[0m
+[0;32mI (224) cpu_start: Compile time:     Aug  5 2022 18:21:25[0m
+[0;32mI (230) cpu_start: ELF file SHA256:  99fbd637ff9c3446...[0m
+[0;32mI (236) cpu_start: ESP-IDF:          v5.0-dev-4547-gfde4afc67a[0m
+[0;32mI (243) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (250) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (256) heap_init: At 3FFB2FF8 len 0002D008 (180 KiB): DRAM[0m
+[0;32mI (262) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (268) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (275) heap_init: At 4008CD24 len 000132DC (76 KiB): IRAM[0m
+[0;32mI (282) spi_flash: detected chip: gd[0m
+[0;32mI (285) spi_flash: flash io: dio[0m
+[0;33mW (289) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (303) cpu_start: Starting scheduler on PRO CPU.[0m
+[0;32mI (0) cpu_start: Starting scheduler on APP CPU.[0m
+[0;32mI (313) RTC: Initializing RTC[0m
+[0;31mE (313) i2c: i2c_master_cmd_begin(1478): i2c driver not installed[0m
+[0;31mE (323) i2cdev: Could not write to device [0x51 at 0]: 259 (ESP_ERR_INVALID_STATE)[0m
+ESP_ERROR_CHECK failed: esp_err_t 0x103 (ESP_ERR_INVALID_STATE) at 0x400d5dcd
+file: "./components/core/hal/rtc/rtc.c" line 29
+func: init_rtc
+expression: pcf8563_set_time(&dev, &time)
+
+abort() was called at PC 0x40086873 on core 0
+
+
+Backtrace: 0x40081bfa:0x3ffb5560 0x4008687d:0x3ffb5580 0x4008b8ea:0x3ffb55a0 0x40086873:0x3ffb5610 0x400d5dcd:0x3ffb5640 0x400d5a2e:0x3ffb5690 0x400d59ff:0x3ffb56b0 0x400d5927:0x3ffb56d0 0x400e841a:0x3ffb5700 0x40089295:0x3ffb5730
+
+
+
+
+ELF file SHA256: 99fbd637ff9c3446
+
+Rebooting...
+[0;32mI (13) boot: ESP-IDF v5.0-dev-4547-gfde4afc67a 2nd stage bootloader[0m
+[0;32mI (13) boot: compile time 00:10:40[0m
+[0;32mI (13) boot: chip revision: V100[0m
+[0;32mI (16) boot_comm: chip revision: 1, min. bootloader chip revision: 0[0m
+[0;32mI (23) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (28) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (33) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (37) boot: Enabling RNG early entropy source...[0m
+[0;32mI (43) boot: Partition Table:[0m
+[0;32mI (46) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (53) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (61) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (68) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (76) boot: End of partition table[0m
+[0;32mI (80) boot_comm: chip revision: 1, min. application chip revision: 0[0m
+[0;32mI (87) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0992ch ( 39212) map[0m
+[0;32mI (110) esp_image: segment 1: paddr=00019954 vaddr=3ffb0000 size=02698h (  9880) load[0m
+[0;32mI (114) esp_image: segment 2: paddr=0001bff4 vaddr=40080000 size=04024h ( 16420) load[0m
+[0;32mI (122) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=185e0h ( 99808) map[0m
+[0;32mI (160) esp_image: segment 4: paddr=00038608 vaddr=40084024 size=08d00h ( 36096) load[0m
+[0;32mI (175) esp_image: segment 5: paddr=00041310 vaddr=50000000 size=00010h (    16) load[0m
+[0;32mI (182) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (182) boot: Disabling RNG early entropy source...[0m
+[0;32mI (195) cpu_start: Pro cpu up.[0m
+[0;32mI (195) cpu_start: Starting app cpu, entry point is 0x4008117c[0m
+[0;32mI (189) cpu_start: App cpu up.[0m
+[0;32mI (210) cpu_start: Pro cpu start user code[0m
+[0;32mI (210) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (210) cpu_start: Application information:[0m
+[0;32mI (215) cpu_start: Project name:     kairos[0m
+[0;32mI (220) cpu_start: App version:      1[0m
+[0;32mI (224) cpu_start: Compile time:     Aug  5 2022 18:21:25[0m
+[0;32mI (230) cpu_start: ELF file SHA256:  99fbd637ff9c3446...[0m
+[0;32mI (236) cpu_start: ESP-IDF:          v5.0-dev-4547-gfde4afc67a[0m
+[0;32mI (243) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (250) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (256) heap_init: At 3FFB2FF8 len 0002D008 (180 KiB): DRAM[0m
+[0;32mI (262) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (268) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (275) heap_init: At 4008CD24 len 000132DC (76 KiB): IRAM[0m
+[0;32mI (282) spi_flash: detected chip: gd[0m
+[0;32mI (285) spi_flash: flash io: dio[0m
+[0;33mW (289) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (303) cpu_start: Starting scheduler on PRO CPU.[0m
+[0;32mI (0) cpu_start: Starting scheduler on APP CPU.[0m
+[0;32mI (313) RTC: Initializing RTC[0m
+[0;31mE (313) i2c: i2c_master_cmd_begin(1478): i2c driver not installed[0m
+[0;31mE (323) i2cdev: Could not write to device [0x51 at 0]: 259 (ESP_ERR_INVALID_STATE)[0m
+ESP_ERROR_CHECK failed: esp_err_t 0x103 (ESP_ERR_INVALID_STATE) at 0x400d5dcd
+file: "./components/core/hal/rtc/rtc.c" line 29
+func: init_rtc
+expression: pcf8563_set_time(&dev, &time)
+
+abort() was called at PC 0x40086873 on core 0
+
+
+Backtrace: 0x40081bfa:0x3ffb5560 0x4008687d:0x3ffb5580 0x4008b8ea:0x3ffb55a0 0x40086873:0x3ffb5610 0x400d5dcd:0x3ffb5640 0x400d5a2e:0x3ffb5690 0x400d59ff:0x3ffb56b0 0x400d5927:0x3ffb56d0 0x400e841a:0x3ffb5700 0x40089295:0x3ffb5730
+
+
+
+
+ELF file SHA256: 99fbd637ff9c3446
+
+Rebooting...
+[0;32mI (13) boot: ESP-IDF v5.0-dev-4547-gfde4afc67a 2nd stage bootloader[0m
+[0;32mI (13) boot: compile time 00:10:40[0m
+[0;32mI (13) boot: chip revision: V100[0m
+[0;32mI (16) boot_comm: chip revision: 1, min. bootloader chip revision: 0[0m
+[0;32mI (23) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (28) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (33) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (37) boot: Enabling RNG early entropy source...[0m
+[0;32mI (43) boot: Partition Table:[0m
+[0;32mI (46) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (53) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (61) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (68) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (76) boot: End of partition table[0m
+[0;32mI (80) boot_comm: chip revision: 1, min. application chip revision: 0[0m
+[0;32mI (87) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0992ch ( 39212) map[0m
+[0;32mI (110) esp_image: segment 1: paddr=00019954 vaddr=3ffb0000 size=02698h (  9880) load[0m
+[0;32mI (114) esp_image: segment 2: paddr=0001bff4 vaddr=40080000 size=04024h ( 16420) load[0m
+[0;32mI (122) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=185e0h ( 99808) map[0m
+[0;32mI (160) esp_image: segment 4: paddr=00038608 vaddr=40084024 size=08d00h ( 36096) load[0m
+[0;32mI (175) esp_image: segment 5: paddr=00041310 vaddr=50000000 size=00010h (    16) load[0m
+[0;32mI (182) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (182) boot: Disabling RNG early entropy source...[0m
+[0;32mI (195) cpu_start: Pro cpu up.[0m
+[0;32mI (195) cpu_start: Starting app cpu, entry point is 0x4008117c[0m
+[0;32mI (189) cpu_start: App cpu up.[0m
+[0;32mI (210) cpu_start: Pro cpu start user code[0m
+[0;32mI (210) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (210) cpu_start: Application information:[0m
+[0;32mI (215) cpu_start: Project name:     kairos[0m
+[0;32mI (220) cpu_start: App version:      1[0m
+[0;32mI (224) cpu_start: Compile time:     Aug  5 2022 18:21:25[0m
+[0;32mI (230) cpu_start: ELF file SHA256:  99fbd637ff9c3446...[0m
+[0;32mI (236) cpu_start: ESP-IDF:          v5.0-dev-4547-gfde4afc67a[0m
+[0;32mI (243) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (250) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (256) heap_init: At 3FFB2FF8 len 0002D008 (180 KiB): DRAM[0m
+[0;32mI (262) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (268) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (275) heap_init: At 4008CD24 len 000132DC (76 KiB): IRAM[0m
+[0;32mI (282) spi_flash: detected chip: gd[0m
+[0;32mI (285) spi_flash: flash io: dio[0m
+[0;33mW (289) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (303) cpu_start: Starting scheduler on PRO CPU.[0m
+[0;32mI (0) cpu_start: Starting scheduler on APP CPU.[0m
+[0;32mI (313) RTC: Initializing RTC[0m
+[0;31mE (313) i2c: i2c_master_cmd_begin(1478): i2c driver not installed[0m
+[0;31mE (323) i2cdev: Could not write to device [0x51 at 0]: 259 (ESP_ERR_INVALID_STATE)[0m
+ESP_ERROR_CHECK failed: esp_err_t 0x103 (ESP_ERR_INVALID_STATE) at 0x400d5dcd
+file: "./components/core/hal/rtc/rtc.c" line 29
+func: init_rtc
+expression: pcf8563_set_time(&dev, &time)
+
+abort() was called at PC 0x40086873 on core 0
+
+
+Backtrace: 0x40081bfa:0x3ffb5560 0x4008687d:0x3ffb5580 0x4008b8ea:0x3ffb55a0 0x40086873:0x3ffb5610 0x400d5dcd:0x3ffb5640 0x400d5a2e:0x3ffb5690 0x400d59ff:0x3ffb56b0 0x400d5927:0x3ffb56d0 0x400e841a:0x3ffb5700 0x40089295:0x3ffb5730
+
+
+
+
+ELF file SHA256: 99fbd637ff9c3446
+
+Rebooting...
+[0;32mI (13) boot: ESP-IDF v5.0-dev-4547-gfde4afc67a 2nd stage bootloader[0m
+[0;32mI (13) boot: compile time 00:10:40[0m
+[0;32mI (13) boot: chip revision: V100[0m
+[0;32mI (16) boot_comm: chip revision: 1, min. bootloader chip revision: 0[0m
+[0;32mI (23) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (28) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (33) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (37) boot: Enabling RNG early entropy source...[0m
+[0;32mI (43) boot: Partition Table:[0m
+[0;32mI (46) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (53) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (61) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (68) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (76) boot: End of partition table[0m
+[0;32mI (80) boot_comm: chip revision: 1, min. application chip revision: 0[0m
+[0;32mI (87) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0992ch ( 39212) map[0m
+[0;32mI (110) esp_image: segment 1: paddr=00019954 vaddr=3ffb0000 size=02698h (  9880) load[0m
+[0;32mI (114) esp_image: segment 2: paddr=0001bff4 vaddr=40080000 size=04024h ( 16420) load[0m
+[0;32mI (122) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=185e0h ( 99808) map[0m
+[0;32mI (160) esp_image: segment 4: paddr=00038608 vaddr=40084024 size=08d00h ( 36096) load[0m
+[0;32mI (175) esp_image: segment 5: paddr=00041310 vaddr=50000000 size=00010h (    16) load[0m
+[0;32mI (182) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (182) boot: Disabling RNG early entropy source...[0m
+[0;32mI (195) cpu_start: Pro cpu up.[0m
+[0;32mI (195) cpu_start: Starting app cpu, entry point is 0x4008117c[0m
+[0;32mI (189) cpu_start: App cpu up.[0m
+[0;32mI (210) cpu_start: Pro cpu start user code[0m
+[0;32mI (210) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (210) cpu_start: Application information:[0m
+[0;32mI (215) cpu_start: Project name:     kairos[0m

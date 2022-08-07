@@ -1,0 +1,448 @@
+[1/22] Building C object esp-idf/core/CMakeFiles/__idf_core.dir/drv/display/gdeh0154d67.c.obj
+FAILED: esp-idf/core/CMakeFiles/__idf_core.dir/drv/display/gdeh0154d67.c.obj 
+/home/artur/.espressif/tools/xtensa-esp32-elf/esp-2022r1-RC1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  -I/home/artur/projects/personal/kairos/build/config -I/home/artur/projects/personal/kairos/components/core -I/home/artur/projects/personal/kairos/components/core/test -I/home/artur/projects/personal/kairos/components/core/drv/protocols -I/home/artur/projects/personal/kairos/components/core/drv/rtc -I/home/artur/projects/personal/kairos/components/core/drv/display -I/home/artur/projects/personal/kairos/components/core/hal/rtc -I/home/artur/projects/personal/kairos/components/core/hal/display -I/home/artur/projects/personal/kairos/components/core/hal/modules -I/home/artur/projects/personal/kairos/components/core/lib/system -I/home/artur/esp/esp-idf/components/newlib/platform_include -I/home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include -I/home/artur/esp/esp-idf/components/freertos/esp_additions/include/freertos -I/home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -I/home/artur/esp/esp-idf/components/freertos/esp_additions/include -I/home/artur/esp/esp-idf/components/esp_hw_support/include -I/home/artur/esp/esp-idf/components/esp_hw_support/include/soc -I/home/artur/esp/esp-idf/components/esp_hw_support/include/soc/esp32 -I/home/artur/esp/esp-idf/components/esp_hw_support/port/esp32/. -I/home/artur/esp/esp-idf/components/esp_hw_support/port/esp32/private_include -I/home/artur/esp/esp-idf/components/heap/include -I/home/artur/esp/esp-idf/components/log/include -I/home/artur/esp/esp-idf/components/soc/include -I/home/artur/esp/esp-idf/components/soc/esp32/. -I/home/artur/esp/esp-idf/components/soc/esp32/include -I/home/artur/esp/esp-idf/components/hal/esp32/include -I/home/artur/esp/esp-idf/components/hal/include -I/home/artur/esp/esp-idf/components/hal/platform_port/include -I/home/artur/esp/esp-idf/components/esp_rom/include -I/home/artur/esp/esp-idf/components/esp_rom/include/esp32 -I/home/artur/esp/esp-idf/components/esp_rom/esp32 -I/home/artur/esp/esp-idf/components/esp_common/include -I/home/artur/esp/esp-idf/components/esp_system/include -I/home/artur/esp/esp-idf/components/esp_system/port/soc -I/home/artur/esp/esp-idf/components/esp_system/port/include/private -I/home/artur/esp/esp-idf/components/xtensa/include -I/home/artur/esp/esp-idf/components/xtensa/esp32/include -I/home/artur/esp/esp-idf/components/lwip/include -I/home/artur/esp/esp-idf/components/lwip/include/apps -I/home/artur/esp/esp-idf/components/lwip/include/apps/sntp -I/home/artur/esp/esp-idf/components/lwip/lwip/src/include -I/home/artur/esp/esp-idf/components/lwip/port/esp32/include -I/home/artur/esp/esp-idf/components/lwip/port/esp32/include/arch -I/home/artur/esp/esp-idf/components/driver/include -I/home/artur/esp/esp-idf/components/driver/deprecated -I/home/artur/esp/esp-idf/components/driver/esp32/include -I/home/artur/esp/esp-idf/components/esp_pm/include -I/home/artur/esp/esp-idf/components/esp_ringbuf/include -I/home/artur/esp/esp-idf/components/nvs_flash/include -I/home/artur/esp/esp-idf/components/spi_flash/include -I/home/artur/esp/esp-idf/components/esp_netif/include -I/home/artur/esp/esp-idf/components/esp_event/include -mlongcalls -Wno-frame-address  -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-error=format= -Wno-format -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fmacro-prefix-map=/home/artur/projects/personal/kairos=. -fmacro-prefix-map=/home/artur/esp/esp-idf=/IDF -fstrict-volatile-bitfields -Wno-error=unused-but-set-variable -fno-jump-tables -fno-tree-switch-conversion -DconfigENABLE_FREERTOS_DEBUG_OCDAWARE=1 -std=gnu17 -Wno-old-style-declaration -D_GNU_SOURCE -DIDF_VER=\"v5.0-dev-4547-gfde4afc67a\" -DESP_PLATFORM -D_POSIX_READER_WRITER_LOCKS -Wno-error=switch -MD -MT esp-idf/core/CMakeFiles/__idf_core.dir/drv/display/gdeh0154d67.c.obj -MF esp-idf/core/CMakeFiles/__idf_core.dir/drv/display/gdeh0154d67.c.obj.d -o esp-idf/core/CMakeFiles/__idf_core.dir/drv/display/gdeh0154d67.c.obj -c /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.c
+In file included from /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.h:6,
+                 from /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:11:10: fatal error: esp_timer.h: No such file or directory
+   11 | #include "esp_timer.h"
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+[2/22] Building C object esp-idf/core/CMakeFiles/__idf_core.dir/def/common.c.obj
+FAILED: esp-idf/core/CMakeFiles/__idf_core.dir/def/common.c.obj 
+/home/artur/.espressif/tools/xtensa-esp32-elf/esp-2022r1-RC1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  -I/home/artur/projects/personal/kairos/build/config -I/home/artur/projects/personal/kairos/components/core -I/home/artur/projects/personal/kairos/components/core/test -I/home/artur/projects/personal/kairos/components/core/drv/protocols -I/home/artur/projects/personal/kairos/components/core/drv/rtc -I/home/artur/projects/personal/kairos/components/core/drv/display -I/home/artur/projects/personal/kairos/components/core/hal/rtc -I/home/artur/projects/personal/kairos/components/core/hal/display -I/home/artur/projects/personal/kairos/components/core/hal/modules -I/home/artur/projects/personal/kairos/components/core/lib/system -I/home/artur/esp/esp-idf/components/newlib/platform_include -I/home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include -I/home/artur/esp/esp-idf/components/freertos/esp_additions/include/freertos -I/home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -I/home/artur/esp/esp-idf/components/freertos/esp_additions/include -I/home/artur/esp/esp-idf/components/esp_hw_support/include -I/home/artur/esp/esp-idf/components/esp_hw_support/include/soc -I/home/artur/esp/esp-idf/components/esp_hw_support/include/soc/esp32 -I/home/artur/esp/esp-idf/components/esp_hw_support/port/esp32/. -I/home/artur/esp/esp-idf/components/esp_hw_support/port/esp32/private_include -I/home/artur/esp/esp-idf/components/heap/include -I/home/artur/esp/esp-idf/components/log/include -I/home/artur/esp/esp-idf/components/soc/include -I/home/artur/esp/esp-idf/components/soc/esp32/. -I/home/artur/esp/esp-idf/components/soc/esp32/include -I/home/artur/esp/esp-idf/components/hal/esp32/include -I/home/artur/esp/esp-idf/components/hal/include -I/home/artur/esp/esp-idf/components/hal/platform_port/include -I/home/artur/esp/esp-idf/components/esp_rom/include -I/home/artur/esp/esp-idf/components/esp_rom/include/esp32 -I/home/artur/esp/esp-idf/components/esp_rom/esp32 -I/home/artur/esp/esp-idf/components/esp_common/include -I/home/artur/esp/esp-idf/components/esp_system/include -I/home/artur/esp/esp-idf/components/esp_system/port/soc -I/home/artur/esp/esp-idf/components/esp_system/port/include/private -I/home/artur/esp/esp-idf/components/xtensa/include -I/home/artur/esp/esp-idf/components/xtensa/esp32/include -I/home/artur/esp/esp-idf/components/lwip/include -I/home/artur/esp/esp-idf/components/lwip/include/apps -I/home/artur/esp/esp-idf/components/lwip/include/apps/sntp -I/home/artur/esp/esp-idf/components/lwip/lwip/src/include -I/home/artur/esp/esp-idf/components/lwip/port/esp32/include -I/home/artur/esp/esp-idf/components/lwip/port/esp32/include/arch -I/home/artur/esp/esp-idf/components/driver/include -I/home/artur/esp/esp-idf/components/driver/deprecated -I/home/artur/esp/esp-idf/components/driver/esp32/include -I/home/artur/esp/esp-idf/components/esp_pm/include -I/home/artur/esp/esp-idf/components/esp_ringbuf/include -I/home/artur/esp/esp-idf/components/nvs_flash/include -I/home/artur/esp/esp-idf/components/spi_flash/include -I/home/artur/esp/esp-idf/components/esp_netif/include -I/home/artur/esp/esp-idf/components/esp_event/include -mlongcalls -Wno-frame-address  -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-error=format= -Wno-format -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fmacro-prefix-map=/home/artur/projects/personal/kairos=. -fmacro-prefix-map=/home/artur/esp/esp-idf=/IDF -fstrict-volatile-bitfields -Wno-error=unused-but-set-variable -fno-jump-tables -fno-tree-switch-conversion -DconfigENABLE_FREERTOS_DEBUG_OCDAWARE=1 -std=gnu17 -Wno-old-style-declaration -D_GNU_SOURCE -DIDF_VER=\"v5.0-dev-4547-gfde4afc67a\" -DESP_PLATFORM -D_POSIX_READER_WRITER_LOCKS -Wno-error=switch -MD -MT esp-idf/core/CMakeFiles/__idf_core.dir/def/common.c.obj -MF esp-idf/core/CMakeFiles/__idf_core.dir/def/common.c.obj.d -o esp-idf/core/CMakeFiles/__idf_core.dir/def/common.c.obj -c /home/artur/projects/personal/kairos/components/core/def/common.c
+In file included from /home/artur/projects/personal/kairos/components/core/def/common.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:11:10: fatal error: esp_timer.h: No such file or directory
+   11 | #include "esp_timer.h"
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+[3/22] Building C object esp-idf/core/CMakeFiles/__idf_core.dir/test/i2c_rtc.c.obj
+FAILED: esp-idf/core/CMakeFiles/__idf_core.dir/test/i2c_rtc.c.obj 
+/home/artur/.espressif/tools/xtensa-esp32-elf/esp-2022r1-RC1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  -I/home/artur/projects/personal/kairos/build/config -I/home/artur/projects/personal/kairos/components/core -I/home/artur/projects/personal/kairos/components/core/test -I/home/artur/projects/personal/kairos/components/core/drv/protocols -I/home/artur/projects/personal/kairos/components/core/drv/rtc -I/home/artur/projects/personal/kairos/components/core/drv/display -I/home/artur/projects/personal/kairos/components/core/hal/rtc -I/home/artur/projects/personal/kairos/components/core/hal/display -I/home/artur/projects/personal/kairos/components/core/hal/modules -I/home/artur/projects/personal/kairos/components/core/lib/system -I/home/artur/esp/esp-idf/components/newlib/platform_include -I/home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include -I/home/artur/esp/esp-idf/components/freertos/esp_additions/include/freertos -I/home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -I/home/artur/esp/esp-idf/components/freertos/esp_additions/include -I/home/artur/esp/esp-idf/components/esp_hw_support/include -I/home/artur/esp/esp-idf/components/esp_hw_support/include/soc -I/home/artur/esp/esp-idf/components/esp_hw_support/include/soc/esp32 -I/home/artur/esp/esp-idf/components/esp_hw_support/port/esp32/. -I/home/artur/esp/esp-idf/components/esp_hw_support/port/esp32/private_include -I/home/artur/esp/esp-idf/components/heap/include -I/home/artur/esp/esp-idf/components/log/include -I/home/artur/esp/esp-idf/components/soc/include -I/home/artur/esp/esp-idf/components/soc/esp32/. -I/home/artur/esp/esp-idf/components/soc/esp32/include -I/home/artur/esp/esp-idf/components/hal/esp32/include -I/home/artur/esp/esp-idf/components/hal/include -I/home/artur/esp/esp-idf/components/hal/platform_port/include -I/home/artur/esp/esp-idf/components/esp_rom/include -I/home/artur/esp/esp-idf/components/esp_rom/include/esp32 -I/home/artur/esp/esp-idf/components/esp_rom/esp32 -I/home/artur/esp/esp-idf/components/esp_common/include -I/home/artur/esp/esp-idf/components/esp_system/include -I/home/artur/esp/esp-idf/components/esp_system/port/soc -I/home/artur/esp/esp-idf/components/esp_system/port/include/private -I/home/artur/esp/esp-idf/components/xtensa/include -I/home/artur/esp/esp-idf/components/xtensa/esp32/include -I/home/artur/esp/esp-idf/components/lwip/include -I/home/artur/esp/esp-idf/components/lwip/include/apps -I/home/artur/esp/esp-idf/components/lwip/include/apps/sntp -I/home/artur/esp/esp-idf/components/lwip/lwip/src/include -I/home/artur/esp/esp-idf/components/lwip/port/esp32/include -I/home/artur/esp/esp-idf/components/lwip/port/esp32/include/arch -I/home/artur/esp/esp-idf/components/driver/include -I/home/artur/esp/esp-idf/components/driver/deprecated -I/home/artur/esp/esp-idf/components/driver/esp32/include -I/home/artur/esp/esp-idf/components/esp_pm/include -I/home/artur/esp/esp-idf/components/esp_ringbuf/include -I/home/artur/esp/esp-idf/components/nvs_flash/include -I/home/artur/esp/esp-idf/components/spi_flash/include -I/home/artur/esp/esp-idf/components/esp_netif/include -I/home/artur/esp/esp-idf/components/esp_event/include -mlongcalls -Wno-frame-address  -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-error=format= -Wno-format -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fmacro-prefix-map=/home/artur/projects/personal/kairos=. -fmacro-prefix-map=/home/artur/esp/esp-idf=/IDF -fstrict-volatile-bitfields -Wno-error=unused-but-set-variable -fno-jump-tables -fno-tree-switch-conversion -DconfigENABLE_FREERTOS_DEBUG_OCDAWARE=1 -std=gnu17 -Wno-old-style-declaration -D_GNU_SOURCE -DIDF_VER=\"v5.0-dev-4547-gfde4afc67a\" -DESP_PLATFORM -D_POSIX_READER_WRITER_LOCKS -Wno-error=switch -MD -MT esp-idf/core/CMakeFiles/__idf_core.dir/test/i2c_rtc.c.obj -MF esp-idf/core/CMakeFiles/__idf_core.dir/test/i2c_rtc.c.obj.d -o esp-idf/core/CMakeFiles/__idf_core.dir/test/i2c_rtc.c.obj -c /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.c
+In file included from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.h:1,
+                 from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:11:10: fatal error: esp_timer.h: No such file or directory
+   11 | #include "esp_timer.h"
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+[4/22] Building C object esp-idf/core/CMakeFiles/__idf_core.dir/drv/rtc/pcf8563.c.obj
+FAILED: esp-idf/core/CMakeFiles/__idf_core.dir/drv/rtc/pcf8563.c.obj 
+/home/artur/.espressif/tools/xtensa-esp32-elf/esp-2022r1-RC1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  -I/home/artur/projects/personal/kairos/build/config -I/home/artur/projects/personal/kairos/components/core -I/home/artur/projects/personal/kairos/components/core/test -I/home/artur/projects/personal/kairos/components/core/drv/protocols -I/home/artur/projects/personal/kairos/components/core/drv/rtc -I/home/artur/projects/personal/kairos/components/core/drv/display -I/home/artur/projects/personal/kairos/components/core/hal/rtc -I/home/artur/projects/personal/kairos/components/core/hal/display -I/home/artur/projects/personal/kairos/components/core/hal/modules -I/home/artur/projects/personal/kairos/components/core/lib/system -I/home/artur/esp/esp-idf/components/newlib/platform_include -I/home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include -I/home/artur/esp/esp-idf/components/freertos/esp_additions/include/freertos -I/home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -I/home/artur/esp/esp-idf/components/freertos/esp_additions/include -I/home/artur/esp/esp-idf/components/esp_hw_support/include -I/home/artur/esp/esp-idf/components/esp_hw_support/include/soc -I/home/artur/esp/esp-idf/components/esp_hw_support/include/soc/esp32 -I/home/artur/esp/esp-idf/components/esp_hw_support/port/esp32/. -I/home/artur/esp/esp-idf/components/esp_hw_support/port/esp32/private_include -I/home/artur/esp/esp-idf/components/heap/include -I/home/artur/esp/esp-idf/components/log/include -I/home/artur/esp/esp-idf/components/soc/include -I/home/artur/esp/esp-idf/components/soc/esp32/. -I/home/artur/esp/esp-idf/components/soc/esp32/include -I/home/artur/esp/esp-idf/components/hal/esp32/include -I/home/artur/esp/esp-idf/components/hal/include -I/home/artur/esp/esp-idf/components/hal/platform_port/include -I/home/artur/esp/esp-idf/components/esp_rom/include -I/home/artur/esp/esp-idf/components/esp_rom/include/esp32 -I/home/artur/esp/esp-idf/components/esp_rom/esp32 -I/home/artur/esp/esp-idf/components/esp_common/include -I/home/artur/esp/esp-idf/components/esp_system/include -I/home/artur/esp/esp-idf/components/esp_system/port/soc -I/home/artur/esp/esp-idf/components/esp_system/port/include/private -I/home/artur/esp/esp-idf/components/xtensa/include -I/home/artur/esp/esp-idf/components/xtensa/esp32/include -I/home/artur/esp/esp-idf/components/lwip/include -I/home/artur/esp/esp-idf/components/lwip/include/apps -I/home/artur/esp/esp-idf/components/lwip/include/apps/sntp -I/home/artur/esp/esp-idf/components/lwip/lwip/src/include -I/home/artur/esp/esp-idf/components/lwip/port/esp32/include -I/home/artur/esp/esp-idf/components/lwip/port/esp32/include/arch -I/home/artur/esp/esp-idf/components/driver/include -I/home/artur/esp/esp-idf/components/driver/deprecated -I/home/artur/esp/esp-idf/components/driver/esp32/include -I/home/artur/esp/esp-idf/components/esp_pm/include -I/home/artur/esp/esp-idf/components/esp_ringbuf/include -I/home/artur/esp/esp-idf/components/nvs_flash/include -I/home/artur/esp/esp-idf/components/spi_flash/include -I/home/artur/esp/esp-idf/components/esp_netif/include -I/home/artur/esp/esp-idf/components/esp_event/include -mlongcalls -Wno-frame-address  -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-error=format= -Wno-format -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fmacro-prefix-map=/home/artur/projects/personal/kairos=. -fmacro-prefix-map=/home/artur/esp/esp-idf=/IDF -fstrict-volatile-bitfields -Wno-error=unused-but-set-variable -fno-jump-tables -fno-tree-switch-conversion -DconfigENABLE_FREERTOS_DEBUG_OCDAWARE=1 -std=gnu17 -Wno-old-style-declaration -D_GNU_SOURCE -DIDF_VER=\"v5.0-dev-4547-gfde4afc67a\" -DESP_PLATFORM -D_POSIX_READER_WRITER_LOCKS -Wno-error=switch -MD -MT esp-idf/core/CMakeFiles/__idf_core.dir/drv/rtc/pcf8563.c.obj -MF esp-idf/core/CMakeFiles/__idf_core.dir/drv/rtc/pcf8563.c.obj.d -o esp-idf/core/CMakeFiles/__idf_core.dir/drv/rtc/pcf8563.c.obj -c /home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.c
+In file included from /home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:10,
+                 from /home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:11:10: fatal error: esp_timer.h: No such file or directory
+   11 | #include "esp_timer.h"
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+[5/22] Building C object esp-idf/core/CMakeFiles/__idf_core.dir/drv/protocols/i2c.c.obj
+FAILED: esp-idf/core/CMakeFiles/__idf_core.dir/drv/protocols/i2c.c.obj 
+/home/artur/.espressif/tools/xtensa-esp32-elf/esp-2022r1-RC1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  -I/home/artur/projects/personal/kairos/build/config -I/home/artur/projects/personal/kairos/components/core -I/home/artur/projects/personal/kairos/components/core/test -I/home/artur/projects/personal/kairos/components/core/drv/protocols -I/home/artur/projects/personal/kairos/components/core/drv/rtc -I/home/artur/projects/personal/kairos/components/core/drv/display -I/home/artur/projects/personal/kairos/components/core/hal/rtc -I/home/artur/projects/personal/kairos/components/core/hal/display -I/home/artur/projects/personal/kairos/components/core/hal/modules -I/home/artur/projects/personal/kairos/components/core/lib/system -I/home/artur/esp/esp-idf/components/newlib/platform_include -I/home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include -I/home/artur/esp/esp-idf/components/freertos/esp_additions/include/freertos -I/home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -I/home/artur/esp/esp-idf/components/freertos/esp_additions/include -I/home/artur/esp/esp-idf/components/esp_hw_support/include -I/home/artur/esp/esp-idf/components/esp_hw_support/include/soc -I/home/artur/esp/esp-idf/components/esp_hw_support/include/soc/esp32 -I/home/artur/esp/esp-idf/components/esp_hw_support/port/esp32/. -I/home/artur/esp/esp-idf/components/esp_hw_support/port/esp32/private_include -I/home/artur/esp/esp-idf/components/heap/include -I/home/artur/esp/esp-idf/components/log/include -I/home/artur/esp/esp-idf/components/soc/include -I/home/artur/esp/esp-idf/components/soc/esp32/. -I/home/artur/esp/esp-idf/components/soc/esp32/include -I/home/artur/esp/esp-idf/components/hal/esp32/include -I/home/artur/esp/esp-idf/components/hal/include -I/home/artur/esp/esp-idf/components/hal/platform_port/include -I/home/artur/esp/esp-idf/components/esp_rom/include -I/home/artur/esp/esp-idf/components/esp_rom/include/esp32 -I/home/artur/esp/esp-idf/components/esp_rom/esp32 -I/home/artur/esp/esp-idf/components/esp_common/include -I/home/artur/esp/esp-idf/components/esp_system/include -I/home/artur/esp/esp-idf/components/esp_system/port/soc -I/home/artur/esp/esp-idf/components/esp_system/port/include/private -I/home/artur/esp/esp-idf/components/xtensa/include -I/home/artur/esp/esp-idf/components/xtensa/esp32/include -I/home/artur/esp/esp-idf/components/lwip/include -I/home/artur/esp/esp-idf/components/lwip/include/apps -I/home/artur/esp/esp-idf/components/lwip/include/apps/sntp -I/home/artur/esp/esp-idf/components/lwip/lwip/src/include -I/home/artur/esp/esp-idf/components/lwip/port/esp32/include -I/home/artur/esp/esp-idf/components/lwip/port/esp32/include/arch -I/home/artur/esp/esp-idf/components/driver/include -I/home/artur/esp/esp-idf/components/driver/deprecated -I/home/artur/esp/esp-idf/components/driver/esp32/include -I/home/artur/esp/esp-idf/components/esp_pm/include -I/home/artur/esp/esp-idf/components/esp_ringbuf/include -I/home/artur/esp/esp-idf/components/nvs_flash/include -I/home/artur/esp/esp-idf/components/spi_flash/include -I/home/artur/esp/esp-idf/components/esp_netif/include -I/home/artur/esp/esp-idf/components/esp_event/include -mlongcalls -Wno-frame-address  -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-error=format= -Wno-format -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fmacro-prefix-map=/home/artur/projects/personal/kairos=. -fmacro-prefix-map=/home/artur/esp/esp-idf=/IDF -fstrict-volatile-bitfields -Wno-error=unused-but-set-variable -fno-jump-tables -fno-tree-switch-conversion -DconfigENABLE_FREERTOS_DEBUG_OCDAWARE=1 -std=gnu17 -Wno-old-style-declaration -D_GNU_SOURCE -DIDF_VER=\"v5.0-dev-4547-gfde4afc67a\" -DESP_PLATFORM -D_POSIX_READER_WRITER_LOCKS -Wno-error=switch -MD -MT esp-idf/core/CMakeFiles/__idf_core.dir/drv/protocols/i2c.c.obj -MF esp-idf/core/CMakeFiles/__idf_core.dir/drv/protocols/i2c.c.obj.d -o esp-idf/core/CMakeFiles/__idf_core.dir/drv/protocols/i2c.c.obj -c /home/artur/projects/personal/kairos/components/core/drv/protocols/i2c.c
+In file included from /home/artur/projects/personal/kairos/components/core/drv/protocols/i2c.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/drv/protocols/i2c.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:11:10: fatal error: esp_timer.h: No such file or directory
+   11 | #include "esp_timer.h"
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+[6/22] Building C object esp-idf/core/CMakeFiles/__idf_core.dir/test/test_display.c.obj
+FAILED: esp-idf/core/CMakeFiles/__idf_core.dir/test/test_display.c.obj 
+/home/artur/.espressif/tools/xtensa-esp32-elf/esp-2022r1-RC1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  -I/home/artur/projects/personal/kairos/build/config -I/home/artur/projects/personal/kairos/components/core -I/home/artur/projects/personal/kairos/components/core/test -I/home/artur/projects/personal/kairos/components/core/drv/protocols -I/home/artur/projects/personal/kairos/components/core/drv/rtc -I/home/artur/projects/personal/kairos/components/core/drv/display -I/home/artur/projects/personal/kairos/components/core/hal/rtc -I/home/artur/projects/personal/kairos/components/core/hal/display -I/home/artur/projects/personal/kairos/components/core/hal/modules -I/home/artur/projects/personal/kairos/components/core/lib/system -I/home/artur/esp/esp-idf/components/newlib/platform_include -I/home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include -I/home/artur/esp/esp-idf/components/freertos/esp_additions/include/freertos -I/home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -I/home/artur/esp/esp-idf/components/freertos/esp_additions/include -I/home/artur/esp/esp-idf/components/esp_hw_support/include -I/home/artur/esp/esp-idf/components/esp_hw_support/include/soc -I/home/artur/esp/esp-idf/components/esp_hw_support/include/soc/esp32 -I/home/artur/esp/esp-idf/components/esp_hw_support/port/esp32/. -I/home/artur/esp/esp-idf/components/esp_hw_support/port/esp32/private_include -I/home/artur/esp/esp-idf/components/heap/include -I/home/artur/esp/esp-idf/components/log/include -I/home/artur/esp/esp-idf/components/soc/include -I/home/artur/esp/esp-idf/components/soc/esp32/. -I/home/artur/esp/esp-idf/components/soc/esp32/include -I/home/artur/esp/esp-idf/components/hal/esp32/include -I/home/artur/esp/esp-idf/components/hal/include -I/home/artur/esp/esp-idf/components/hal/platform_port/include -I/home/artur/esp/esp-idf/components/esp_rom/include -I/home/artur/esp/esp-idf/components/esp_rom/include/esp32 -I/home/artur/esp/esp-idf/components/esp_rom/esp32 -I/home/artur/esp/esp-idf/components/esp_common/include -I/home/artur/esp/esp-idf/components/esp_system/include -I/home/artur/esp/esp-idf/components/esp_system/port/soc -I/home/artur/esp/esp-idf/components/esp_system/port/include/private -I/home/artur/esp/esp-idf/components/xtensa/include -I/home/artur/esp/esp-idf/components/xtensa/esp32/include -I/home/artur/esp/esp-idf/components/lwip/include -I/home/artur/esp/esp-idf/components/lwip/include/apps -I/home/artur/esp/esp-idf/components/lwip/include/apps/sntp -I/home/artur/esp/esp-idf/components/lwip/lwip/src/include -I/home/artur/esp/esp-idf/components/lwip/port/esp32/include -I/home/artur/esp/esp-idf/components/lwip/port/esp32/include/arch -I/home/artur/esp/esp-idf/components/driver/include -I/home/artur/esp/esp-idf/components/driver/deprecated -I/home/artur/esp/esp-idf/components/driver/esp32/include -I/home/artur/esp/esp-idf/components/esp_pm/include -I/home/artur/esp/esp-idf/components/esp_ringbuf/include -I/home/artur/esp/esp-idf/components/nvs_flash/include -I/home/artur/esp/esp-idf/components/spi_flash/include -I/home/artur/esp/esp-idf/components/esp_netif/include -I/home/artur/esp/esp-idf/components/esp_event/include -mlongcalls -Wno-frame-address  -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-error=format= -Wno-format -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fmacro-prefix-map=/home/artur/projects/personal/kairos=. -fmacro-prefix-map=/home/artur/esp/esp-idf=/IDF -fstrict-volatile-bitfields -Wno-error=unused-but-set-variable -fno-jump-tables -fno-tree-switch-conversion -DconfigENABLE_FREERTOS_DEBUG_OCDAWARE=1 -std=gnu17 -Wno-old-style-declaration -D_GNU_SOURCE -DIDF_VER=\"v5.0-dev-4547-gfde4afc67a\" -DESP_PLATFORM -D_POSIX_READER_WRITER_LOCKS -Wno-error=switch -MD -MT esp-idf/core/CMakeFiles/__idf_core.dir/test/test_display.c.obj -MF esp-idf/core/CMakeFiles/__idf_core.dir/test/test_display.c.obj.d -o esp-idf/core/CMakeFiles/__idf_core.dir/test/test_display.c.obj -c /home/artur/projects/personal/kairos/components/core/test/test_display.c
+In file included from /home/artur/projects/personal/kairos/components/core/test/test_display.h:1,
+                 from /home/artur/projects/personal/kairos/components/core/test/test_display.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:11:10: fatal error: esp_timer.h: No such file or directory
+   11 | #include "esp_timer.h"
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+[7/22] Building C object esp-idf/core/CMakeFiles/__idf_core.dir/test/i2c_scanner.c.obj
+FAILED: esp-idf/core/CMakeFiles/__idf_core.dir/test/i2c_scanner.c.obj 
+/home/artur/.espressif/tools/xtensa-esp32-elf/esp-2022r1-RC1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  -I/home/artur/projects/personal/kairos/build/config -I/home/artur/projects/personal/kairos/components/core -I/home/artur/projects/personal/kairos/components/core/test -I/home/artur/projects/personal/kairos/components/core/drv/protocols -I/home/artur/projects/personal/kairos/components/core/drv/rtc -I/home/artur/projects/personal/kairos/components/core/drv/display -I/home/artur/projects/personal/kairos/components/core/hal/rtc -I/home/artur/projects/personal/kairos/components/core/hal/display -I/home/artur/projects/personal/kairos/components/core/hal/modules -I/home/artur/projects/personal/kairos/components/core/lib/system -I/home/artur/esp/esp-idf/components/newlib/platform_include -I/home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include -I/home/artur/esp/esp-idf/components/freertos/esp_additions/include/freertos -I/home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -I/home/artur/esp/esp-idf/components/freertos/esp_additions/include -I/home/artur/esp/esp-idf/components/esp_hw_support/include -I/home/artur/esp/esp-idf/components/esp_hw_support/include/soc -I/home/artur/esp/esp-idf/components/esp_hw_support/include/soc/esp32 -I/home/artur/esp/esp-idf/components/esp_hw_support/port/esp32/. -I/home/artur/esp/esp-idf/components/esp_hw_support/port/esp32/private_include -I/home/artur/esp/esp-idf/components/heap/include -I/home/artur/esp/esp-idf/components/log/include -I/home/artur/esp/esp-idf/components/soc/include -I/home/artur/esp/esp-idf/components/soc/esp32/. -I/home/artur/esp/esp-idf/components/soc/esp32/include -I/home/artur/esp/esp-idf/components/hal/esp32/include -I/home/artur/esp/esp-idf/components/hal/include -I/home/artur/esp/esp-idf/components/hal/platform_port/include -I/home/artur/esp/esp-idf/components/esp_rom/include -I/home/artur/esp/esp-idf/components/esp_rom/include/esp32 -I/home/artur/esp/esp-idf/components/esp_rom/esp32 -I/home/artur/esp/esp-idf/components/esp_common/include -I/home/artur/esp/esp-idf/components/esp_system/include -I/home/artur/esp/esp-idf/components/esp_system/port/soc -I/home/artur/esp/esp-idf/components/esp_system/port/include/private -I/home/artur/esp/esp-idf/components/xtensa/include -I/home/artur/esp/esp-idf/components/xtensa/esp32/include -I/home/artur/esp/esp-idf/components/lwip/include -I/home/artur/esp/esp-idf/components/lwip/include/apps -I/home/artur/esp/esp-idf/components/lwip/include/apps/sntp -I/home/artur/esp/esp-idf/components/lwip/lwip/src/include -I/home/artur/esp/esp-idf/components/lwip/port/esp32/include -I/home/artur/esp/esp-idf/components/lwip/port/esp32/include/arch -I/home/artur/esp/esp-idf/components/driver/include -I/home/artur/esp/esp-idf/components/driver/deprecated -I/home/artur/esp/esp-idf/components/driver/esp32/include -I/home/artur/esp/esp-idf/components/esp_pm/include -I/home/artur/esp/esp-idf/components/esp_ringbuf/include -I/home/artur/esp/esp-idf/components/nvs_flash/include -I/home/artur/esp/esp-idf/components/spi_flash/include -I/home/artur/esp/esp-idf/components/esp_netif/include -I/home/artur/esp/esp-idf/components/esp_event/include -mlongcalls -Wno-frame-address  -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-error=format= -Wno-format -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fmacro-prefix-map=/home/artur/projects/personal/kairos=. -fmacro-prefix-map=/home/artur/esp/esp-idf=/IDF -fstrict-volatile-bitfields -Wno-error=unused-but-set-variable -fno-jump-tables -fno-tree-switch-conversion -DconfigENABLE_FREERTOS_DEBUG_OCDAWARE=1 -std=gnu17 -Wno-old-style-declaration -D_GNU_SOURCE -DIDF_VER=\"v5.0-dev-4547-gfde4afc67a\" -DESP_PLATFORM -D_POSIX_READER_WRITER_LOCKS -Wno-error=switch -MD -MT esp-idf/core/CMakeFiles/__idf_core.dir/test/i2c_scanner.c.obj -MF esp-idf/core/CMakeFiles/__idf_core.dir/test/i2c_scanner.c.obj.d -o esp-idf/core/CMakeFiles/__idf_core.dir/test/i2c_scanner.c.obj -c /home/artur/projects/personal/kairos/components/core/test/i2c_scanner.c
+In file included from /home/artur/projects/personal/kairos/components/core/test/i2c_scanner.h:1,
+                 from /home/artur/projects/personal/kairos/components/core/test/i2c_scanner.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:11:10: fatal error: esp_timer.h: No such file or directory
+   11 | #include "esp_timer.h"
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+[8/22] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+In file included from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.h:1,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:13,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:37:1: warning: ignoring attribute 'section (".iram1.5")' because it conflicts with previous 'section (".iram1.2")' [-Wattributes]
+   37 | unsigned long IRAM_ATTR micros();
+      | ^~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/test/i2c_scanner.h:1,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:12,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:37:25: note: previous declaration here
+   37 | unsigned long IRAM_ATTR micros();
+      |                         ^~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.h:1,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:13,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:39:1: warning: ignoring attribute 'section (".iram1.6")' because it conflicts with previous 'section (".iram1.3")' [-Wattributes]
+   39 | void IRAM_ATTR delay_us(uint32_t us);
+      | ^~~~
+In file included from /home/artur/projects/personal/kairos/components/core/test/i2c_scanner.h:1,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:12,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:39:16: note: previous declaration here
+   39 | void IRAM_ATTR delay_us(uint32_t us);
+      |                ^~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.h:1,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:13,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:41:1: warning: ignoring attribute 'section (".iram1.7")' because it conflicts with previous 'section (".iram1.4")' [-Wattributes]
+   41 | void IRAM_ATTR delay_ms(uint32_t delay);
+      | ^~~~
+In file included from /home/artur/projects/personal/kairos/components/core/test/i2c_scanner.h:1,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:12,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:41:16: note: previous declaration here
+   41 | void IRAM_ATTR delay_ms(uint32_t delay);
+      |                ^~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:10,
+                 from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.h:2,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:13,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:37:1: warning: ignoring attribute 'section (".iram1.8")' because it conflicts with previous 'section (".iram1.2")' [-Wattributes]
+   37 | unsigned long IRAM_ATTR micros();
+      | ^~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.h:1,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:13,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:37:25: note: previous declaration here
+   37 | unsigned long IRAM_ATTR micros();
+      |                         ^~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:10,
+                 from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.h:2,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:13,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:39:1: warning: ignoring attribute 'section (".iram1.9")' because it conflicts with previous 'section (".iram1.3")' [-Wattributes]
+   39 | void IRAM_ATTR delay_us(uint32_t us);
+      | ^~~~
+In file included from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.h:1,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:13,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:39:16: note: previous declaration here
+   39 | void IRAM_ATTR delay_us(uint32_t us);
+      |                ^~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:10,
+                 from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.h:2,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:13,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:41:1: warning: ignoring attribute 'section (".iram1.10")' because it conflicts with previous 'section (".iram1.4")' [-Wattributes]
+   41 | void IRAM_ATTR delay_ms(uint32_t delay);
+      | ^~~~
+In file included from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.h:1,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:13,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:41:16: note: previous declaration here
+   41 | void IRAM_ATTR delay_ms(uint32_t delay);
+      |                ^~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/drv/protocols/i2c.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:11,
+                 from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.h:2,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:13,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:37:1: warning: ignoring attribute 'section (".iram1.11")' because it conflicts with previous 'section (".iram1.2")' [-Wattributes]
+   37 | unsigned long IRAM_ATTR micros();
+      | ^~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:10,
+                 from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.h:2,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:13,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:37:25: note: previous declaration here
+   37 | unsigned long IRAM_ATTR micros();
+      |                         ^~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/drv/protocols/i2c.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:11,
+                 from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.h:2,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:13,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:39:1: warning: ignoring attribute 'section (".iram1.12")' because it conflicts with previous 'section (".iram1.3")' [-Wattributes]
+   39 | void IRAM_ATTR delay_us(uint32_t us);
+      | ^~~~
+In file included from /home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:10,
+                 from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.h:2,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:13,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:39:16: note: previous declaration here
+   39 | void IRAM_ATTR delay_us(uint32_t us);
+      |                ^~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/drv/protocols/i2c.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:11,
+                 from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.h:2,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:13,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:41:1: warning: ignoring attribute 'section (".iram1.13")' because it conflicts with previous 'section (".iram1.4")' [-Wattributes]
+   41 | void IRAM_ATTR delay_ms(uint32_t delay);
+      | ^~~~
+In file included from /home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:10,
+                 from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.h:2,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:13,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:41:16: note: previous declaration here
+   41 | void IRAM_ATTR delay_ms(uint32_t delay);
+      |                ^~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/test/test_display.h:1,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:14,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:37:1: warning: ignoring attribute 'section (".iram1.14")' because it conflicts with previous 'section (".iram1.2")' [-Wattributes]
+   37 | unsigned long IRAM_ATTR micros();
+      | ^~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/drv/protocols/i2c.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:11,
+                 from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.h:2,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:13,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:37:25: note: previous declaration here
+   37 | unsigned long IRAM_ATTR micros();
+      |                         ^~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/test/test_display.h:1,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:14,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:39:1: warning: ignoring attribute 'section (".iram1.15")' because it conflicts with previous 'section (".iram1.3")' [-Wattributes]
+   39 | void IRAM_ATTR delay_us(uint32_t us);
+      | ^~~~
+In file included from /home/artur/projects/personal/kairos/components/core/drv/protocols/i2c.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:11,
+                 from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.h:2,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:13,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:39:16: note: previous declaration here
+   39 | void IRAM_ATTR delay_us(uint32_t us);
+      |                ^~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/test/test_display.h:1,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:14,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:41:1: warning: ignoring attribute 'section (".iram1.16")' because it conflicts with previous 'section (".iram1.4")' [-Wattributes]
+   41 | void IRAM_ATTR delay_ms(uint32_t delay);
+      | ^~~~
+In file included from /home/artur/projects/personal/kairos/components/core/drv/protocols/i2c.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:11,
+                 from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.h:2,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:13,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:41:16: note: previous declaration here
+   41 | void IRAM_ATTR delay_ms(uint32_t delay);
+      |                ^~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.h:6,
+                 from /home/artur/projects/personal/kairos/components/core/test/test_display.h:2,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:14,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:37:1: warning: ignoring attribute 'section (".iram1.17")' because it conflicts with previous 'section (".iram1.2")' [-Wattributes]
+   37 | unsigned long IRAM_ATTR micros();
+      | ^~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/test/test_display.h:1,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:14,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:37:25: note: previous declaration here
+   37 | unsigned long IRAM_ATTR micros();
+      |                         ^~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.h:6,
+                 from /home/artur/projects/personal/kairos/components/core/test/test_display.h:2,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:14,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:39:1: warning: ignoring attribute 'section (".iram1.18")' because it conflicts with previous 'section (".iram1.3")' [-Wattributes]
+   39 | void IRAM_ATTR delay_us(uint32_t us);
+      | ^~~~
+In file included from /home/artur/projects/personal/kairos/components/core/test/test_display.h:1,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:14,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:39:16: note: previous declaration here
+   39 | void IRAM_ATTR delay_us(uint32_t us);
+      |                ^~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.h:6,
+                 from /home/artur/projects/personal/kairos/components/core/test/test_display.h:2,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:14,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:41:1: warning: ignoring attribute 'section (".iram1.19")' because it conflicts with previous 'section (".iram1.4")' [-Wattributes]
+   41 | void IRAM_ATTR delay_ms(uint32_t delay);
+      | ^~~~
+In file included from /home/artur/projects/personal/kairos/components/core/test/test_display.h:1,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:14,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:41:16: note: previous declaration here
+   41 | void IRAM_ATTR delay_ms(uint32_t delay);
+      |                ^~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/lib/system/system.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:17,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:37:1: warning: ignoring attribute 'section (".iram1.20")' because it conflicts with previous 'section (".iram1.2")' [-Wattributes]
+   37 | unsigned long IRAM_ATTR micros();
+      | ^~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.h:6,
+                 from /home/artur/projects/personal/kairos/components/core/test/test_display.h:2,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:14,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:37:25: note: previous declaration here
+   37 | unsigned long IRAM_ATTR micros();
+      |                         ^~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/lib/system/system.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:17,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:39:1: warning: ignoring attribute 'section (".iram1.21")' because it conflicts with previous 'section (".iram1.3")' [-Wattributes]
+   39 | void IRAM_ATTR delay_us(uint32_t us);
+      | ^~~~
+In file included from /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.h:6,
+                 from /home/artur/projects/personal/kairos/components/core/test/test_display.h:2,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:14,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:39:16: note: previous declaration here
+   39 | void IRAM_ATTR delay_us(uint32_t us);
+      |                ^~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/lib/system/system.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:17,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:41:1: warning: ignoring attribute 'section (".iram1.22")' because it conflicts with previous 'section (".iram1.4")' [-Wattributes]
+   41 | void IRAM_ATTR delay_ms(uint32_t delay);
+      | ^~~~
+In file included from /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.h:6,
+                 from /home/artur/projects/personal/kairos/components/core/test/test_display.h:2,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:14,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:41:16: note: previous declaration here
+   41 | void IRAM_ATTR delay_ms(uint32_t delay);
+      |                ^~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/hal/modules/modules.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/lib/system/system.h:5,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:17,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:37:1: warning: ignoring attribute 'section (".iram1.23")' because it conflicts with previous 'section (".iram1.2")' [-Wattributes]
+   37 | unsigned long IRAM_ATTR micros();
+      | ^~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/lib/system/system.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:17,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:37:25: note: previous declaration here
+   37 | unsigned long IRAM_ATTR micros();
+      |                         ^~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/hal/modules/modules.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/lib/system/system.h:5,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:17,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:39:1: warning: ignoring attribute 'section (".iram1.24")' because it conflicts with previous 'section (".iram1.3")' [-Wattributes]
+   39 | void IRAM_ATTR delay_us(uint32_t us);
+      | ^~~~
+In file included from /home/artur/projects/personal/kairos/components/core/lib/system/system.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:17,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:39:16: note: previous declaration here
+   39 | void IRAM_ATTR delay_us(uint32_t us);
+      |                ^~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/hal/modules/modules.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/lib/system/system.h:5,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:17,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:41:1: warning: ignoring attribute 'section (".iram1.25")' because it conflicts with previous 'section (".iram1.4")' [-Wattributes]
+   41 | void IRAM_ATTR delay_ms(uint32_t delay);
+      | ^~~~
+In file included from /home/artur/projects/personal/kairos/components/core/lib/system/system.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:17,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:41:16: note: previous declaration here
+   41 | void IRAM_ATTR delay_ms(uint32_t delay);
+      |                ^~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/hal/rtc/rtc.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/hal/modules/modules.h:7,
+                 from /home/artur/projects/personal/kairos/components/core/lib/system/system.h:5,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:17,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:37:1: warning: ignoring attribute 'section (".iram1.26")' because it conflicts with previous 'section (".iram1.2")' [-Wattributes]
+   37 | unsigned long IRAM_ATTR micros();
+      | ^~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/hal/modules/modules.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/lib/system/system.h:5,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:17,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:37:25: note: previous declaration here
+   37 | unsigned long IRAM_ATTR micros();
+      |                         ^~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/hal/rtc/rtc.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/hal/modules/modules.h:7,
+                 from /home/artur/projects/personal/kairos/components/core/lib/system/system.h:5,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:17,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:39:1: warning: ignoring attribute 'section (".iram1.27")' because it conflicts with previous 'section (".iram1.3")' [-Wattributes]
+   39 | void IRAM_ATTR delay_us(uint32_t us);
+      | ^~~~
+In file included from /home/artur/projects/personal/kairos/components/core/hal/modules/modules.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/lib/system/system.h:5,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:17,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:39:16: note: previous declaration here
+   39 | void IRAM_ATTR delay_us(uint32_t us);
+      |                ^~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/hal/rtc/rtc.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/hal/modules/modules.h:7,
+                 from /home/artur/projects/personal/kairos/components/core/lib/system/system.h:5,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:17,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:41:1: warning: ignoring attribute 'section (".iram1.28")' because it conflicts with previous 'section (".iram1.4")' [-Wattributes]
+   41 | void IRAM_ATTR delay_ms(uint32_t delay);
+      | ^~~~
+In file included from /home/artur/projects/personal/kairos/components/core/hal/modules/modules.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/lib/system/system.h:5,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:17,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:41:16: note: previous declaration here
+   41 | void IRAM_ATTR delay_ms(uint32_t delay);
+      |                ^~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/hal/display/display.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/hal/modules/modules.h:8,
+                 from /home/artur/projects/personal/kairos/components/core/lib/system/system.h:5,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:17,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:37:1: warning: ignoring attribute 'section (".iram1.29")' because it conflicts with previous 'section (".iram1.2")' [-Wattributes]
+   37 | unsigned long IRAM_ATTR micros();
+      | ^~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/hal/rtc/rtc.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/hal/modules/modules.h:7,
+                 from /home/artur/projects/personal/kairos/components/core/lib/system/system.h:5,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:17,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:37:25: note: previous declaration here
+   37 | unsigned long IRAM_ATTR micros();
+      |                         ^~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/hal/display/display.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/hal/modules/modules.h:8,
+                 from /home/artur/projects/personal/kairos/components/core/lib/system/system.h:5,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:17,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:39:1: warning: ignoring attribute 'section (".iram1.30")' because it conflicts with previous 'section (".iram1.3")' [-Wattributes]
+   39 | void IRAM_ATTR delay_us(uint32_t us);
+      | ^~~~
+In file included from /home/artur/projects/personal/kairos/components/core/hal/rtc/rtc.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/hal/modules/modules.h:7,
+                 from /home/artur/projects/personal/kairos/components/core/lib/system/system.h:5,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:17,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:39:16: note: previous declaration here
+   39 | void IRAM_ATTR delay_us(uint32_t us);
+      |                ^~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/hal/display/display.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/hal/modules/modules.h:8,
+                 from /home/artur/projects/personal/kairos/components/core/lib/system/system.h:5,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:17,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:41:1: warning: ignoring attribute 'section (".iram1.31")' because it conflicts with previous 'section (".iram1.4")' [-Wattributes]
+   41 | void IRAM_ATTR delay_ms(uint32_t delay);
+      | ^~~~
+In file included from /home/artur/projects/personal/kairos/components/core/hal/rtc/rtc.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/hal/modules/modules.h:7,
+                 from /home/artur/projects/personal/kairos/components/core/lib/system/system.h:5,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:17,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:41:16: note: previous declaration here
+   41 | void IRAM_ATTR delay_ms(uint32_t delay);
+      |                ^~~~~~~~
+[9/22] Building C object esp-idf/core/CMakeFiles/__idf_core.dir/hal/rtc/rtc.c.obj
+FAILED: esp-idf/core/CMakeFiles/__idf_core.dir/hal/rtc/rtc.c.obj 
+/home/artur/.espressif/tools/xtensa-esp32-elf/esp-2022r1-RC1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  -I/home/artur/projects/personal/kairos/build/config -I/home/artur/projects/personal/kairos/components/core -I/home/artur/projects/personal/kairos/components/core/test -I/home/artur/projects/personal/kairos/components/core/drv/protocols -I/home/artur/projects/personal/kairos/components/core/drv/rtc -I/home/artur/projects/personal/kairos/components/core/drv/display -I/home/artur/projects/personal/kairos/components/core/hal/rtc -I/home/artur/projects/personal/kairos/components/core/hal/display -I/home/artur/projects/personal/kairos/components/core/hal/modules -I/home/artur/projects/personal/kairos/components/core/lib/system -I/home/artur/esp/esp-idf/components/newlib/platform_include -I/home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include -I/home/artur/esp/esp-idf/components/freertos/esp_additions/include/freertos -I/home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -I/home/artur/esp/esp-idf/components/freertos/esp_additions/include -I/home/artur/esp/esp-idf/components/esp_hw_support/include -I/home/artur/esp/esp-idf/components/esp_hw_support/include/soc -I/home/artur/esp/esp-idf/components/esp_hw_support/include/soc/esp32 -I/home/artur/esp/esp-idf/components/esp_hw_support/port/esp32/. -I/home/artur/esp/esp-idf/components/esp_hw_support/port/esp32/private_include -I/home/artur/esp/esp-idf/components/heap/include -I/home/artur/esp/esp-idf/components/log/include -I/home/artur/esp/esp-idf/components/soc/include -I/home/artur/esp/esp-idf/components/soc/esp32/. -I/home/artur/esp/esp-idf/components/soc/esp32/include -I/home/artur/esp/esp-idf/components/hal/esp32/include -I/home/artur/esp/esp-idf/components/hal/include -I/home/artur/esp/esp-idf/components/hal/platform_port/include -I/home/artur/esp/esp-idf/components/esp_rom/include -I/home/artur/esp/esp-idf/components/esp_rom/include/esp32 -I/home/artur/esp/esp-idf/components/esp_rom/esp32 -I/home/artur/esp/esp-idf/components/esp_common/include -I/home/artur/esp/esp-idf/components/esp_system/include -I/home/artur/esp/esp-idf/components/esp_system/port/soc -I/home/artur/esp/esp-idf/components/esp_system/port/include/private -I/home/artur/esp/esp-idf/components/xtensa/include -I/home/artur/esp/esp-idf/components/xtensa/esp32/include -I/home/artur/esp/esp-idf/components/lwip/include -I/home/artur/esp/esp-idf/components/lwip/include/apps -I/home/artur/esp/esp-idf/components/lwip/include/apps/sntp -I/home/artur/esp/esp-idf/components/lwip/lwip/src/include -I/home/artur/esp/esp-idf/components/lwip/port/esp32/include -I/home/artur/esp/esp-idf/components/lwip/port/esp32/include/arch -I/home/artur/esp/esp-idf/components/driver/include -I/home/artur/esp/esp-idf/components/driver/deprecated -I/home/artur/esp/esp-idf/components/driver/esp32/include -I/home/artur/esp/esp-idf/components/esp_pm/include -I/home/artur/esp/esp-idf/components/esp_ringbuf/include -I/home/artur/esp/esp-idf/components/nvs_flash/include -I/home/artur/esp/esp-idf/components/spi_flash/include -I/home/artur/esp/esp-idf/components/esp_netif/include -I/home/artur/esp/esp-idf/components/esp_event/include -mlongcalls -Wno-frame-address  -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-error=format= -Wno-format -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fmacro-prefix-map=/home/artur/projects/personal/kairos=. -fmacro-prefix-map=/home/artur/esp/esp-idf=/IDF -fstrict-volatile-bitfields -Wno-error=unused-but-set-variable -fno-jump-tables -fno-tree-switch-conversion -DconfigENABLE_FREERTOS_DEBUG_OCDAWARE=1 -std=gnu17 -Wno-old-style-declaration -D_GNU_SOURCE -DIDF_VER=\"v5.0-dev-4547-gfde4afc67a\" -DESP_PLATFORM -D_POSIX_READER_WRITER_LOCKS -Wno-error=switch -MD -MT esp-idf/core/CMakeFiles/__idf_core.dir/hal/rtc/rtc.c.obj -MF esp-idf/core/CMakeFiles/__idf_core.dir/hal/rtc/rtc.c.obj.d -o esp-idf/core/CMakeFiles/__idf_core.dir/hal/rtc/rtc.c.obj -c /home/artur/projects/personal/kairos/components/core/hal/rtc/rtc.c
+In file included from /home/artur/projects/personal/kairos/components/core/hal/rtc/rtc.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/hal/rtc/rtc.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:11:10: fatal error: esp_timer.h: No such file or directory
+   11 | #include "esp_timer.h"
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+[10/22] Performing build step for 'bootloader'
+[1/1] cd /home/artur/projects/personal/kairos/build/bootloader/esp-idf/esptool_py && /home/artur/.espressif/python_env/idf5.0_py3.10_env/bin/python /home/artur/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/artur/projects/personal/kairos/build/bootloader/bootloader.bin
+Bootloader binary size 0x6680 bytes. 0x980 bytes (8%) free.
+ninja: build stopped: subcommand failed.

@@ -1,0 +1,29 @@
+[1/12] Performing build step for 'bootloader'
+[1/1] cd /home/artur/projects/personal/kairos/build/bootloader/esp-idf/esptool_py && /home/artur/.espressif/python_env/idf5.0_py3.10_env/bin/python /home/artur/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/artur/projects/personal/kairos/build/bootloader/bootloader.bin
+Bootloader binary size 0x6680 bytes. 0x980 bytes (8%) free.
+[2/10] Building C object esp-idf/core/CMakeFiles/__idf_core.dir/drv/rtc/pcf8563.c.obj
+In file included from /home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.c:1:
+/home/artur/projects/personal/kairos/components/core/hal/time/time.h:12:13: warning: 'initialize_time' declared 'static' but never defined [-Wunused-function]
+   12 | static void initialize_time(void);
+      |             ^~~~~~~~~~~~~~~
+[3/10] Building C object esp-idf/core/CMakeFiles/__idf_core.dir/hal/time/time.c.obj
+/home/artur/projects/personal/kairos/components/core/hal/time/time.c:21:13: warning: 'initialize_time' defined but not used [-Wunused-function]
+   21 | static void initialize_time(void)
+      |             ^~~~~~~~~~~~~~~
+/home/artur/projects/personal/kairos/components/core/hal/time/time.c:19:20: warning: 'TAG' defined but not used [-Wunused-variable]
+   19 | static const char *TAG = "TIME";
+      |                    ^~~
+[4/10] Linking C static library esp-idf/core/libcore.a
+[5/10] Linking C static library esp-idf/main/libmain.a
+[6/10] Generating ld/sections.ld
+[7/10] Building C object CMakeFiles/kairos.elf.dir/project_elf_src_esp32.c.obj
+[8/10] Linking CXX executable kairos.elf
+[9/10] Generating binary image from built executable
+esptool.py v4.2
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /home/artur/projects/personal/kairos/build/kairos.bin
+[10/10] cd /home/artur/projects/personal/kairos/build/esp-idf/esptool_py && /home/artur/.espressif/python_env/idf5.0_py3.10_env/bin/python /home/artur/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/artur/projects/personal/kairos/build/partition_table/partition-table.bin /home/artur/projects/personal/kairos/build/kairos.bin
+kairos.bin binary size 0x30810 bytes. Smallest app partition is 0x100000 bytes. 0xcf7f0 bytes (81%) free.

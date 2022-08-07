@@ -1,19 +1,12 @@
-#include <driver/gpio.h>
-#include <driver/spi_master.h>
-#include <esp_log.h>
-#include <freertos/FreeRTOS.h>
-#include <freertos/task.h>
-#include <stdio.h>
-#include <string.h>
-#include <u8g2.h>
-#include <sh1106.h>
-#include <bmx280.h>
-#include <hmc5883l.h>
+#include "kairos.h"
 
-#include "sdkconfig.h"
+static const char *TAG = "KAIROS";
 
-void app_main()
+void app_main(void)
 {
-    xTaskCreate(hmc5883l_test, "hmc5883l_test", 4096, NULL, 5, NULL);
-    xTaskCreate(&task_test_SSD1306i2c, "task_test_SSD1306i2c", 4096,NULL,4,NULL);
+    KAIROS_LOGI(TAG, "System is starting.");
+    system_init();
+    xTaskCreatePinnedToCore(task_test_display, TAG, configMINIMAL_STACK_SIZE * 8, NULL, 5, NULL, APP_CPU_NUM);
+
+    while(1);
 }

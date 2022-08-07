@@ -1,0 +1,1374 @@
+[1/848] Generating project_elf_src_esp32.c
+[2/848] Generating memory.ld linker script...
+[3/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/camellia.c.obj
+[4/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/aesni.c.obj
+[5/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/chacha20.c.obj
+[6/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/asn1parse.c.obj
+[7/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/chachapoly.c.obj
+[8/848] Generating ../../partition_table/partition-table.bin
+Partition table binary generated. Contents:
+*******************************************************************************
+# ESP-IDF Partition Table
+# Name, Type, SubType, Offset, Size, Flags
+nvs,data,nvs,0x9000,24K,
+phy_init,data,phy,0xf000,4K,
+factory,app,factory,0x10000,1M,
+*******************************************************************************
+[9/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/aes.c.obj
+[10/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/asn1write.c.obj
+[11/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/base64.c.obj
+[12/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/aria.c.obj
+[13/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/des.c.obj
+[14/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/cipher_wrap.c.obj
+[15/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/dhm.c.obj
+[16/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ccm.c.obj
+[17/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/constant_time.c.obj
+[18/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ecjpake.c.obj
+[19/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/cmac.c.obj
+[20/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ctr_drbg.c.obj
+[21/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/cipher.c.obj
+[22/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ecdh.c.obj
+[23/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/entropy_poll.c.obj
+[24/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/hkdf.c.obj
+[25/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ecdsa.c.obj
+[26/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/entropy.c.obj
+[27/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/md5.c.obj
+[28/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/bignum.c.obj
+[29/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/memory_buffer_alloc.c.obj
+[30/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/hmac_drbg.c.obj
+[31/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/mps_reader.c.obj
+[32/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/mps_trace.c.obj
+[33/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/error.c.obj
+[34/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/nist_kw.c.obj
+[35/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/padlock.c.obj
+[36/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/gcm.c.obj
+[37/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/md.c.obj
+[38/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/oid.c.obj
+[39/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/pem.c.obj
+[40/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/pkcs12.c.obj
+[41/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/pk.c.obj
+[42/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/pk_wrap.c.obj
+[43/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/poly1305.c.obj
+[44/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/pkwrite.c.obj
+[45/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/pkcs5.c.obj
+[46/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/platform_util.c.obj
+[47/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/platform.c.obj
+[48/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_aead.c.obj
+[49/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ecp.c.obj
+[50/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_client.c.obj
+[51/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_cipher.c.obj
+[52/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/pkparse.c.obj
+[53/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ecp_curves.c.obj
+[54/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_hash.c.obj
+[55/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_se.c.obj
+[56/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_ecp.c.obj
+[57/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_driver_wrappers.c.obj
+[58/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ripemd160.c.obj
+[59/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_its_file.c.obj
+[60/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/sha1.c.obj
+[61/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_slot_management.c.obj
+[62/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/sha256.c.obj
+[63/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_storage.c.obj
+[64/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/rsa_alt_helpers.c.obj
+[65/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_rsa.c.obj
+[66/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ssl_debug_helpers_generated.c.obj
+[67/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/sha512.c.obj
+[68/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_mac.c.obj
+[69/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/timing.c.obj
+[70/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/threading.c.obj
+[71/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/version.c.obj
+[72/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/version_features.c.obj
+[73/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/artur/esp/esp-idf/components/mbedtls/port/esp_hardware.c.obj
+[74/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/artur/esp/esp-idf/components/mbedtls/port/esp_timing.c.obj
+[75/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/artur/esp/esp-idf/components/mbedtls/port/esp_mem.c.obj
+[76/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/artur/esp/esp-idf/components/mbedtls/port/aes/esp_aes_common.c.obj
+[77/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/artur/esp/esp-idf/components/mbedtls/port/sha/esp_sha.c.obj
+[78/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/artur/esp/esp-idf/components/mbedtls/port/aes/esp_aes_xts.c.obj
+[79/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/artur/esp/esp-idf/components/mbedtls/port/aes/block/esp_aes.c.obj
+[80/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/artur/esp/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.c.obj
+[81/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/artur/esp/esp-idf/components/mbedtls/port/esp32/bignum.c.obj
+[82/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/artur/esp/esp-idf/components/mbedtls/port/md/esp_md.c.obj
+[83/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/artur/esp/esp-idf/components/mbedtls/port/esp_bignum.c.obj
+[84/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/artur/esp/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha1.c.obj
+[85/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/artur/esp/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha256.c.obj
+[86/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509_create.c.obj
+[87/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509_csr.c.obj
+[88/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509_crl.c.obj
+[89/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/debug.c.obj
+[90/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509.c.obj
+[91/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/rsa.c.obj
+[92/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_cache.c.obj
+[93/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509write_crt.c.obj
+[94/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_ciphersuites.c.obj
+[95/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509write_csr.c.obj
+[96/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/artur/esp/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha512.c.obj
+[97/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_cookie.c.obj
+[98/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto.c.obj
+[99/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls13_keys.c.obj
+[100/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls13_server.c.obj
+[101/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls13_client.c.obj
+[102/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_ticket.c.obj
+[103/848] Creating directories for 'bootloader'
+[104/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls13_generic.c.obj
+[105/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/artur/esp/esp-idf/components/mbedtls/port/mbedtls_debug.c.obj
+[106/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_cli.c.obj
+[107/848] No download step for 'bootloader'
+[108/848] No update step for 'bootloader'
+[109/848] Building C object esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_app_desc.c.obj
+[110/848] No patch step for 'bootloader'
+[111/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_msg.c.obj
+[112/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_srv.c.obj
+[113/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/artur/esp/esp-idf/components/mbedtls/port/net_sockets.c.obj
+[114/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509_crt.c.obj
+[115/848] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_common_loader.c.obj
+[116/848] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_mem.c.obj
+[117/848] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_clock_init.c.obj
+[118/848] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_random.c.obj
+[119/848] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_common.c.obj
+[120/848] Building C object esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_ota_ops.c.obj
+[121/848] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_random_esp32.c.obj
+[122/848] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/flash_partitions.c.obj
+[123/848] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/secure_boot.c.obj
+[124/848] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/flash_encrypt.c.obj
+[125/848] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/bootloader_flash.c.obj
+[126/848] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/flash_qio_mode.c.obj
+[127/848] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_efuse.c.obj
+[128/848] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls.c.obj
+[129/848] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/idf/bootloader_sha.c.obj
+[130/848] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp_image_format.c.obj
+[131/848] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/flash_brownout_hook.c.obj
+[132/848] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/bootloader_flash_config_esp32.c.obj
+[133/848] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_drivers.c.obj
+[134/848] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_issi.c.obj
+[135/848] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/partition_target.c.obj
+[136/848] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_mxic.c.obj
+[137/848] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/partition.c.obj
+[138/848] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_utility.c.obj
+[139/848] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_gd.c.obj
+[140/848] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_boya.c.obj
+[141/848] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_winbond.c.obj
+[142/848] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_th.c.obj
+[143/848] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/esp32/flash_ops_esp32.c.obj
+[144/848] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/memspi_host_driver.c.obj
+[145/848] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/cache_utils.c.obj
+[146/848] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_generic.c.obj
+[147/848] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/flash_ops.c.obj
+[148/848] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_mxic_opi.c.obj
+[149/848] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_os_func_noos.c.obj
+[150/848] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_os_func_app.c.obj
+[151/848] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/esp_flash_spi_init.c.obj
+[152/848] Building C object esp-idf/pthread/CMakeFiles/__idf_pthread.dir/pthread_local_storage.c.obj
+[153/848] Building C object esp-idf/pthread/CMakeFiles/__idf_pthread.dir/pthread_cond_var.c.obj
+[154/848] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/esp_err.c.obj
+[155/848] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/flash_mmap.c.obj
+[156/848] Building C object esp-idf/pthread/CMakeFiles/__idf_pthread.dir/pthread_rwlock.c.obj
+[157/848] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/esp_ipc.c.obj
+[158/848] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/esp_flash_api.c.obj
+[159/848] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/crosscore_int.c.obj
+[160/848] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/freertos_hooks.c.obj
+[161/848] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/int_wdt.c.obj
+[162/848] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/esp_system.c.obj
+[163/848] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/stack_check.c.obj
+[164/848] Building C object esp-idf/pthread/CMakeFiles/__idf_pthread.dir/pthread.c.obj
+[165/848] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/panic.c.obj
+[166/848] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/system_time.c.obj
+[167/848] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/xt_wdt.c.obj
+[168/848] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/debug_stubs.c.obj
+[169/848] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/ubsan.c.obj
+[170/848] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/startup.c.obj
+[171/848] Building ASM object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/soc/esp32/highint_hdl.S.obj
+[172/848] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/brownout.c.obj
+[173/848] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/panic_handler.c.obj
+[174/848] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/soc/esp32/cache_err_int.c.obj
+[175/848] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/soc/esp32/reset_reason.c.obj
+[176/848] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/task_wdt.c.obj
+[177/848] Building ASM object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/panic_handler_asm.S.obj
+[178/848] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/soc/esp32/clk.c.obj
+[179/848] Building ASM object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/expression_with_stack_asm.S.obj
+[180/848] Building ASM object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/debug_helpers_asm.S.obj
+[181/848] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/debug_stubs.c.obj
+[182/848] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/panic_arch.c.obj
+[183/848] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/cpu_start.c.obj
+[184/848] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/soc/esp32/system_internal.c.obj
+[185/848] Building C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_crc.c.obj
+[186/848] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/expression_with_stack.c.obj
+[187/848] Building ASM object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/esp_ipc_isr_handler.S.obj
+[188/848] Building C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_sys.c.obj
+[189/848] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/trax.c.obj
+[190/848] Building ASM object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/esp_ipc_isr_routines.S.obj
+[191/848] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/debug_helpers.c.obj
+[192/848] Building C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_tjpgd.c.obj
+[193/848] Building C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_regi2c.c.obj
+[194/848] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/esp_ipc_isr.c.obj
+[195/848] Building ASM object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_longjmp.S.obj
+[196/848] Building C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_uart.c.obj
+[197/848] Building C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_efuse.c.obj
+[198/848] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/mpu_hal.c.obj
+[199/848] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/efuse_hal.c.obj
+[200/848] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/efuse_hal.c.obj
+[201/848] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/mmu_hal.c.obj
+[202/848] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_slave_hal.c.obj
+[203/848] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/timer_hal.c.obj
+[204/848] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/wdt_hal_iram.c.obj
+[205/848] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/timer_hal_iram.c.obj
+[206/848] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_slave_hal_iram.c.obj
+[207/848] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_hal.c.obj
+[208/848] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_hal_iram.c.obj
+[209/848] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/ledc_hal_iram.c.obj
+[210/848] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/rtc_io_hal.c.obj
+[211/848] Building C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_spiflash.c.obj
+[212/848] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/ledc_hal.c.obj
+[213/848] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/i2c_hal_iram.c.obj
+[214/848] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/gpio_hal.c.obj
+[215/848] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/uart_hal_iram.c.obj
+[216/848] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_flash_encrypt_hal_iram.c.obj
+[217/848] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/i2c_hal.c.obj
+[218/848] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/adc_hal_common.c.obj
+[219/848] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/sha_hal.c.obj
+[220/848] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_flash_hal.c.obj
+[221/848] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/pcnt_hal.c.obj
+[222/848] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/uart_hal.c.obj
+[223/848] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/rmt_hal.c.obj
+[224/848] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/adc_oneshot_hal.c.obj
+[225/848] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_flash_hal_iram.c.obj
+[226/848] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/sdm_hal.c.obj
+[227/848] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/mcpwm_hal.c.obj
+[228/848] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/twai_hal.c.obj
+[229/848] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/twai_hal_iram.c.obj
+[230/848] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/aes_hal.c.obj
+[231/848] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/dac_hal.c.obj
+[232/848] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/brownout_hal.c.obj
+[233/848] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/touch_sensor_hal.c.obj
+[234/848] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/gpio_hal_workaround.c.obj
+[235/848] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/touch_sensor_hal.c.obj
+[236/848] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/i2s_hal.c.obj
+[237/848] Building C object esp-idf/log/CMakeFiles/__idf_log.dir/log_buffers.c.obj
+[238/848] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/adc_hal.c.obj
+[239/848] Building C object esp-idf/log/CMakeFiles/__idf_log.dir/log.c.obj
+[240/848] Building C object esp-idf/log/CMakeFiles/__idf_log.dir/log_freertos.c.obj
+[241/848] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/sdio_slave_hal.c.obj
+[242/848] Building C object esp-idf/heap/CMakeFiles/__idf_heap.dir/port/memory_layout_utils.c.obj
+[243/848] Building C object esp-idf/heap/CMakeFiles/__idf_heap.dir/port/esp32/memory_layout.c.obj
+[244/848] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/emac_hal.c.obj
+[245/848] Building C object esp-idf/heap/CMakeFiles/__idf_heap.dir/heap_caps_init.c.obj
+[246/848] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/dport_access_common.c.obj
+[247/848] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/dac_periph.c.obj
+[248/848] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/lldesc.c.obj
+[249/848] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/adc_periph.c.obj
+[250/848] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/dport_access.c.obj
+[251/848] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sdm_periph.c.obj
+[252/848] Building C object esp-idf/heap/CMakeFiles/__idf_heap.dir/multi_heap.c.obj
+[253/848] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/gpio_periph.c.obj
+[254/848] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/i2c_periph.c.obj
+[255/848] Building C object esp-idf/heap/CMakeFiles/__idf_heap.dir/heap_caps.c.obj
+[256/848] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/lcd_periph.c.obj
+[257/848] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/i2s_periph.c.obj
+[258/848] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/interrupts.c.obj
+[259/848] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/mcpwm_periph.c.obj
+[260/848] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/ledc_periph.c.obj
+[261/848] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/rtc_io_periph.c.obj
+[262/848] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/pcnt_periph.c.obj
+[263/848] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/timer_periph.c.obj
+[264/848] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/rmt_periph.c.obj
+[265/848] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/spi_periph.c.obj
+[266/848] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sdmmc_periph.c.obj
+[267/848] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/touch_sensor_periph.c.obj
+[268/848] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sdio_slave_periph.c.obj
+[269/848] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/uart_periph.c.obj
+[270/848] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/esp_memory_utils.c.obj
+[271/848] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/cpu.c.obj
+[272/848] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/hw_random.c.obj
+[273/848] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/esp_clk.c.obj
+[274/848] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/clk_ctrl_os.c.obj
+[275/848] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/mac_addr.c.obj
+[276/848] Building C object esp-idf/heap/CMakeFiles/__idf_heap.dir/heap_tlsf.c.obj
+[277/848] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/rtc_module.c.obj
+[278/848] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_mac_bb.c.obj
+[279/848] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_gpio.c.obj
+[280/848] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/regi2c_ctrl.c.obj
+[281/848] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/periph_ctrl.c.obj
+[282/848] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/intr_alloc.c.obj
+[283/848] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_pm.c.obj
+[284/848] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/rtc_wdt.c.obj
+[285/848] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_init.c.obj
+[286/848] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_clk_init.c.obj
+[287/848] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/chip_info.c.obj
+[288/848] Building ASM object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/xtensa/portasm.S.obj
+[289/848] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_time.c.obj
+[290/848] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/cache_sram_mmu.c.obj
+[291/848] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_clk.c.obj
+[292/848] Building ASM object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/xtensa/xtensa_context.S.obj
+[293/848] Building C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/xtensa/xtensa_init.c.obj
+[294/848] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_modes.c.obj
+[295/848] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_sleep.c.obj
+[296/848] Building ASM object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S.obj
+[297/848] Building ASM object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/xtensa/xtensa_vector_defaults.S.obj
+[298/848] Building C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/xtensa/xtensa_overlay_os_hook.c.obj
+[299/848] Building C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/xtensa/port.c.obj
+[300/848] Building C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/port_common.c.obj
+[301/848] Building C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/port_systick.c.obj
+[302/848] Building C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/croutine.c.obj
+[303/848] Building C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/list.c.obj
+[304/848] Building C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-openocd.c.obj
+[305/848] Building C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/event_groups.c.obj
+[306/848] Building C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/esp_additions/freertos_v8_compat.c.obj
+[307/848] Building C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/abort.c.obj
+[308/848] Building C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/timers.c.obj
+[309/848] Building C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/assert.c.obj
+[310/848] Building C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/heap.c.obj
+[311/848] Building C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/pthread.c.obj
+[312/848] Building C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/poll.c.obj
+[313/848] Building C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/stream_buffer.c.obj
+[314/848] Building C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/random.c.obj
+[315/848] Building C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/reent_init.c.obj
+[316/848] Building C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/queue.c.obj
+[317/848] Building C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/locks.c.obj
+[318/848] Building C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/newlib_init.c.obj
+[319/848] Building C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/termios.c.obj
+[320/848] Building C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/sysconf.c.obj
+[321/848] Building C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/syscalls.c.obj
+[322/848] Building C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/realpath.c.obj
+[323/848] Building C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/port/esp_time_impl.c.obj
+[324/848] Building C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/time.c.obj
+[325/848] Building C object esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/src/system_time.c.obj
+[326/848] Building C object esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/src/ets_timer_legacy.c.obj
+[327/848] Building C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/stdatomic.c.obj
+[328/848] Building C object esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/src/esp_timer.c.obj
+[329/848] Building C object esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/src/esp_timer_impl_lac.c.obj
+[330/848] Building C object esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/default_event_loop.c.obj
+[331/848] Building CXX object esp-idf/cxx/CMakeFiles/__idf_cxx.dir/cxx_exception_stubs.cpp.obj
+[332/848] Building C object esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/esp_err_to_name.c.obj
+[333/848] Building C object esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/esp_event_private.c.obj
+[334/848] Building C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/tasks.c.obj
+[335/848] Building C object esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/esp_event.c.obj
+[336/848] Performing configure step for 'bootloader'
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file /home/artur/projects/personal/kairos/sdkconfig
+-- Adding linker script /home/artur/esp/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Adding linker script /home/artur/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /home/artur/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /home/artur/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /home/artur/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /home/artur/esp/esp-idf/components/bootloader/subproject/main/ld/esp32/bootloader.ld
+-- Adding linker script /home/artur/esp/esp-idf/components/bootloader/subproject/main/ld/esp32/bootloader.rom.ld
+-- Components: bootloader bootloader_support efuse esp_common esp_hw_support esp_rom esp_system esptool_py freertos hal log main micro-ecc newlib partition_table soc spi_flash xtensa
+-- Component paths: /home/artur/esp/esp-idf/components/bootloader /home/artur/esp/esp-idf/components/bootloader_support /home/artur/esp/esp-idf/components/efuse /home/artur/esp/esp-idf/components/esp_common /home/artur/esp/esp-idf/components/esp_hw_support /home/artur/esp/esp-idf/components/esp_rom /home/artur/esp/esp-idf/components/esp_system /home/artur/esp/esp-idf/components/esptool_py /home/artur/esp/esp-idf/components/freertos /home/artur/esp/esp-idf/components/hal /home/artur/esp/esp-idf/components/log /home/artur/esp/esp-idf/components/bootloader/subproject/main /home/artur/esp/esp-idf/components/bootloader/subproject/components/micro-ecc /home/artur/esp/esp-idf/components/newlib /home/artur/esp/esp-idf/components/partition_table /home/artur/esp/esp-idf/components/soc /home/artur/esp/esp-idf/components/spi_flash /home/artur/esp/esp-idf/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/artur/projects/personal/kairos/build/bootloader
+[337/848] Performing build step for 'bootloader'
+[1/3] Linking C executable bootloader.elf
+[2/3] Generating binary image from built executable
+esptool.py v4.2
+Creating esp32 image...
+Merged 1 ELF section
+Successfully created esp32 image.
+Generated /home/artur/projects/personal/kairos/build/bootloader/bootloader.bin
+[3/3] cd /home/artur/projects/personal/kairos/build/bootloader/esp-idf/esptool_py && /home/artur/.espressif/python_env/idf5.0_py3.10_env/bin/python /home/artur/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/artur/projects/personal/kairos/build/bootloader/bootloader.bin
+Bootloader binary size 0x6680 bytes. 0x980 bytes (8%) free.
+[338/848] No install step for 'bootloader'
+[339/848] Completed 'bootloader'
+[340/848] Building CXX object esp-idf/cxx/CMakeFiles/__idf_cxx.dir/cxx_guards.cpp.obj
+[341/848] Building CXX object esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_item_hash_list.cpp.obj
+[342/848] Building CXX object esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_partition.cpp.obj
+[343/848] Building CXX object esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_pagemanager.cpp.obj
+[344/848] Building CXX object esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_handle_simple.cpp.obj
+[345/848] Building C object esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/src/phy_override.c.obj
+[346/848] Building CXX object esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_cxx_api.cpp.obj
+[347/848] Building CXX object esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_storage.cpp.obj
+[348/848] Building CXX object esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_page.cpp.obj
+[349/848] Building C object esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/src/lib_printf.c.obj
+[350/848] Building CXX object esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_handle_locked.cpp.obj
+[351/848] Building C object esp-idf/vfs/CMakeFiles/__idf_vfs.dir/vfs_eventfd.c.obj
+[352/848] Building CXX object esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_partition_lookup.cpp.obj
+[353/848] Building C object esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/src/phy_init.c.obj
+[354/848] Building C object esp-idf/vfs/CMakeFiles/__idf_vfs.dir/vfs_semihost.c.obj
+[355/848] Building C object esp-idf/vfs/CMakeFiles/__idf_vfs.dir/vfs_console.c.obj
+[356/848] Building CXX object esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_api.cpp.obj
+[357/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/api/err.c.obj
+[358/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/api/if_api.c.obj
+[359/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/apps/sntp/sntp.c.obj
+[360/848] Building C object esp-idf/vfs/CMakeFiles/__idf_vfs.dir/vfs_uart.c.obj
+[361/848] Building C object esp-idf/vfs/CMakeFiles/__idf_vfs.dir/vfs.c.obj
+[362/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/api/netbuf.c.obj
+[363/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/api/api_lib.c.obj
+[364/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/api/netifapi.c.obj
+[365/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/api/tcpip.c.obj
+[366/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/api/netdb.c.obj
+[367/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/api/api_msg.c.obj
+[368/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/apps/sntp/sntp.c.obj
+[369/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/apps/netbiosns/netbiosns.c.obj
+[370/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/def.c.obj
+[371/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ip.c.obj
+[372/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/inet_chksum.c.obj
+[373/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/init.c.obj
+[374/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/mem.c.obj
+[375/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/memp.c.obj
+[376/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/dns.c.obj
+[377/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/sys.c.obj
+[378/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/stats.c.obj
+[379/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/raw.c.obj
+[380/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/netif.c.obj
+[381/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/api/sockets.c.obj
+[382/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/pbuf.c.obj
+[383/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/timeouts.c.obj
+[384/848] Building CXX object esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_types.cpp.obj
+[385/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/tcp_out.c.obj
+[386/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ipv4/autoip.c.obj
+[387/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ipv4/icmp.c.obj
+[388/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/tcp_in.c.obj
+[389/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/tcp.c.obj
+[390/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ipv4/etharp.c.obj
+[391/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/udp.c.obj
+[392/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ipv4/ip4_napt.c.obj
+[393/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ipv4/ip4.c.obj
+[394/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ipv4/ip4_addr.c.obj
+[395/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ipv4/igmp.c.obj
+[396/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ipv4/ip4_frag.c.obj
+[397/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ipv6/inet6.c.obj
+[398/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ipv6/dhcp6.c.obj
+[399/848] Building CXX object esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_partition_manager.cpp.obj
+[400/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ipv6/ethip6.c.obj
+[401/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ipv4/dhcp.c.obj
+[402/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ipv6/icmp6.c.obj
+[403/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ethernet.c.obj
+[404/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ipv6/ip6_addr.c.obj
+[405/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ipv6/ip6_frag.c.obj
+[406/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/bridgeif.c.obj
+[407/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/auth.c.obj
+[408/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ipv6/mld6.c.obj
+[409/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/slipif.c.obj
+[410/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/bridgeif_fdb.c.obj
+[411/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/chap-md5.c.obj
+[412/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/chap_ms.c.obj
+[413/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/ccp.c.obj
+[414/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/demand.c.obj
+[415/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ipv6/ip6.c.obj
+[416/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/chap-new.c.obj
+[417/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/eap.c.obj
+[418/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/eui64.c.obj
+[419/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/fsm.c.obj
+[420/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/ecp.c.obj
+[421/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/lcp.c.obj
+[422/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/ipv6cp.c.obj
+[423/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/ipcp.c.obj
+[424/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/magic.c.obj
+[425/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/mppe.c.obj
+[426/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/ppp.c.obj
+[427/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/multilink.c.obj
+[428/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/pppapi.c.obj
+[429/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/pppoe.c.obj
+[430/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/pppcrypt.c.obj
+[431/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/pppol2tp.c.obj
+[432/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/upap.c.obj
+[433/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ipv6/nd6.c.obj
+[434/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/vj.c.obj
+[435/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/utils.c.obj
+[436/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/port/esp32/hooks/tcp_isn_default.c.obj
+[437/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/pppos.c.obj
+[438/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/port/esp32/hooks/lwip_default_hooks.c.obj
+[439/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/port/esp32/sockets_ext.c.obj
+[440/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/port/esp32/freertos/sys_arch.c.obj
+[441/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/apps/ping/esp_ping.c.obj
+[442/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/port/esp32/vfs_lwip.c.obj
+[443/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/port/esp32/debug/lwip_debug.c.obj
+[444/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/apps/ping/ping.c.obj
+[445/848] Building C object esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/esp_netif_objects.c.obj
+[446/848] Building C object esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/esp_netif_handlers.c.obj
+[447/848] Building C object esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/esp_netif_defaults.c.obj
+[448/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/apps/ping/ping_sock.c.obj
+[449/848] Building C object esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_lwip_defaults.c.obj
+[450/848] Building C object esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/netif/ethernetif.c.obj
+[451/848] Building C object esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/loopback/esp_netif_loopback.c.obj
+[452/848] Building C object esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/netif/wlanif.c.obj
+[453/848] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/apps/dhcpserver/dhcpserver.c.obj
+[454/848] Building C object esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/netif/esp_pbuf_ref.c.obj
+[455/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/port/os_xtensa.c.obj
+[456/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/ap_config.c.obj
+[457/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/sta_info.c.obj
+[458/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/port/eloop.c.obj
+[459/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/bitfield.c.obj
+[460/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/ieee802_1x.c.obj
+[461/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/wpa_auth_ie.c.obj
+[462/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha256-kdf.c.obj
+[463/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/aes-siv.c.obj
+[464/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/wpa_common.c.obj
+[465/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/dh_group5.c.obj
+[466/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/crypto_ops.c.obj
+[467/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/ccmp.c.obj
+[468/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/aes-gcm.c.obj
+[469/848] Building C object esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_lwip.c.obj
+[470/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/dh_groups.c.obj
+[471/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha256-prf.c.obj
+[472/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha256-tlsprf.c.obj
+[473/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha384-tlsprf.c.obj
+[474/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/ms_funcs.c.obj
+[475/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha1-tlsprf.c.obj
+[476/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha384-prf.c.obj
+[477/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha1-prf.c.obj
+[478/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/wpa_auth.c.obj
+[479/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha1-tprf.c.obj
+[480/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_common/eap_wsc_common.c.obj
+[481/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/sae.c.obj
+[482/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/chap.c.obj
+[483/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/md4-internal.c.obj
+[484/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/ieee802_11_common.c.obj
+[485/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_common.c.obj
+[486/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_peap_common.c.obj
+[487/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_tls.c.obj
+[488/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/mschapv2.c.obj
+[489/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap.c.obj
+[490/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_peap.c.obj
+[491/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_mschapv2.c.obj
+[492/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_tls_common.c.obj
+[493/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_fast_common.c.obj
+[494/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/rsn_supp/pmksa_cache.c.obj
+[495/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/base64.c.obj
+[496/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_fast_pac.c.obj
+[497/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_ttls.c.obj
+[498/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/rsn_supp/wpa_ie.c.obj
+[499/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/ext_password.c.obj
+[500/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/uuid.c.obj
+[501/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/common.c.obj
+[502/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/wpa_debug.c.obj
+[503/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/wpabuf.c.obj
+[504/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_fast.c.obj
+[505/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_attr_process.c.obj
+[506/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps.c.obj
+[507/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/json.c.obj
+[508/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/rsn_supp/wpa.c.obj
+[509/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_attr_parse.c.obj
+[510/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_attr_build.c.obj
+[511/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_common.c.obj
+[512/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_dev_attr.c.obj
+[513/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_common.c.obj
+[514/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_wpa_main.c.obj
+[515/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_owe.c.obj
+[516/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_wpas_glue.c.obj
+[517/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_wpa3.c.obj
+[518/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/crypto/tls_mbedtls.c.obj
+[519/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_hostap.c.obj
+[520/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_enrollee.c.obj
+[521/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_wpa2.c.obj
+[522/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/crypto/crypto_mbedtls-rsa.c.obj
+[523/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/rc4.c.obj
+[524/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/crypto/crypto_mbedtls-bignum.c.obj
+[525/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_wps.c.obj
+[526/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/aes-unwrap.c.obj
+[527/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/crypto/crypto_mbedtls.c.obj
+[528/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/aes-omac1.c.obj
+[529/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/aes-wrap.c.obj
+[530/848] Building C object esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/coexist.c.obj
+[531/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/des-internal.c.obj
+[532/848] Building C object esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/mesh_event.c.obj
+[533/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/aes-ccm.c.obj
+[534/848] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/crypto/crypto_mbedtls-ec.c.obj
+[535/848] Building C object esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/wifi_default_ap.c.obj
+[536/848] Building C object esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/smartconfig.c.obj
+[537/848] Building C object esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/wifi_netif.c.obj
+[538/848] Building C object esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/smartconfig_ack.c.obj
+[539/848] Building C object esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/wifi_init.c.obj
+[540/848] Building C object esp-idf/esp-tls/CMakeFiles/__idf_esp-tls.dir/esp-tls-crypto/esp_tls_crypto.c.obj
+[541/848] Building C object esp-idf/esp-tls/CMakeFiles/__idf_esp-tls.dir/esp_tls_error_capture.c.obj
+[542/848] Building C object esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/wifi_default.c.obj
+[543/848] Building C object esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/esp32/esp_adapter.c.obj
+[544/848] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_netif_glue.c.obj
+[545/848] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_phy_dp83848.c.obj
+[546/848] Building C object esp-idf/esp-tls/CMakeFiles/__idf_esp-tls.dir/esp_tls_mbedtls.c.obj
+[547/848] Building C object esp-idf/esp-tls/CMakeFiles/__idf_esp-tls.dir/esp_tls.c.obj
+[548/848] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_phy_ksz80xx.c.obj
+[549/848] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_phy_802_3.c.obj
+[550/848] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_phy_ip101.c.obj
+[551/848] Building ASM object esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/xtensa/xt_debugexception.S.obj
+[552/848] Building ASM object esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/xtensa/gdbstub-entry.S.obj
+[553/848] Building C object esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/packet.c.obj
+[554/848] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth.c.obj
+[555/848] Building C object esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/xtensa/gdbstub_xtensa.c.obj
+[556/848] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_phy_rtl8201.c.obj
+[557/848] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_mac_esp.c.obj
+[558/848] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_phy_lan87xx.c.obj
+[559/848] Building C object esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/esp_common/gdbstub_common.c.obj
+[560/848] Building C object esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/gdbstub.c.obj
+[561/848] Building C object esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_internal.c.obj
+[562/848] Building C object esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport.c.obj
+[563/848] Building C object esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_header.c.obj
+[564/848] Building C object esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_auth.c.obj
+[565/848] Building C object esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_utils.c.obj
+[566/848] Building C object esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_ssl.c.obj
+[567/848] Building C object esp-idf/http_parser/CMakeFiles/__idf_http_parser.dir/http_parser.c.obj
+[568/848] Building C object esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/httpd_main.c.obj
+[569/848] Building C object esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_ws.c.obj
+[570/848] Building C object esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/httpd_uri.c.obj
+[571/848] Building C object esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/util/ctrl_sock.c.obj
+[572/848] Building C object esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/httpd_ws.c.obj
+[573/848] Building C object esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/httpd_sess.c.obj
+[574/848] Building C object esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/httpd_txrx.c.obj
+[575/848] Building C object esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/httpd_parse.c.obj
+[576/848] Building C object esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/esp_http_client.c.obj
+[577/848] Building C object esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_common.c.obj
+[578/848] Building C object esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_init.c.obj
+[579/848] Building C object esp-idf/esp_https_ota/CMakeFiles/__idf_esp_https_ota.dir/src/esp_https_ota.c.obj
+[580/848] Building C object esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_io.c.obj
+[581/848] Building C object esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_cmd.c.obj
+[582/848] Building C object esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_mmc.c.obj
+[583/848] Building C object esp-idf/esp_serial_slave_link/CMakeFiles/__idf_esp_serial_slave_link.dir/essl.c.obj
+[584/848] Building C object esp-idf/ulp/CMakeFiles/__idf_ulp.dir/ulp_common/ulp_common.c.obj
+[585/848] Building C object esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_sd.c.obj
+[586/848] Linking C static library esp-idf/ulp/libulp.a
+[587/848] Building C object esp-idf/esp_serial_slave_link/CMakeFiles/__idf_esp_serial_slave_link.dir/essl_sdio.c.obj
+[588/848] Building C object esp-idf/esp_serial_slave_link/CMakeFiles/__idf_esp_serial_slave_link.dir/essl_spi.c.obj
+[589/848] Linking C static library esp-idf/esp_serial_slave_link/libesp_serial_slave_link.a
+[590/848] Linking C static library esp-idf/sdmmc/libsdmmc.a
+[591/848] Linking C static library esp-idf/esp_https_ota/libesp_https_ota.a
+[592/848] Linking C static library esp-idf/esp_http_server/libesp_http_server.a
+[593/848] Linking C static library esp-idf/esp_http_client/libesp_http_client.a
+[594/848] Linking C static library esp-idf/tcp_transport/libtcp_transport.a
+[595/848] Linking C static library esp-idf/esp_gdbstub/libesp_gdbstub.a
+[596/848] Linking C static library esp-idf/esp_eth/libesp_eth.a
+[597/848] Linking C static library esp-idf/esp-tls/libesp-tls.a
+[598/848] Linking C static library esp-idf/http_parser/libhttp_parser.a
+[599/848] Linking C static library esp-idf/esp_wifi/libesp_wifi.a
+[600/848] Linking C static library esp-idf/wpa_supplicant/libwpa_supplicant.a
+[601/848] Linking C static library esp-idf/esp_netif/libesp_netif.a
+[602/848] Linking C static library esp-idf/lwip/liblwip.a
+[603/848] Linking C static library esp-idf/vfs/libvfs.a
+[604/848] Linking C static library esp-idf/esp_phy/libesp_phy.a
+[605/848] Linking C static library esp-idf/nvs_flash/libnvs_flash.a
+[606/848] Linking C static library esp-idf/esp_event/libesp_event.a
+[607/848] Linking C static library esp-idf/esp_timer/libesp_timer.a
+[608/848] Linking C static library esp-idf/esp_common/libesp_common.a
+[609/848] Linking C static library esp-idf/cxx/libcxx.a
+[610/848] Linking C static library esp-idf/newlib/libnewlib.a
+[611/848] Linking C static library esp-idf/freertos/libfreertos.a
+[612/848] Linking C static library esp-idf/esp_hw_support/libesp_hw_support.a
+[613/848] Linking C static library esp-idf/soc/libsoc.a
+[614/848] Linking C static library esp-idf/heap/libheap.a
+[615/848] Linking C static library esp-idf/log/liblog.a
+[616/848] Linking C static library esp-idf/hal/libhal.a
+[617/848] Linking C static library esp-idf/esp_rom/libesp_rom.a
+[618/848] Linking C static library esp-idf/esp_system/libesp_system.a
+[619/848] Linking C static library esp-idf/pthread/libpthread.a
+[620/848] Linking C static library esp-idf/spi_flash/libspi_flash.a
+[621/848] Linking C static library esp-idf/bootloader_support/libbootloader_support.a
+[622/848] Linking C static library esp-idf/app_update/libapp_update.a
+[623/848] Linking CXX static library esp-idf/mbedtls/mbedtls/library/libmbedtls.a
+[624/848] Linking CXX static library esp-idf/mbedtls/mbedtls/library/libmbedx509.a
+[625/848] Linking CXX static library esp-idf/mbedtls/mbedtls/library/libmbedcrypto.a
+[626/848] Generating x509_crt_bundle
+[627/848] Generating ../../x509_crt_bundle.S
+[628/848] Building C object esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/eri.c.obj
+[629/848] Building ASM object esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/xtensa_intr_asm.S.obj
+[630/848] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32/esp_efuse_table.c.obj
+[631/848] Building C object esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/xt_trax.c.obj
+[632/848] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32/esp_efuse_fields.c.obj
+[633/848] Building C object esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/xtensa_intr.c.obj
+[634/848] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_fields.c.obj
+[635/848] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32/esp_efuse_utility.c.obj
+[636/848] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/efuse_controller/keys/without_key_purposes/three_key_blocks/esp_efuse_api_key.c.obj
+[637/848] Building C object esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_cali.c.obj
+[638/848] Building C object esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_cali_curve_fitting.c.obj
+[639/848] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_utility.c.obj
+[640/848] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_api.c.obj
+[641/848] Building C object esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_lock.c.obj
+[642/848] Building C object esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/deprecated/esp_adc_cal_common_legacy.c.obj
+[643/848] Building C object esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_oneshot.c.obj
+[644/848] Building C object esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_common.c.obj
+[645/848] Building C object esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/deprecated/esp32/esp_adc_cal_legacy.c.obj
+[646/848] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/sdspi_crc.c.obj
+[647/848] Building C object esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/esp32/adc_cali_line_fitting.c.obj
+[648/848] Building C object esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_continuous.c.obj
+[649/848] Building C object esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/ringbuf.c.obj
+[650/848] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/gpio/rtc_io.c.obj
+[651/848] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/sdspi_transaction.c.obj
+[652/848] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/gptimer.c.obj
+[653/848] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/spi_bus_lock.c.obj
+[654/848] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/sdspi_host.c.obj
+[655/848] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/spi_master.c.obj
+[656/848] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/spi_slave.c.obj
+[657/848] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/spi_common.c.obj
+[658/848] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/gpio/gpio.c.obj
+[659/848] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/i2c.c.obj
+[660/848] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/mcpwm/mcpwm_com.c.obj
+[661/848] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/ledc.c.obj
+[662/848] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/mcpwm/mcpwm_cmpr.c.obj
+[663/848] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/adc_legacy.c.obj
+[664/848] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/adc_dma_legacy.c.obj
+[665/848] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/mcpwm/mcpwm_cap.c.obj
+[666/848] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/mcpwm/mcpwm_fault.c.obj
+[667/848] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/timer_legacy.c.obj
+[668/848] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/mcpwm/mcpwm_gen.c.obj
+[669/848] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/mcpwm/mcpwm_sync.c.obj
+[670/848] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/mcpwm/mcpwm_oper.c.obj
+[671/848] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/mcpwm/mcpwm_timer.c.obj
+[672/848] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/rmt/rmt_common.c.obj
+[673/848] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/sdm.c.obj
+[674/848] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/rmt/rmt_encoder.c.obj
+[675/848] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/sigma_delta_legacy.c.obj
+[676/848] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/uart.c.obj
+[677/848] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/rmt/rmt_rx.c.obj
+[678/848] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/sdmmc_transaction.c.obj
+[679/848] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/rmt/rmt_tx.c.obj
+[680/848] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/sdmmc_host.c.obj
+[681/848] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/i2s/i2s_std.c.obj
+[682/848] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/pulse_cnt.c.obj
+[683/848] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/pcnt_legacy.c.obj
+[684/848] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/i2s/i2s_common.c.obj
+[685/848] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/i2s/i2s_pdm.c.obj
+[686/848] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/touch_sensor_common.c.obj
+[687/848] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/mcpwm_legacy.c.obj
+[688/848] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/rmt_legacy.c.obj
+[689/848] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/twai.c.obj
+[690/848] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/dac_common.c.obj
+[691/848] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/adc_i2s_deprecated.c.obj
+[692/848] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/esp32/dac.c.obj
+[693/848] Building C object esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/pm_locks.c.obj
+[694/848] Building C object esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/pm_trace.c.obj
+[695/848] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/esp32/touch_sensor.c.obj
+[696/848] Building ASM object esp-idf/mbedtls/CMakeFiles/__idf_mbedtls.dir/__/__/x509_crt_bundle.S.obj
+[697/848] Building C object esp-idf/mbedtls/CMakeFiles/__idf_mbedtls.dir/esp_crt_bundle/esp_crt_bundle.c.obj
+[698/848] Building C object esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/app_trace_util.c.obj
+[699/848] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/sdio_slave.c.obj
+[700/848] Building C object esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/host_file_io.c.obj
+[701/848] Building C object esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/pm_impl.c.obj
+[702/848] Linking C static library esp-idf/mbedtls/libmbedtls.a
+[703/848] Building C object esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/gcov/gcov_rtio.c.obj
+[704/848] Building C object esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/port/port_uart.c.obj
+[705/848] Linking C static library esp-idf/esp_pm/libesp_pm.a
+[706/848] Building C object esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/app_trace.c.obj
+[707/848] Building C object esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_freertos.c.obj
+[708/848] Building C object esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_memory.c.obj
+[709/848] Building C object esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_runner.c.obj
+[710/848] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/i2s_legacy.c.obj
+[711/848] Building C object esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_port_esp32.c.obj
+[712/848] Building C object esp-idf/unity/CMakeFiles/__idf_unity.dir/port/esp/unity_utils_memory_esp.c.obj
+[713/848] Building C object esp-idf/cmock/CMakeFiles/__idf_cmock.dir/CMock/src/cmock.c.obj
+[714/848] Building C object esp-idf/console/CMakeFiles/__idf_console.dir/split_argv.c.obj
+[715/848] Linking C static library esp-idf/driver/libdriver.a
+[716/848] Building C object esp-idf/console/CMakeFiles/__idf_console.dir/commands.c.obj
+[717/848] Building C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_cmd.c.obj
+[718/848] Building C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_dbl.c.obj
+[719/848] Building C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_dstr.c.obj
+[720/848] Building C object esp-idf/unity/CMakeFiles/__idf_unity.dir/unity/src/unity.c.obj
+[721/848] Building C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_end.c.obj
+[722/848] Building C object esp-idf/console/CMakeFiles/__idf_console.dir/esp_console_repl.c.obj
+[723/848] Building C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_date.c.obj
+[724/848] Linking C static library esp-idf/esp_adc/libesp_adc.a
+[725/848] Building C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_file.c.obj
+[726/848] Linking C static library esp-idf/efuse/libefuse.a
+[727/848] Building C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_rem.c.obj
+[728/848] Building C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_int.c.obj
+[729/848] Building C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_hashtable.c.obj
+[730/848] Building C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_lit.c.obj
+[731/848] Building C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_str.c.obj
+[732/848] Linking C static library esp-idf/esp_ringbuf/libesp_ringbuf.a
+[733/848] Building C object esp-idf/console/CMakeFiles/__idf_console.dir/linenoise/linenoise.c.obj
+[734/848] Building C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_utils.c.obj
+[735/848] Linking C static library esp-idf/xtensa/libxtensa.a
+[736/848] Building C object esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidd.c.obj
+[737/848] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io.c.obj
+[738/848] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_common.c.obj
+[739/848] Linking C static library esp-idf/unity/libunity.a
+[740/848] Linking C static library esp-idf/app_trace/libapp_trace.a
+[741/848] Building C object esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hid_common.c.obj
+[742/848] Linking C static library esp-idf/cmock/libcmock.a
+[743/848] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io_i2c.c.obj
+[744/848] Building C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/argtable3.c.obj
+[745/848] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ops.c.obj
+[746/848] Building C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_rex.c.obj
+[747/848] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ssd1306.c.obj
+[748/848] Linking C static library esp-idf/console/libconsole.a
+[749/848] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/proto-c/constants.pb-c.c.obj
+[750/848] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_nt35510.c.obj
+[751/848] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_st7789.c.obj
+[752/848] Building C object esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidh.c.obj
+[753/848] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io_spi.c.obj
+[754/848] Linking C static library esp-idf/esp_hid/libesp_hid.a
+[755/848] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/proto-c/sec0.pb-c.c.obj
+[756/848] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/proto-c/session.pb-c.c.obj
+[757/848] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/proto-c/sec1.pb-c.c.obj
+[758/848] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/common/protocomm.c.obj
+[759/848] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/proto-c/sec2.pb-c.c.obj
+[760/848] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/security/security0.c.obj
+[761/848] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/transports/protocomm_console.c.obj
+[762/848] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/transports/protocomm_httpd.c.obj
+[763/848] Building C object esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/src/esp_local_ctrl_handler.c.obj
+[764/848] Building C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_checksum.c.obj
+[765/848] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io_i2s.c.obj
+[766/848] Building C object esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/proto-c/esp_local_ctrl.pb-c.c.obj
+[767/848] Building C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_common.c.obj
+[768/848] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/security/security1.c.obj
+[769/848] Linking C static library esp-idf/esp_lcd/libesp_lcd.a
+[770/848] Building C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_flash.c.obj
+[771/848] Building C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_uart.c.obj
+[772/848] Building C object esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/src/esp_local_ctrl.c.obj
+[773/848] Building C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_binary.c.obj
+[774/848] Building C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/port/xtensa/core_dump_port.c.obj
+[775/848] Building C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_elf.c.obj
+[776/848] Building CXX object esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/crc32.cpp.obj
+[777/848] Building CXX object esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/Partition.cpp.obj
+[778/848] Linking C static library esp-idf/espcoredump/libespcoredump.a
+[779/848] Building CXX object esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/SPI_Flash.cpp.obj
+[780/848] Building CXX object esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Ext_Perf.cpp.obj
+[781/848] Building CXX object esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Ext_Safe.cpp.obj
+[782/848] Building C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio_sdmmc.c.obj
+[783/848] Building CXX object esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/wear_levelling.cpp.obj
+[784/848] Building C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio.c.obj
+[785/848] Building C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio_rawflash.c.obj
+[786/848] Building C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/port/freertos/ffsystem.c.obj
+[787/848] Building C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio_wl.c.obj
+[788/848] Building C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/src/ffunicode.c.obj
+[789/848] Building CXX object esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Flash.cpp.obj
+[790/848] Building C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat_spiflash.c.obj
+[791/848] Linking C static library esp-idf/wear_levelling/libwear_levelling.a
+[792/848] Building C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat_sdmmc.c.obj
+[793/848] Building C object esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/lib/platform_esp32_idf.c.obj
+[794/848] Building C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat.c.obj
+[795/848] Building C object esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/xtensa_perfmon_access.c.obj
+[796/848] Building C object esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/protobuf-c/protobuf-c/protobuf-c.c.obj
+[797/848] Building C object esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/lib/mqtt_msg.c.obj
+[798/848] Building C object esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/lib/mqtt_outbox.c.obj
+[799/848] Linking C static library esp-idf/protobuf-c/libprotobuf-c.a
+[800/848] Building C object esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/xtensa_perfmon_masks.c.obj
+[801/848] Building C object esp-idf/json/CMakeFiles/__idf_json.dir/cJSON/cJSON_Utils.c.obj
+[802/848] Building C object esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/xtensa_perfmon_apis.c.obj
+[803/848] Linking C static library esp-idf/protocomm/libprotocomm.a
+[804/848] Linking C static library esp-idf/perfmon/libperfmon.a
+[805/848] Building C object esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs_api.c.obj
+[806/848] Linking C static library esp-idf/esp_local_ctrl/libesp_local_ctrl.a
+[807/848] Building C object esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_cache.c.obj
+[808/848] Building C object esp-idf/json/CMakeFiles/__idf_json.dir/cJSON/cJSON.c.obj
+[809/848] Building C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/src/ff.c.obj
+[810/848] Linking C static library esp-idf/json/libjson.a
+[811/848] Building C object esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_gc.c.obj
+[812/848] Building C object esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_check.c.obj
+[813/848] Building C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/wifi_config.c.obj
+[814/848] Building C object esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/esp_spiffs.c.obj
+[815/848] Linking C static library esp-idf/fatfs/libfatfs.a
+[816/848] Building C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/wifi_scan.c.obj
+[817/848] Building C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/handlers.c.obj
+[818/848] Building C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/proto-c/wifi_constants.pb-c.c.obj
+[819/848] Building C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/proto-c/wifi_config.pb-c.c.obj
+[820/848] Building C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/scheme_console.c.obj
+[821/848] Building C object esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/mqtt_client.c.obj
+[822/848] Building C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/proto-c/wifi_scan.pb-c.c.obj
+[823/848] Building C object esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_hydrogen.c.obj
+[824/848] Building C object esp-idf/core/CMakeFiles/__idf_core.dir/def/common.c.obj
+FAILED: esp-idf/core/CMakeFiles/__idf_core.dir/def/common.c.obj 
+/home/artur/.espressif/tools/xtensa-esp32-elf/esp-2022r1-RC1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  -I/home/artur/projects/personal/kairos/build/config -I/home/artur/projects/personal/kairos/components/core -I/home/artur/projects/personal/kairos/components/core/test -I/home/artur/projects/personal/kairos/components/core/drv/protocols -I/home/artur/projects/personal/kairos/components/core/drv/rtc -I/home/artur/projects/personal/kairos/components/core/drv/display -I/home/artur/projects/personal/kairos/components/core/hal/rtc -I/home/artur/projects/personal/kairos/components/core/hal/display -I/home/artur/projects/personal/kairos/components/core/hal/modules -I/home/artur/projects/personal/kairos/components/core/lib/system -I/home/artur/esp/esp-idf/components/newlib/platform_include -I/home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include -I/home/artur/esp/esp-idf/components/freertos/esp_additions/include/freertos -I/home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -I/home/artur/esp/esp-idf/components/freertos/esp_additions/include -I/home/artur/esp/esp-idf/components/esp_hw_support/include -I/home/artur/esp/esp-idf/components/esp_hw_support/include/soc -I/home/artur/esp/esp-idf/components/esp_hw_support/include/soc/esp32 -I/home/artur/esp/esp-idf/components/esp_hw_support/port/esp32/. -I/home/artur/esp/esp-idf/components/esp_hw_support/port/esp32/private_include -I/home/artur/esp/esp-idf/components/heap/include -I/home/artur/esp/esp-idf/components/log/include -I/home/artur/esp/esp-idf/components/soc/include -I/home/artur/esp/esp-idf/components/soc/esp32/. -I/home/artur/esp/esp-idf/components/soc/esp32/include -I/home/artur/esp/esp-idf/components/hal/esp32/include -I/home/artur/esp/esp-idf/components/hal/include -I/home/artur/esp/esp-idf/components/hal/platform_port/include -I/home/artur/esp/esp-idf/components/esp_rom/include -I/home/artur/esp/esp-idf/components/esp_rom/include/esp32 -I/home/artur/esp/esp-idf/components/esp_rom/esp32 -I/home/artur/esp/esp-idf/components/esp_common/include -I/home/artur/esp/esp-idf/components/esp_system/include -I/home/artur/esp/esp-idf/components/esp_system/port/soc -I/home/artur/esp/esp-idf/components/esp_system/port/include/private -I/home/artur/esp/esp-idf/components/xtensa/include -I/home/artur/esp/esp-idf/components/xtensa/esp32/include -I/home/artur/esp/esp-idf/components/lwip/include -I/home/artur/esp/esp-idf/components/lwip/include/apps -I/home/artur/esp/esp-idf/components/lwip/include/apps/sntp -I/home/artur/esp/esp-idf/components/lwip/lwip/src/include -I/home/artur/esp/esp-idf/components/lwip/port/esp32/include -I/home/artur/esp/esp-idf/components/lwip/port/esp32/include/arch -I/home/artur/esp/esp-idf/components/driver/include -I/home/artur/esp/esp-idf/components/driver/deprecated -I/home/artur/esp/esp-idf/components/driver/esp32/include -I/home/artur/esp/esp-idf/components/esp_pm/include -I/home/artur/esp/esp-idf/components/esp_ringbuf/include -I/home/artur/esp/esp-idf/components/nvs_flash/include -I/home/artur/esp/esp-idf/components/spi_flash/include -I/home/artur/esp/esp-idf/components/esp_netif/include -I/home/artur/esp/esp-idf/components/esp_event/include -mlongcalls -Wno-frame-address  -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-error=format= -Wno-format -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fmacro-prefix-map=/home/artur/projects/personal/kairos=. -fmacro-prefix-map=/home/artur/esp/esp-idf=/IDF -fstrict-volatile-bitfields -Wno-error=unused-but-set-variable -fno-jump-tables -fno-tree-switch-conversion -DconfigENABLE_FREERTOS_DEBUG_OCDAWARE=1 -std=gnu17 -Wno-old-style-declaration -D_GNU_SOURCE -DIDF_VER=\"v5.0-dev-4547-gfde4afc67a\" -DESP_PLATFORM -D_POSIX_READER_WRITER_LOCKS -Wno-error=switch -MD -MT esp-idf/core/CMakeFiles/__idf_core.dir/def/common.c.obj -MF esp-idf/core/CMakeFiles/__idf_core.dir/def/common.c.obj.d -o esp-idf/core/CMakeFiles/__idf_core.dir/def/common.c.obj -c /home/artur/projects/personal/kairos/components/core/def/common.c
+/home/artur/projects/personal/kairos/components/core/def/common.c:4:1: warning: ignoring attribute 'section (".iram1.5")' because it conflicts with previous 'section (".iram1.2")' [-Wattributes]
+    4 | {
+      | ^
+In file included from /home/artur/projects/personal/kairos/components/core/def/common.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:36:25: note: previous declaration here
+   36 | unsigned long IRAM_ATTR micros();
+      |                         ^~~~~~
+/home/artur/projects/personal/kairos/components/core/def/common.c: In function 'micros':
+/home/artur/projects/personal/kairos/components/core/def/common.c:5:29: error: implicit declaration of function 'esp_timer_get_time' [-Werror=implicit-function-declaration]
+    5 |     return (unsigned long) (esp_timer_get_time());
+      |                             ^~~~~~~~~~~~~~~~~~
+/home/artur/projects/personal/kairos/components/core/def/common.c: At top level:
+/home/artur/projects/personal/kairos/components/core/def/common.c:9:1: warning: ignoring attribute 'section (".iram1.6")' because it conflicts with previous 'section (".iram1.3")' [-Wattributes]
+    9 | {
+      | ^
+In file included from /home/artur/projects/personal/kairos/components/core/def/common.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:38:16: note: previous declaration here
+   38 | void IRAM_ATTR delay_us(uint32_t us);
+      |                ^~~~~~~~
+/home/artur/projects/personal/kairos/components/core/def/common.c:29:1: warning: ignoring attribute 'section (".iram1.7")' because it conflicts with previous 'section (".iram1.4")' [-Wattributes]
+   29 | {
+      | ^
+In file included from /home/artur/projects/personal/kairos/components/core/def/common.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:40:16: note: previous declaration here
+   40 | void IRAM_ATTR delay_ms(uint32_t delay);
+      |                ^~~~~~~~
+cc1: some warnings being treated as errors
+[825/848] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+In file included from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.h:1,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:13,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:36:1: warning: ignoring attribute 'section (".iram1.5")' because it conflicts with previous 'section (".iram1.2")' [-Wattributes]
+   36 | unsigned long IRAM_ATTR micros();
+      | ^~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/test/i2c_scanner.h:1,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:12,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:36:25: note: previous declaration here
+   36 | unsigned long IRAM_ATTR micros();
+      |                         ^~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.h:1,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:13,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:38:1: warning: ignoring attribute 'section (".iram1.6")' because it conflicts with previous 'section (".iram1.3")' [-Wattributes]
+   38 | void IRAM_ATTR delay_us(uint32_t us);
+      | ^~~~
+In file included from /home/artur/projects/personal/kairos/components/core/test/i2c_scanner.h:1,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:12,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:38:16: note: previous declaration here
+   38 | void IRAM_ATTR delay_us(uint32_t us);
+      |                ^~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.h:1,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:13,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:40:1: warning: ignoring attribute 'section (".iram1.7")' because it conflicts with previous 'section (".iram1.4")' [-Wattributes]
+   40 | void IRAM_ATTR delay_ms(uint32_t delay);
+      | ^~~~
+In file included from /home/artur/projects/personal/kairos/components/core/test/i2c_scanner.h:1,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:12,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:40:16: note: previous declaration here
+   40 | void IRAM_ATTR delay_ms(uint32_t delay);
+      |                ^~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:10,
+                 from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.h:2,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:13,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:36:1: warning: ignoring attribute 'section (".iram1.8")' because it conflicts with previous 'section (".iram1.2")' [-Wattributes]
+   36 | unsigned long IRAM_ATTR micros();
+      | ^~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.h:1,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:13,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:36:25: note: previous declaration here
+   36 | unsigned long IRAM_ATTR micros();
+      |                         ^~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:10,
+                 from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.h:2,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:13,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:38:1: warning: ignoring attribute 'section (".iram1.9")' because it conflicts with previous 'section (".iram1.3")' [-Wattributes]
+   38 | void IRAM_ATTR delay_us(uint32_t us);
+      | ^~~~
+In file included from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.h:1,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:13,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:38:16: note: previous declaration here
+   38 | void IRAM_ATTR delay_us(uint32_t us);
+      |                ^~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:10,
+                 from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.h:2,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:13,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:40:1: warning: ignoring attribute 'section (".iram1.10")' because it conflicts with previous 'section (".iram1.4")' [-Wattributes]
+   40 | void IRAM_ATTR delay_ms(uint32_t delay);
+      | ^~~~
+In file included from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.h:1,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:13,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:40:16: note: previous declaration here
+   40 | void IRAM_ATTR delay_ms(uint32_t delay);
+      |                ^~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/drv/protocols/i2c.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:11,
+                 from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.h:2,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:13,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:36:1: warning: ignoring attribute 'section (".iram1.11")' because it conflicts with previous 'section (".iram1.2")' [-Wattributes]
+   36 | unsigned long IRAM_ATTR micros();
+      | ^~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:10,
+                 from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.h:2,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:13,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:36:25: note: previous declaration here
+   36 | unsigned long IRAM_ATTR micros();
+      |                         ^~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/drv/protocols/i2c.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:11,
+                 from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.h:2,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:13,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:38:1: warning: ignoring attribute 'section (".iram1.12")' because it conflicts with previous 'section (".iram1.3")' [-Wattributes]
+   38 | void IRAM_ATTR delay_us(uint32_t us);
+      | ^~~~
+In file included from /home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:10,
+                 from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.h:2,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:13,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:38:16: note: previous declaration here
+   38 | void IRAM_ATTR delay_us(uint32_t us);
+      |                ^~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/drv/protocols/i2c.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:11,
+                 from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.h:2,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:13,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:40:1: warning: ignoring attribute 'section (".iram1.13")' because it conflicts with previous 'section (".iram1.4")' [-Wattributes]
+   40 | void IRAM_ATTR delay_ms(uint32_t delay);
+      | ^~~~
+In file included from /home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:10,
+                 from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.h:2,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:13,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:40:16: note: previous declaration here
+   40 | void IRAM_ATTR delay_ms(uint32_t delay);
+      |                ^~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/test/test_display.h:1,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:14,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:36:1: warning: ignoring attribute 'section (".iram1.14")' because it conflicts with previous 'section (".iram1.2")' [-Wattributes]
+   36 | unsigned long IRAM_ATTR micros();
+      | ^~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/drv/protocols/i2c.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:11,
+                 from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.h:2,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:13,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:36:25: note: previous declaration here
+   36 | unsigned long IRAM_ATTR micros();
+      |                         ^~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/test/test_display.h:1,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:14,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:38:1: warning: ignoring attribute 'section (".iram1.15")' because it conflicts with previous 'section (".iram1.3")' [-Wattributes]
+   38 | void IRAM_ATTR delay_us(uint32_t us);
+      | ^~~~
+In file included from /home/artur/projects/personal/kairos/components/core/drv/protocols/i2c.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:11,
+                 from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.h:2,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:13,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:38:16: note: previous declaration here
+   38 | void IRAM_ATTR delay_us(uint32_t us);
+      |                ^~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/test/test_display.h:1,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:14,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:40:1: warning: ignoring attribute 'section (".iram1.16")' because it conflicts with previous 'section (".iram1.4")' [-Wattributes]
+   40 | void IRAM_ATTR delay_ms(uint32_t delay);
+      | ^~~~
+In file included from /home/artur/projects/personal/kairos/components/core/drv/protocols/i2c.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:11,
+                 from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.h:2,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:13,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:40:16: note: previous declaration here
+   40 | void IRAM_ATTR delay_ms(uint32_t delay);
+      |                ^~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.h:7,
+                 from /home/artur/projects/personal/kairos/components/core/test/test_display.h:2,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:14,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:36:1: warning: ignoring attribute 'section (".iram1.17")' because it conflicts with previous 'section (".iram1.2")' [-Wattributes]
+   36 | unsigned long IRAM_ATTR micros();
+      | ^~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/test/test_display.h:1,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:14,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:36:25: note: previous declaration here
+   36 | unsigned long IRAM_ATTR micros();
+      |                         ^~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.h:7,
+                 from /home/artur/projects/personal/kairos/components/core/test/test_display.h:2,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:14,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:38:1: warning: ignoring attribute 'section (".iram1.18")' because it conflicts with previous 'section (".iram1.3")' [-Wattributes]
+   38 | void IRAM_ATTR delay_us(uint32_t us);
+      | ^~~~
+In file included from /home/artur/projects/personal/kairos/components/core/test/test_display.h:1,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:14,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:38:16: note: previous declaration here
+   38 | void IRAM_ATTR delay_us(uint32_t us);
+      |                ^~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.h:7,
+                 from /home/artur/projects/personal/kairos/components/core/test/test_display.h:2,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:14,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:40:1: warning: ignoring attribute 'section (".iram1.19")' because it conflicts with previous 'section (".iram1.4")' [-Wattributes]
+   40 | void IRAM_ATTR delay_ms(uint32_t delay);
+      | ^~~~
+In file included from /home/artur/projects/personal/kairos/components/core/test/test_display.h:1,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:14,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:40:16: note: previous declaration here
+   40 | void IRAM_ATTR delay_ms(uint32_t delay);
+      |                ^~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/lib/system/system.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:17,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:36:1: warning: ignoring attribute 'section (".iram1.20")' because it conflicts with previous 'section (".iram1.2")' [-Wattributes]
+   36 | unsigned long IRAM_ATTR micros();
+      | ^~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.h:7,
+                 from /home/artur/projects/personal/kairos/components/core/test/test_display.h:2,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:14,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:36:25: note: previous declaration here
+   36 | unsigned long IRAM_ATTR micros();
+      |                         ^~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/lib/system/system.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:17,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:38:1: warning: ignoring attribute 'section (".iram1.21")' because it conflicts with previous 'section (".iram1.3")' [-Wattributes]
+   38 | void IRAM_ATTR delay_us(uint32_t us);
+      | ^~~~
+In file included from /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.h:7,
+                 from /home/artur/projects/personal/kairos/components/core/test/test_display.h:2,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:14,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:38:16: note: previous declaration here
+   38 | void IRAM_ATTR delay_us(uint32_t us);
+      |                ^~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/lib/system/system.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:17,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:40:1: warning: ignoring attribute 'section (".iram1.22")' because it conflicts with previous 'section (".iram1.4")' [-Wattributes]
+   40 | void IRAM_ATTR delay_ms(uint32_t delay);
+      | ^~~~
+In file included from /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.h:7,
+                 from /home/artur/projects/personal/kairos/components/core/test/test_display.h:2,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:14,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:40:16: note: previous declaration here
+   40 | void IRAM_ATTR delay_ms(uint32_t delay);
+      |                ^~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/hal/modules/modules.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/lib/system/system.h:5,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:17,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:36:1: warning: ignoring attribute 'section (".iram1.23")' because it conflicts with previous 'section (".iram1.2")' [-Wattributes]
+   36 | unsigned long IRAM_ATTR micros();
+      | ^~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/lib/system/system.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:17,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:36:25: note: previous declaration here
+   36 | unsigned long IRAM_ATTR micros();
+      |                         ^~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/hal/modules/modules.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/lib/system/system.h:5,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:17,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:38:1: warning: ignoring attribute 'section (".iram1.24")' because it conflicts with previous 'section (".iram1.3")' [-Wattributes]
+   38 | void IRAM_ATTR delay_us(uint32_t us);
+      | ^~~~
+In file included from /home/artur/projects/personal/kairos/components/core/lib/system/system.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:17,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:38:16: note: previous declaration here
+   38 | void IRAM_ATTR delay_us(uint32_t us);
+      |                ^~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/hal/modules/modules.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/lib/system/system.h:5,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:17,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:40:1: warning: ignoring attribute 'section (".iram1.25")' because it conflicts with previous 'section (".iram1.4")' [-Wattributes]
+   40 | void IRAM_ATTR delay_ms(uint32_t delay);
+      | ^~~~
+In file included from /home/artur/projects/personal/kairos/components/core/lib/system/system.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:17,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:40:16: note: previous declaration here
+   40 | void IRAM_ATTR delay_ms(uint32_t delay);
+      |                ^~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/hal/rtc/rtc.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/hal/modules/modules.h:7,
+                 from /home/artur/projects/personal/kairos/components/core/lib/system/system.h:5,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:17,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:36:1: warning: ignoring attribute 'section (".iram1.26")' because it conflicts with previous 'section (".iram1.2")' [-Wattributes]
+   36 | unsigned long IRAM_ATTR micros();
+      | ^~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/hal/modules/modules.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/lib/system/system.h:5,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:17,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:36:25: note: previous declaration here
+   36 | unsigned long IRAM_ATTR micros();
+      |                         ^~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/hal/rtc/rtc.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/hal/modules/modules.h:7,
+                 from /home/artur/projects/personal/kairos/components/core/lib/system/system.h:5,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:17,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:38:1: warning: ignoring attribute 'section (".iram1.27")' because it conflicts with previous 'section (".iram1.3")' [-Wattributes]
+   38 | void IRAM_ATTR delay_us(uint32_t us);
+      | ^~~~
+In file included from /home/artur/projects/personal/kairos/components/core/hal/modules/modules.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/lib/system/system.h:5,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:17,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:38:16: note: previous declaration here
+   38 | void IRAM_ATTR delay_us(uint32_t us);
+      |                ^~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/hal/rtc/rtc.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/hal/modules/modules.h:7,
+                 from /home/artur/projects/personal/kairos/components/core/lib/system/system.h:5,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:17,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:40:1: warning: ignoring attribute 'section (".iram1.28")' because it conflicts with previous 'section (".iram1.4")' [-Wattributes]
+   40 | void IRAM_ATTR delay_ms(uint32_t delay);
+      | ^~~~
+In file included from /home/artur/projects/personal/kairos/components/core/hal/modules/modules.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/lib/system/system.h:5,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:17,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:40:16: note: previous declaration here
+   40 | void IRAM_ATTR delay_ms(uint32_t delay);
+      |                ^~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/hal/display/display.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/hal/modules/modules.h:8,
+                 from /home/artur/projects/personal/kairos/components/core/lib/system/system.h:5,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:17,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:36:1: warning: ignoring attribute 'section (".iram1.29")' because it conflicts with previous 'section (".iram1.2")' [-Wattributes]
+   36 | unsigned long IRAM_ATTR micros();
+      | ^~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/hal/rtc/rtc.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/hal/modules/modules.h:7,
+                 from /home/artur/projects/personal/kairos/components/core/lib/system/system.h:5,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:17,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:36:25: note: previous declaration here
+   36 | unsigned long IRAM_ATTR micros();
+      |                         ^~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/hal/display/display.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/hal/modules/modules.h:8,
+                 from /home/artur/projects/personal/kairos/components/core/lib/system/system.h:5,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:17,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:38:1: warning: ignoring attribute 'section (".iram1.30")' because it conflicts with previous 'section (".iram1.3")' [-Wattributes]
+   38 | void IRAM_ATTR delay_us(uint32_t us);
+      | ^~~~
+In file included from /home/artur/projects/personal/kairos/components/core/hal/rtc/rtc.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/hal/modules/modules.h:7,
+                 from /home/artur/projects/personal/kairos/components/core/lib/system/system.h:5,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:17,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:38:16: note: previous declaration here
+   38 | void IRAM_ATTR delay_us(uint32_t us);
+      |                ^~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/hal/display/display.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/hal/modules/modules.h:8,
+                 from /home/artur/projects/personal/kairos/components/core/lib/system/system.h:5,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:17,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:40:1: warning: ignoring attribute 'section (".iram1.31")' because it conflicts with previous 'section (".iram1.4")' [-Wattributes]
+   40 | void IRAM_ATTR delay_ms(uint32_t delay);
+      | ^~~~
+In file included from /home/artur/projects/personal/kairos/components/core/hal/rtc/rtc.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/hal/modules/modules.h:7,
+                 from /home/artur/projects/personal/kairos/components/core/lib/system/system.h:5,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:17,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:40:16: note: previous declaration here
+   40 | void IRAM_ATTR delay_ms(uint32_t delay);
+      |                ^~~~~~~~
+[826/848] Building C object esp-idf/core/CMakeFiles/__idf_core.dir/test/i2c_scanner.c.obj
+[827/848] Linking C static library esp-idf/mqtt/libmqtt.a
+[828/848] Building C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/scheme_softap.c.obj
+[829/848] Building C object esp-idf/core/CMakeFiles/__idf_core.dir/test/i2c_rtc.c.obj
+In file included from /home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:10,
+                 from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.h:2,
+                 from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:36:1: warning: ignoring attribute 'section (".iram1.5")' because it conflicts with previous 'section (".iram1.2")' [-Wattributes]
+   36 | unsigned long IRAM_ATTR micros();
+      | ^~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.h:1,
+                 from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:36:25: note: previous declaration here
+   36 | unsigned long IRAM_ATTR micros();
+      |                         ^~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:10,
+                 from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.h:2,
+                 from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:38:1: warning: ignoring attribute 'section (".iram1.6")' because it conflicts with previous 'section (".iram1.3")' [-Wattributes]
+   38 | void IRAM_ATTR delay_us(uint32_t us);
+      | ^~~~
+In file included from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.h:1,
+                 from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:38:16: note: previous declaration here
+   38 | void IRAM_ATTR delay_us(uint32_t us);
+      |                ^~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:10,
+                 from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.h:2,
+                 from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:40:1: warning: ignoring attribute 'section (".iram1.7")' because it conflicts with previous 'section (".iram1.4")' [-Wattributes]
+   40 | void IRAM_ATTR delay_ms(uint32_t delay);
+      | ^~~~
+In file included from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.h:1,
+                 from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:40:16: note: previous declaration here
+   40 | void IRAM_ATTR delay_ms(uint32_t delay);
+      |                ^~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/drv/protocols/i2c.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:11,
+                 from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.h:2,
+                 from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:36:1: warning: ignoring attribute 'section (".iram1.8")' because it conflicts with previous 'section (".iram1.2")' [-Wattributes]
+   36 | unsigned long IRAM_ATTR micros();
+      | ^~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:10,
+                 from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.h:2,
+                 from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:36:25: note: previous declaration here
+   36 | unsigned long IRAM_ATTR micros();
+      |                         ^~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/drv/protocols/i2c.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:11,
+                 from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.h:2,
+                 from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:38:1: warning: ignoring attribute 'section (".iram1.9")' because it conflicts with previous 'section (".iram1.3")' [-Wattributes]
+   38 | void IRAM_ATTR delay_us(uint32_t us);
+      | ^~~~
+In file included from /home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:10,
+                 from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.h:2,
+                 from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:38:16: note: previous declaration here
+   38 | void IRAM_ATTR delay_us(uint32_t us);
+      |                ^~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/drv/protocols/i2c.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:11,
+                 from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.h:2,
+                 from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:40:1: warning: ignoring attribute 'section (".iram1.10")' because it conflicts with previous 'section (".iram1.4")' [-Wattributes]
+   40 | void IRAM_ATTR delay_ms(uint32_t delay);
+      | ^~~~
+In file included from /home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:10,
+                 from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.h:2,
+                 from /home/artur/projects/personal/kairos/components/core/test/i2c_rtc.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:40:16: note: previous declaration here
+   40 | void IRAM_ATTR delay_ms(uint32_t delay);
+      |                ^~~~~~~~
+[830/848] Building C object esp-idf/core/CMakeFiles/__idf_core.dir/test/test_display.c.obj
+In file included from /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.h:7,
+                 from /home/artur/projects/personal/kairos/components/core/test/test_display.h:2,
+                 from /home/artur/projects/personal/kairos/components/core/test/test_display.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:36:1: warning: ignoring attribute 'section (".iram1.5")' because it conflicts with previous 'section (".iram1.2")' [-Wattributes]
+   36 | unsigned long IRAM_ATTR micros();
+      | ^~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/test/test_display.h:1,
+                 from /home/artur/projects/personal/kairos/components/core/test/test_display.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:36:25: note: previous declaration here
+   36 | unsigned long IRAM_ATTR micros();
+      |                         ^~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.h:7,
+                 from /home/artur/projects/personal/kairos/components/core/test/test_display.h:2,
+                 from /home/artur/projects/personal/kairos/components/core/test/test_display.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:38:1: warning: ignoring attribute 'section (".iram1.6")' because it conflicts with previous 'section (".iram1.3")' [-Wattributes]
+   38 | void IRAM_ATTR delay_us(uint32_t us);
+      | ^~~~
+In file included from /home/artur/projects/personal/kairos/components/core/test/test_display.h:1,
+                 from /home/artur/projects/personal/kairos/components/core/test/test_display.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:38:16: note: previous declaration here
+   38 | void IRAM_ATTR delay_us(uint32_t us);
+      |                ^~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.h:7,
+                 from /home/artur/projects/personal/kairos/components/core/test/test_display.h:2,
+                 from /home/artur/projects/personal/kairos/components/core/test/test_display.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:40:1: warning: ignoring attribute 'section (".iram1.7")' because it conflicts with previous 'section (".iram1.4")' [-Wattributes]
+   40 | void IRAM_ATTR delay_ms(uint32_t delay);
+      | ^~~~
+In file included from /home/artur/projects/personal/kairos/components/core/test/test_display.h:1,
+                 from /home/artur/projects/personal/kairos/components/core/test/test_display.c:1:
+/home/artur/projects/personal/kairos/components/core/def/common.h:40:16: note: previous declaration here
+   40 | void IRAM_ATTR delay_ms(uint32_t delay);
+      |                ^~~~~~~~
+/home/artur/projects/personal/kairos/components/core/test/test_display.c:3:20: warning: 'TAG' defined but not used [-Wunused-variable]
+    3 | static const char *TAG = "TEST_DISPLAY";
+      |                    ^~~
+[831/848] Building C object esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_nucleus.c.obj
+[832/848] Building C object esp-idf/core/CMakeFiles/__idf_core.dir/drv/protocols/i2c.c.obj
+[833/848] Building C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/manager.c.obj
+ninja: build stopped: subcommand failed.

@@ -1,0 +1,7 @@
+[0/1] Re-running CMake...
+-- Project is not inside a git repository, or git repository has no commits; will not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32
+-- Configuring incomplete, errors occurred!
+See also "/home/artur/projects/personal/kairos/build/CMakeFiles/CMakeOutput.log".
+FAILED: build.ninja 
+/usr/bin/cmake --regenerate-during-build -S/home/artur/projects/personal/kairos -B/home/artur/projects/personal/kairos/build

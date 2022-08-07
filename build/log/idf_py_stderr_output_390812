@@ -1,0 +1,23 @@
+[0;33m--- idf_monitor on /dev/ttyACM0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+Exception in thread Thread-2 (_run_outer):
+Traceback (most recent call last):
+  File "/home/artur/.espressif/python_env/idf5.0_py3.10_env/lib/python3.10/site-packages/serial/serialposix.py", line 322, in open
+[0m
+    self.fd = os.open(self.portstr, os.O_RDWR | os.O_NOCTTY | os.O_NONBLOCK)
+PermissionError: [Errno 13] Permission denied: '/dev/ttyACM0'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/artur/esp/esp-idf/tools/idf_monitor_base/stoppable_thread.py", line 47, in _run_outer
+    self.run()
+  File "/home/artur/esp/esp-idf/tools/idf_monitor_base/serial_reader.py", line 52, in run
+    self.serial.open()
+  File "/home/artur/.espressif/python_env/idf5.0_py3.10_env/lib/python3.10/site-packages/serial/serialposix.py", line 325, in open
+    raise SerialException(msg.errno, "could not open port {}: {}".format(self._port, msg))
+serial.serialutil.SerialException: [Errno 13] could not open port /dev/ttyACM0: [Errno 13] Permission denied: '/dev/ttyACM0'

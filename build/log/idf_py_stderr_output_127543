@@ -1,0 +1,590 @@
+[0;33m--- idf_monitor on /dev/ttyACM0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x4008105c: call_start_cpu1 at /home/artur/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x400d6d18: task_wdt_isr at /home/artur/esp/esp-idf/components/esp_system/task_wdt.c:391 (discriminator 3)
+[0m
+[0;33m0x40082659: _xt_lowint1 at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1117
+[0m
+[0;33m0x400d51e1: app_main at /home/artur/projects/personal/kairos/main/main.c:9
+[0m
+[0;33m0x400e5e4a: main_task at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/port_common.c:131 (discriminator 2)
+[0m
+[0;33m0x40087d91: vPortTaskWrapper at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x400842f2: esp_crosscore_isr at /home/artur/esp/esp-idf/components/esp_system/crosscore_int.c:95
+[0m
+[0;33m0x40082659: _xt_lowint1 at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1117
+[0m
+[0;33m0x400d5cf2: gpio_ll_get_level at /home/artur/esp/esp-idf/components/hal/esp32/include/hal/gpio_ll.h:455
+ (inlined by) gpio_get_level at /home/artur/esp/esp-idf/components/driver/gpio/gpio.c:233
+[0m
+[0;33m0x400d5349: Epaper_READBUSY at /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.c:154
+[0m
+[0;33m0x400d5410: EPD_Update at /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.c:134
+[0m
+[0;33m0x400d5493: EPD_SetRAMValue_BaseMap at /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.c:174
+[0m
+[0;33m0x400d5200: task_test_display at /home/artur/projects/personal/kairos/components/core/test/test_display.c:13
+[0m
+[0;33m0x40087d91: vPortTaskWrapper at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x400d6d18: task_wdt_isr at /home/artur/esp/esp-idf/components/esp_system/task_wdt.c:391 (discriminator 3)
+[0m
+[0;33m0x40082659: _xt_lowint1 at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1117
+[0m
+[0;33m0x400d51e1: app_main at /home/artur/projects/personal/kairos/main/main.c:9
+[0m
+[0;33m0x400e5e4a: main_task at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/port_common.c:131 (discriminator 2)
+[0m
+[0;33m0x40087d91: vPortTaskWrapper at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x400842f2: esp_crosscore_isr at /home/artur/esp/esp-idf/components/esp_system/crosscore_int.c:95
+[0m
+[0;33m0x40082659: _xt_lowint1 at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1117
+[0m
+[0;33m0x400d5cf2: gpio_ll_get_level at /home/artur/esp/esp-idf/components/hal/esp32/include/hal/gpio_ll.h:455
+ (inlined by) gpio_get_level at /home/artur/esp/esp-idf/components/driver/gpio/gpio.c:233
+[0m
+[0;33m0x400d5349: Epaper_READBUSY at /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.c:154
+[0m
+[0;33m0x400d5450: EPD_Part_Update at /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.c:142
+[0m
+[0;33m0x400d554f: EPD_Dis_Part at /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.c:221
+[0m
+[0;33m0x400d525a: task_test_display at /home/artur/projects/personal/kairos/components/core/test/test_display.c:20
+[0m
+[0;33m0x40087d91: vPortTaskWrapper at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x400d6d18: task_wdt_isr at /home/artur/esp/esp-idf/components/esp_system/task_wdt.c:391 (discriminator 3)
+[0m
+[0;33m0x40082659: _xt_lowint1 at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1117
+[0m
+[0;33m0x400d51e1: app_main at /home/artur/projects/personal/kairos/main/main.c:9
+[0m
+[0;33m0x400e5e4a: main_task at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/port_common.c:131 (discriminator 2)
+[0m
+[0;33m0x40087d91: vPortTaskWrapper at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x400842f2: esp_crosscore_isr at /home/artur/esp/esp-idf/components/esp_system/crosscore_int.c:95
+[0m
+[0;33m0x40082659: _xt_lowint1 at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1117
+[0m
+[0;33m0x400d5cf2: gpio_ll_get_level at /home/artur/esp/esp-idf/components/hal/esp32/include/hal/gpio_ll.h:455
+ (inlined by) gpio_get_level at /home/artur/esp/esp-idf/components/driver/gpio/gpio.c:233
+[0m
+[0;33m0x400d5349: Epaper_READBUSY at /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.c:154
+[0m
+[0;33m0x400d5410: EPD_Update at /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.c:134
+[0m
+[0;33m0x400d557e: EPD_WhiteScreen_White at /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.c:253
+[0m
+[0;33m0x400d5291: task_test_display at /home/artur/projects/personal/kairos/components/core/test/test_display.c:29
+[0m
+[0;33m0x40087d91: vPortTaskWrapper at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x40087daf: vPortTaskWrapper at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:155
+[0m
+[0;33m0x40081ada: panic_abort at /home/artur/esp/esp-idf/components/esp_system/panic.c:408
+[0m
+[0;33m0x40085601: esp_system_abort at /home/artur/esp/esp-idf/components/esp_system/esp_system.c:135
+[0m
+[0;33m0x4008a1e2: abort at /home/artur/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x40087daf: vPortTaskWrapper at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:155
+[0m
+[0;33m0x4008105c: call_start_cpu1 at /home/artur/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x400d6d18: task_wdt_isr at /home/artur/esp/esp-idf/components/esp_system/task_wdt.c:391 (discriminator 3)
+[0m
+[0;33m0x40082659: _xt_lowint1 at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1117
+[0m
+[0;33m0x400d51e1: app_main at /home/artur/projects/personal/kairos/main/main.c:9
+[0m
+[0;33m0x400e5e4a: main_task at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/port_common.c:131 (discriminator 2)
+[0m
+[0;33m0x40087d91: vPortTaskWrapper at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x400842f2: esp_crosscore_isr at /home/artur/esp/esp-idf/components/esp_system/crosscore_int.c:95
+[0m
+[0;33m0x40082659: _xt_lowint1 at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1117
+[0m
+[0;33m0x400d5cf2: gpio_ll_get_level at /home/artur/esp/esp-idf/components/hal/esp32/include/hal/gpio_ll.h:455
+ (inlined by) gpio_get_level at /home/artur/esp/esp-idf/components/driver/gpio/gpio.c:233
+[0m
+[0;33m0x400d5349: Epaper_READBUSY at /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.c:154
+[0m
+[0;33m0x400d5410: EPD_Update at /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.c:134
+[0m
+[0;33m0x400d5493: EPD_SetRAMValue_BaseMap at /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.c:174
+[0m
+[0;33m0x400d5200: task_test_display at /home/artur/projects/personal/kairos/components/core/test/test_display.c:13
+[0m
+[0;33m0x40087d91: vPortTaskWrapper at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x400d6d18: task_wdt_isr at /home/artur/esp/esp-idf/components/esp_system/task_wdt.c:391 (discriminator 3)
+[0m
+[0;33m0x40082659: _xt_lowint1 at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1117
+[0m
+[0;33m0x400d51e1: app_main at /home/artur/projects/personal/kairos/main/main.c:9
+[0m
+[0;33m0x400e5e4a: main_task at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/port_common.c:131 (discriminator 2)
+[0m
+[0;33m0x40087d91: vPortTaskWrapper at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x400842f2: esp_crosscore_isr at /home/artur/esp/esp-idf/components/esp_system/crosscore_int.c:95
+[0m
+[0;33m0x40082659: _xt_lowint1 at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1117
+[0m
+[0;33m0x400d5cf2: gpio_ll_get_level at /home/artur/esp/esp-idf/components/hal/esp32/include/hal/gpio_ll.h:455
+ (inlined by) gpio_get_level at /home/artur/esp/esp-idf/components/driver/gpio/gpio.c:233
+[0m
+[0;33m0x400d5349: Epaper_READBUSY at /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.c:154
+[0m
+[0;33m0x400d5450: EPD_Part_Update at /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.c:142
+[0m
+[0;33m0x400d554f: EPD_Dis_Part at /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.c:221
+[0m
+[0;33m0x400d525a: task_test_display at /home/artur/projects/personal/kairos/components/core/test/test_display.c:20
+[0m
+[0;33m0x40087d91: vPortTaskWrapper at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x400d6d18: task_wdt_isr at /home/artur/esp/esp-idf/components/esp_system/task_wdt.c:391 (discriminator 3)
+[0m
+[0;33m0x40082659: _xt_lowint1 at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1117
+[0m
+[0;33m0x400d51e1: app_main at /home/artur/projects/personal/kairos/main/main.c:9
+[0m
+[0;33m0x400e5e4a: main_task at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/port_common.c:131 (discriminator 2)
+[0m
+[0;33m0x40087d91: vPortTaskWrapper at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x400842f2: esp_crosscore_isr at /home/artur/esp/esp-idf/components/esp_system/crosscore_int.c:95
+[0m
+[0;33m0x40082659: _xt_lowint1 at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1117
+[0m
+[0;33m0x400d5cf2: gpio_ll_get_level at /home/artur/esp/esp-idf/components/hal/esp32/include/hal/gpio_ll.h:455
+ (inlined by) gpio_get_level at /home/artur/esp/esp-idf/components/driver/gpio/gpio.c:233
+[0m
+[0;33m0x400d5349: Epaper_READBUSY at /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.c:154
+[0m
+[0;33m0x400d5410: EPD_Update at /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.c:134
+[0m
+[0;33m0x400d557e: EPD_WhiteScreen_White at /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.c:253
+[0m
+[0;33m0x400d5291: task_test_display at /home/artur/projects/personal/kairos/components/core/test/test_display.c:29
+[0m
+[0;33m0x40087d91: vPortTaskWrapper at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x40087daf: vPortTaskWrapper at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:155
+[0m
+[0;33m0x40081ada: panic_abort at /home/artur/esp/esp-idf/components/esp_system/panic.c:408
+[0m
+[0;33m0x40085601: esp_system_abort at /home/artur/esp/esp-idf/components/esp_system/esp_system.c:135
+[0m
+[0;33m0x4008a1e2: abort at /home/artur/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x40087daf: vPortTaskWrapper at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:155
+[0m
+[0;33m0x4008105c: call_start_cpu1 at /home/artur/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x400d6d18: task_wdt_isr at /home/artur/esp/esp-idf/components/esp_system/task_wdt.c:391 (discriminator 3)
+[0m
+[0;33m0x40082659: _xt_lowint1 at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1117
+[0m
+[0;33m0x400d51e1: app_main at /home/artur/projects/personal/kairos/main/main.c:9
+[0m
+[0;33m0x400e5e4a: main_task at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/port_common.c:131 (discriminator 2)
+[0m
+[0;33m0x40087d91: vPortTaskWrapper at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x400842f2: esp_crosscore_isr at /home/artur/esp/esp-idf/components/esp_system/crosscore_int.c:95
+[0m
+[0;33m0x40082659: _xt_lowint1 at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1117
+[0m
+[0;33m0x400d5cf2: gpio_ll_get_level at /home/artur/esp/esp-idf/components/hal/esp32/include/hal/gpio_ll.h:455
+ (inlined by) gpio_get_level at /home/artur/esp/esp-idf/components/driver/gpio/gpio.c:233
+[0m
+[0;33m0x400d5349: Epaper_READBUSY at /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.c:154
+[0m
+[0;33m0x400d5410: EPD_Update at /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.c:134
+[0m
+[0;33m0x400d5493: EPD_SetRAMValue_BaseMap at /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.c:174
+[0m
+[0;33m0x400d5200: task_test_display at /home/artur/projects/personal/kairos/components/core/test/test_display.c:13
+[0m
+[0;33m0x40087d91: vPortTaskWrapper at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x400d6d18: task_wdt_isr at /home/artur/esp/esp-idf/components/esp_system/task_wdt.c:391 (discriminator 3)
+[0m
+[0;33m0x40082659: _xt_lowint1 at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1117
+[0m
+[0;33m0x400d51e1: app_main at /home/artur/projects/personal/kairos/main/main.c:9
+[0m
+[0;33m0x400e5e4a: main_task at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/port_common.c:131 (discriminator 2)
+[0m
+[0;33m0x40087d91: vPortTaskWrapper at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x400842f2: esp_crosscore_isr at /home/artur/esp/esp-idf/components/esp_system/crosscore_int.c:95
+[0m
+[0;33m0x40082659: _xt_lowint1 at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1117
+[0m
+[0;33m0x400d5cf2: gpio_ll_get_level at /home/artur/esp/esp-idf/components/hal/esp32/include/hal/gpio_ll.h:455
+ (inlined by) gpio_get_level at /home/artur/esp/esp-idf/components/driver/gpio/gpio.c:233
+[0m
+[0;33m0x400d5349: Epaper_READBUSY at /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.c:154
+[0m
+[0;33m0x400d5450: EPD_Part_Update at /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.c:142
+[0m
+[0;33m0x400d554f: EPD_Dis_Part at /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.c:221
+[0m
+[0;33m0x400d525a: task_test_display at /home/artur/projects/personal/kairos/components/core/test/test_display.c:20
+[0m
+[0;33m0x40087d91: vPortTaskWrapper at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x400d6d18: task_wdt_isr at /home/artur/esp/esp-idf/components/esp_system/task_wdt.c:391 (discriminator 3)
+[0m
+[0;33m0x40082659: _xt_lowint1 at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1117
+[0m
+[0;33m0x400d51e1: app_main at /home/artur/projects/personal/kairos/main/main.c:9
+[0m
+[0;33m0x400e5e4a: main_task at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/port_common.c:131 (discriminator 2)
+[0m
+[0;33m0x40087d91: vPortTaskWrapper at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x400842f2: esp_crosscore_isr at /home/artur/esp/esp-idf/components/esp_system/crosscore_int.c:95
+[0m
+[0;33m0x40082659: _xt_lowint1 at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1117
+[0m
+[0;33m0x400d5cf2: gpio_ll_get_level at /home/artur/esp/esp-idf/components/hal/esp32/include/hal/gpio_ll.h:455
+ (inlined by) gpio_get_level at /home/artur/esp/esp-idf/components/driver/gpio/gpio.c:233
+[0m
+[0;33m0x400d5349: Epaper_READBUSY at /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.c:154
+[0m
+[0;33m0x400d5410: EPD_Update at /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.c:134
+[0m
+[0;33m0x400d557e: EPD_WhiteScreen_White at /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.c:253
+[0m
+[0;33m0x400d5291: task_test_display at /home/artur/projects/personal/kairos/components/core/test/test_display.c:29
+[0m
+[0;33m0x40087d91: vPortTaskWrapper at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x40087daf: vPortTaskWrapper at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:155
+[0m
+[0;33m0x40081ada: panic_abort at /home/artur/esp/esp-idf/components/esp_system/panic.c:408
+[0m
+[0;33m0x40085601: esp_system_abort at /home/artur/esp/esp-idf/components/esp_system/esp_system.c:135
+[0m
+[0;33m0x4008a1e2: abort at /home/artur/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x40087daf: vPortTaskWrapper at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:155
+[0m
+[0;33m0x4008105c: call_start_cpu1 at /home/artur/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x400d6d18: task_wdt_isr at /home/artur/esp/esp-idf/components/esp_system/task_wdt.c:391 (discriminator 3)
+[0m
+[0;33m0x40082659: _xt_lowint1 at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1117
+[0m
+[0;33m0x400d51e1: app_main at /home/artur/projects/personal/kairos/main/main.c:9
+[0m
+[0;33m0x400e5e4a: main_task at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/port_common.c:131 (discriminator 2)
+[0m
+[0;33m0x40087d91: vPortTaskWrapper at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x400842f2: esp_crosscore_isr at /home/artur/esp/esp-idf/components/esp_system/crosscore_int.c:95
+[0m
+[0;33m0x40082659: _xt_lowint1 at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1117
+[0m
+[0;33m0x400d5cf2: gpio_ll_get_level at /home/artur/esp/esp-idf/components/hal/esp32/include/hal/gpio_ll.h:455
+ (inlined by) gpio_get_level at /home/artur/esp/esp-idf/components/driver/gpio/gpio.c:233
+[0m
+[0;33m0x400d5349: Epaper_READBUSY at /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.c:154
+[0m
+[0;33m0x400d5410: EPD_Update at /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.c:134
+[0m
+[0;33m0x400d5493: EPD_SetRAMValue_BaseMap at /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.c:174
+[0m
+[0;33m0x400d5200: task_test_display at /home/artur/projects/personal/kairos/components/core/test/test_display.c:13
+[0m
+[0;33m0x40087d91: vPortTaskWrapper at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x400d6d18: task_wdt_isr at /home/artur/esp/esp-idf/components/esp_system/task_wdt.c:391 (discriminator 3)
+[0m
+[0;33m0x40082659: _xt_lowint1 at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1117
+[0m
+[0;33m0x400d51e1: app_main at /home/artur/projects/personal/kairos/main/main.c:9
+[0m
+[0;33m0x400e5e4a: main_task at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/port_common.c:131 (discriminator 2)
+[0m
+[0;33m0x40087d91: vPortTaskWrapper at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x400842f2: esp_crosscore_isr at /home/artur/esp/esp-idf/components/esp_system/crosscore_int.c:95
+[0m
+[0;33m0x40082659: _xt_lowint1 at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1117
+[0m
+[0;33m0x400d5cf2: gpio_ll_get_level at /home/artur/esp/esp-idf/components/hal/esp32/include/hal/gpio_ll.h:455
+ (inlined by) gpio_get_level at /home/artur/esp/esp-idf/components/driver/gpio/gpio.c:233
+[0m
+[0;33m0x400d5349: Epaper_READBUSY at /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.c:154
+[0m
+[0;33m0x400d5450: EPD_Part_Update at /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.c:142
+[0m
+[0;33m0x400d554f: EPD_Dis_Part at /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.c:221
+[0m
+[0;33m0x400d525a: task_test_display at /home/artur/projects/personal/kairos/components/core/test/test_display.c:20
+[0m
+[0;33m0x40087d91: vPortTaskWrapper at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x400d6d18: task_wdt_isr at /home/artur/esp/esp-idf/components/esp_system/task_wdt.c:391 (discriminator 3)
+[0m
+[0;33m0x40082659: _xt_lowint1 at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1117
+[0m
+[0;33m0x400d51e1: app_main at /home/artur/projects/personal/kairos/main/main.c:9
+[0m
+[0;33m0x400e5e4a: main_task at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/port_common.c:131 (discriminator 2)
+[0m
+[0;33m0x40087d91: vPortTaskWrapper at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x400842f2: esp_crosscore_isr at /home/artur/esp/esp-idf/components/esp_system/crosscore_int.c:95
+[0m
+[0;33m0x40082659: _xt_lowint1 at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1117
+[0m
+[0;33m0x400d5cf2: gpio_ll_get_level at /home/artur/esp/esp-idf/components/hal/esp32/include/hal/gpio_ll.h:455
+ (inlined by) gpio_get_level at /home/artur/esp/esp-idf/components/driver/gpio/gpio.c:233
+[0m
+[0;33m0x400d5349: Epaper_READBUSY at /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.c:154
+[0m
+[0;33m0x400d5410: EPD_Update at /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.c:134
+[0m
+[0;33m0x400d557e: EPD_WhiteScreen_White at /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.c:253
+[0m
+[0;33m0x400d5291: task_test_display at /home/artur/projects/personal/kairos/components/core/test/test_display.c:29
+[0m
+[0;33m0x40087d91: vPortTaskWrapper at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x40087daf: vPortTaskWrapper at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:155
+[0m
+[0;33m0x40081ada: panic_abort at /home/artur/esp/esp-idf/components/esp_system/panic.c:408
+[0m
+[0;33m0x40085601: esp_system_abort at /home/artur/esp/esp-idf/components/esp_system/esp_system.c:135
+[0m
+[0;33m0x4008a1e2: abort at /home/artur/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x40087daf: vPortTaskWrapper at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:155
+[0m
+[0;33m0x4008105c: call_start_cpu1 at /home/artur/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x400d6d18: task_wdt_isr at /home/artur/esp/esp-idf/components/esp_system/task_wdt.c:391 (discriminator 3)
+[0m
+[0;33m0x40082659: _xt_lowint1 at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1117
+[0m
+[0;33m0x400d51e1: app_main at /home/artur/projects/personal/kairos/main/main.c:9
+[0m
+[0;33m0x400e5e4a: main_task at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/port_common.c:131 (discriminator 2)
+[0m
+[0;33m0x40087d91: vPortTaskWrapper at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x400842f2: esp_crosscore_isr at /home/artur/esp/esp-idf/components/esp_system/crosscore_int.c:95
+[0m
+[0;33m0x40082659: _xt_lowint1 at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1117
+[0m
+[0;33m0x400d5cf2: gpio_ll_get_level at /home/artur/esp/esp-idf/components/hal/esp32/include/hal/gpio_ll.h:455
+ (inlined by) gpio_get_level at /home/artur/esp/esp-idf/components/driver/gpio/gpio.c:233
+[0m
+[0;33m0x400d5349: Epaper_READBUSY at /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.c:154
+[0m
+[0;33m0x400d5410: EPD_Update at /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.c:134
+[0m
+[0;33m0x400d5493: EPD_SetRAMValue_BaseMap at /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.c:174
+[0m
+[0;33m0x400d5200: task_test_display at /home/artur/projects/personal/kairos/components/core/test/test_display.c:13
+[0m
+[0;33m0x40087d91: vPortTaskWrapper at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x400d6d18: task_wdt_isr at /home/artur/esp/esp-idf/components/esp_system/task_wdt.c:391 (discriminator 3)
+[0m
+[0;33m0x40082659: _xt_lowint1 at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1117
+[0m
+[0;33m0x400d51e1: app_main at /home/artur/projects/personal/kairos/main/main.c:9
+[0m
+[0;33m0x400e5e4a: main_task at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/port_common.c:131 (discriminator 2)
+[0m
+[0;33m0x40087d91: vPortTaskWrapper at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x400842f2: esp_crosscore_isr at /home/artur/esp/esp-idf/components/esp_system/crosscore_int.c:95
+[0m
+[0;33m0x40082659: _xt_lowint1 at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1117
+[0m
+[0;33m0x400d5cf2: gpio_ll_get_level at /home/artur/esp/esp-idf/components/hal/esp32/include/hal/gpio_ll.h:455
+ (inlined by) gpio_get_level at /home/artur/esp/esp-idf/components/driver/gpio/gpio.c:233
+[0m
+[0;33m0x400d5349: Epaper_READBUSY at /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.c:154
+[0m
+[0;33m0x400d5450: EPD_Part_Update at /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.c:142
+[0m
+[0;33m0x400d554f: EPD_Dis_Part at /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.c:221
+[0m
+[0;33m0x400d525a: task_test_display at /home/artur/projects/personal/kairos/components/core/test/test_display.c:20
+[0m
+[0;33m0x40087d91: vPortTaskWrapper at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x400d6d18: task_wdt_isr at /home/artur/esp/esp-idf/components/esp_system/task_wdt.c:391 (discriminator 3)
+[0m
+[0;33m0x40082659: _xt_lowint1 at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1117
+[0m
+[0;33m0x400d51e1: app_main at /home/artur/projects/personal/kairos/main/main.c:9
+[0m
+[0;33m0x400e5e4a: main_task at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/port_common.c:131 (discriminator 2)
+[0m
+[0;33m0x40087d91: vPortTaskWrapper at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x400842f2: esp_crosscore_isr at /home/artur/esp/esp-idf/components/esp_system/crosscore_int.c:95
+[0m
+[0;33m0x40082659: _xt_lowint1 at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1117
+[0m
+[0;33m0x400d5cf2: gpio_ll_get_level at /home/artur/esp/esp-idf/components/hal/esp32/include/hal/gpio_ll.h:455
+ (inlined by) gpio_get_level at /home/artur/esp/esp-idf/components/driver/gpio/gpio.c:233
+[0m
+[0;33m0x400d5349: Epaper_READBUSY at /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.c:154
+[0m
+[0;33m0x400d5410: EPD_Update at /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.c:134
+[0m
+[0;33m0x400d557e: EPD_WhiteScreen_White at /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.c:253
+[0m
+[0;33m0x400d5291: task_test_display at /home/artur/projects/personal/kairos/components/core/test/test_display.c:29
+[0m
+[0;33m0x40087d91: vPortTaskWrapper at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x40087daf: vPortTaskWrapper at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:155
+[0m
+[0;33m0x40081ada: panic_abort at /home/artur/esp/esp-idf/components/esp_system/panic.c:408
+[0m
+[0;33m0x40085601: esp_system_abort at /home/artur/esp/esp-idf/components/esp_system/esp_system.c:135
+[0m
+[0;33m0x4008a1e2: abort at /home/artur/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x40087daf: vPortTaskWrapper at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:155
+[0m
+[0;33m0x4008105c: call_start_cpu1 at /home/artur/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x400d6d18: task_wdt_isr at /home/artur/esp/esp-idf/components/esp_system/task_wdt.c:391 (discriminator 3)
+[0m
+[0;33m0x40082659: _xt_lowint1 at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1117
+[0m
+[0;33m0x400d51e1: app_main at /home/artur/projects/personal/kairos/main/main.c:9
+[0m
+[0;33m0x400e5e4a: main_task at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/port_common.c:131 (discriminator 2)
+[0m
+[0;33m0x40087d91: vPortTaskWrapper at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x400842f2: esp_crosscore_isr at /home/artur/esp/esp-idf/components/esp_system/crosscore_int.c:95
+[0m
+[0;33m0x40082659: _xt_lowint1 at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1117
+[0m
+[0;33m0x400d5cf2: gpio_ll_get_level at /home/artur/esp/esp-idf/components/hal/esp32/include/hal/gpio_ll.h:455
+ (inlined by) gpio_get_level at /home/artur/esp/esp-idf/components/driver/gpio/gpio.c:233
+[0m
+[0;33m0x400d5349: Epaper_READBUSY at /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.c:154
+[0m
+[0;33m0x400d5410: EPD_Update at /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.c:134
+[0m
+[0;33m0x400d5493: EPD_SetRAMValue_BaseMap at /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.c:174
+[0m
+[0;33m0x400d5200: task_test_display at /home/artur/projects/personal/kairos/components/core/test/test_display.c:13
+[0m
+[0;33m0x40087d91: vPortTaskWrapper at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x400d6d18: task_wdt_isr at /home/artur/esp/esp-idf/components/esp_system/task_wdt.c:391 (discriminator 3)
+[0m
+[0;33m0x40082659: _xt_lowint1 at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1117
+[0m
+[0;33m0x400d51e1: app_main at /home/artur/projects/personal/kairos/main/main.c:9
+[0m
+[0;33m0x400e5e4a: main_task at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/port_common.c:131 (discriminator 2)
+[0m
+[0;33m0x40087d91: vPortTaskWrapper at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x400842f2: esp_crosscore_isr at /home/artur/esp/esp-idf/components/esp_system/crosscore_int.c:95
+[0m
+[0;33m0x40082659: _xt_lowint1 at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1117
+[0m
+[0;33m0x400d5cf2: gpio_ll_get_level at /home/artur/esp/esp-idf/components/hal/esp32/include/hal/gpio_ll.h:455
+ (inlined by) gpio_get_level at /home/artur/esp/esp-idf/components/driver/gpio/gpio.c:233
+[0m
+[0;33m0x400d5349: Epaper_READBUSY at /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.c:154
+[0m
+[0;33m0x400d5450: EPD_Part_Update at /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.c:142
+[0m
+[0;33m0x400d554f: EPD_Dis_Part at /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.c:221
+[0m
+[0;33m0x400d525a: task_test_display at /home/artur/projects/personal/kairos/components/core/test/test_display.c:20
+[0m
+[0;33m0x40087d91: vPortTaskWrapper at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x400d6d18: task_wdt_isr at /home/artur/esp/esp-idf/components/esp_system/task_wdt.c:391 (discriminator 3)
+[0m
+[0;33m0x40082659: _xt_lowint1 at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1117
+[0m
+[0;33m0x400d51e1: app_main at /home/artur/projects/personal/kairos/main/main.c:9
+[0m
+[0;33m0x400e5e4a: main_task at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/port_common.c:131 (discriminator 2)
+[0m
+[0;33m0x40087d91: vPortTaskWrapper at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x400842f2: esp_crosscore_isr at /home/artur/esp/esp-idf/components/esp_system/crosscore_int.c:95
+[0m
+[0;33m0x40082659: _xt_lowint1 at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1117
+[0m
+[0;33m0x400d5cf2: gpio_ll_get_level at /home/artur/esp/esp-idf/components/hal/esp32/include/hal/gpio_ll.h:455
+ (inlined by) gpio_get_level at /home/artur/esp/esp-idf/components/driver/gpio/gpio.c:233
+[0m
+[0;33m0x400d5349: Epaper_READBUSY at /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.c:154
+[0m
+[0;33m0x400d5410: EPD_Update at /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.c:134
+[0m
+[0;33m0x400d557e: EPD_WhiteScreen_White at /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.c:253
+[0m
+[0;33m0x400d5291: task_test_display at /home/artur/projects/personal/kairos/components/core/test/test_display.c:29
+[0m
+[0;33m0x40087d91: vPortTaskWrapper at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x40087daf: vPortTaskWrapper at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:155
+[0m
+[0;33m0x40081ada: panic_abort at /home/artur/esp/esp-idf/components/esp_system/panic.c:408
+[0m
+[0;33m0x40085601: esp_system_abort at /home/artur/esp/esp-idf/components/esp_system/esp_system.c:135
+[0m
+[0;33m0x4008a1e2: abort at /home/artur/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x40087daf: vPortTaskWrapper at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:155
+[0m
+[0;33m0x4008105c: call_start_cpu1 at /home/artur/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x400d6d18: task_wdt_isr at /home/artur/esp/esp-idf/components/esp_system/task_wdt.c:391 (discriminator 3)
+[0m
+[0;33m0x40082659: _xt_lowint1 at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1117
+[0m
+[0;33m0x400d51e1: app_main at /home/artur/projects/personal/kairos/main/main.c:9
+[0m
+[0;33m0x400e5e4a: main_task at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/port_common.c:131 (discriminator 2)
+[0m
+[0;33m0x40087d91: vPortTaskWrapper at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x400842f2: esp_crosscore_isr at /home/artur/esp/esp-idf/components/esp_system/crosscore_int.c:95
+[0m
+[0;33m0x40082659: _xt_lowint1 at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1117
+[0m
+[0;33m0x400d5cf2: gpio_ll_get_level at /home/artur/esp/esp-idf/components/hal/esp32/include/hal/gpio_ll.h:455
+ (inlined by) gpio_get_level at /home/artur/esp/esp-idf/components/driver/gpio/gpio.c:233
+[0m
+[0;33m0x400d5349: Epaper_READBUSY at /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.c:154
+[0m
+[0;33m0x400d5410: EPD_Update at /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.c:134
+[0m
+[0;33m0x400d5493: EPD_SetRAMValue_BaseMap at /home/artur/projects/personal/kairos/components/core/drv/display/gdeh0154d67.c:174
+[0m
+[0;33m0x400d5200: task_test_display at /home/artur/projects/personal/kairos/components/core/test/test_display.c:13
+[0m
+[0;33m0x40087d91: vPortTaskWrapper at /home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0m

@@ -1,0 +1,260 @@
+[1/14] Building C object esp-idf/core/CMakeFiles/__idf_core.dir/hal/time/time.c.obj
+FAILED: esp-idf/core/CMakeFiles/__idf_core.dir/hal/time/time.c.obj 
+/home/artur/.espressif/tools/xtensa-esp32-elf/esp-2022r1-RC1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  -I/home/artur/projects/personal/kairos/build/config -I/home/artur/projects/personal/kairos/components/core -I/home/artur/projects/personal/kairos/components/core/test -I/home/artur/projects/personal/kairos/components/core/drv/protocols -I/home/artur/projects/personal/kairos/components/core/drv/rtc -I/home/artur/projects/personal/kairos/components/core/hal/time -I/home/artur/projects/personal/kairos/components/core/hal/modules -I/home/artur/projects/personal/kairos/components/core/lib/system -I/home/artur/esp/esp-idf/components/newlib/platform_include -I/home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include -I/home/artur/esp/esp-idf/components/freertos/esp_additions/include/freertos -I/home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -I/home/artur/esp/esp-idf/components/freertos/esp_additions/include -I/home/artur/esp/esp-idf/components/esp_hw_support/include -I/home/artur/esp/esp-idf/components/esp_hw_support/include/soc -I/home/artur/esp/esp-idf/components/esp_hw_support/include/soc/esp32 -I/home/artur/esp/esp-idf/components/esp_hw_support/port/esp32/. -I/home/artur/esp/esp-idf/components/esp_hw_support/port/esp32/private_include -I/home/artur/esp/esp-idf/components/heap/include -I/home/artur/esp/esp-idf/components/log/include -I/home/artur/esp/esp-idf/components/soc/include -I/home/artur/esp/esp-idf/components/soc/esp32/. -I/home/artur/esp/esp-idf/components/soc/esp32/include -I/home/artur/esp/esp-idf/components/hal/esp32/include -I/home/artur/esp/esp-idf/components/hal/include -I/home/artur/esp/esp-idf/components/hal/platform_port/include -I/home/artur/esp/esp-idf/components/esp_rom/include -I/home/artur/esp/esp-idf/components/esp_rom/include/esp32 -I/home/artur/esp/esp-idf/components/esp_rom/esp32 -I/home/artur/esp/esp-idf/components/esp_common/include -I/home/artur/esp/esp-idf/components/esp_system/include -I/home/artur/esp/esp-idf/components/esp_system/port/soc -I/home/artur/esp/esp-idf/components/esp_system/port/include/private -I/home/artur/esp/esp-idf/components/xtensa/include -I/home/artur/esp/esp-idf/components/xtensa/esp32/include -I/home/artur/esp/esp-idf/components/lwip/include -I/home/artur/esp/esp-idf/components/lwip/include/apps -I/home/artur/esp/esp-idf/components/lwip/include/apps/sntp -I/home/artur/esp/esp-idf/components/lwip/lwip/src/include -I/home/artur/esp/esp-idf/components/lwip/port/esp32/include -I/home/artur/esp/esp-idf/components/lwip/port/esp32/include/arch -I/home/artur/esp/esp-idf/components/driver/include -I/home/artur/esp/esp-idf/components/driver/deprecated -I/home/artur/esp/esp-idf/components/driver/esp32/include -I/home/artur/esp/esp-idf/components/esp_pm/include -I/home/artur/esp/esp-idf/components/esp_ringbuf/include -I/home/artur/esp/esp-idf/components/nvs_flash/include -I/home/artur/esp/esp-idf/components/spi_flash/include -I/home/artur/esp/esp-idf/components/esp_netif/include -I/home/artur/esp/esp-idf/components/esp_event/include -mlongcalls -Wno-frame-address  -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-error=format= -Wno-format -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fmacro-prefix-map=/home/artur/projects/personal/kairos=. -fmacro-prefix-map=/home/artur/esp/esp-idf=/IDF -fstrict-volatile-bitfields -Wno-error=unused-but-set-variable -fno-jump-tables -fno-tree-switch-conversion -DconfigENABLE_FREERTOS_DEBUG_OCDAWARE=1 -std=gnu17 -Wno-old-style-declaration -D_GNU_SOURCE -DIDF_VER=\"v5.0-dev-4547-gfde4afc67a\" -DESP_PLATFORM -D_POSIX_READER_WRITER_LOCKS -MD -MT esp-idf/core/CMakeFiles/__idf_core.dir/hal/time/time.c.obj -MF esp-idf/core/CMakeFiles/__idf_core.dir/hal/time/time.c.obj.d -o esp-idf/core/CMakeFiles/__idf_core.dir/hal/time/time.c.obj -c /home/artur/projects/personal/kairos/components/core/hal/time/time.c
+In file included from /home/artur/projects/personal/kairos/components/core/hal/time/time.h:5,
+                 from /home/artur/projects/personal/kairos/components/core/hal/time/time.c:1:
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:72:51: warning: 'struct tm' declared inside parameter list will not be visible outside of this definition or declaration
+   72 | esp_err_t pcf8563_set_time(i2c_dev_t *dev, struct tm *time);
+      |                                                   ^~
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:82:51: warning: 'struct tm' declared inside parameter list will not be visible outside of this definition or declaration
+   82 | esp_err_t pcf8563_get_time(i2c_dev_t *dev, struct tm *time, bool *valid);
+      |                                                   ^~
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:182:85: warning: 'struct tm' declared inside parameter list will not be visible outside of this definition or declaration
+  182 | esp_err_t pcf8563_set_alarm(i2c_dev_t *dev, bool int_enable, uint32_t flags, struct tm *time);
+      |                                                                                     ^~
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:193:88: warning: 'struct tm' declared inside parameter list will not be visible outside of this definition or declaration
+  193 | esp_err_t pcf8563_get_alarm(i2c_dev_t *dev, bool *int_enabled, uint32_t *flags, struct tm *time);
+      |                                                                                        ^~
+/home/artur/projects/personal/kairos/components/core/hal/time/time.c:6:1: error: unknown type name 'pcf8563_t'
+    6 | pcf8563_t dev;
+      | ^~~~~~~~~
+/home/artur/projects/personal/kairos/components/core/hal/time/time.c: In function 'init_time':
+/home/artur/projects/personal/kairos/components/core/hal/time/time.c:11:34: error: 'PCF8563_ADDR' undeclared (first use in this function); did you mean 'PCF8563_1HZ'?
+   11 |   while (pcf8563_init_desc(&dev, PCF8563_ADDR, 0, PIN_SDA, PIN_SCL) != KAIROS_ERR_OK)
+      |                                  ^~~~~~~~~~~~
+      |                                  PCF8563_1HZ
+/home/artur/projects/personal/kairos/components/core/hal/time/time.c:11:34: note: each undeclared identifier is reported only once for each function it appears in
+/home/artur/projects/personal/kairos/components/core/hal/time/time.c:11:28: warning: passing argument 1 of 'pcf8563_init_desc' from incompatible pointer type [-Wincompatible-pointer-types]
+   11 |   while (pcf8563_init_desc(&dev, PCF8563_ADDR, 0, PIN_SDA, PIN_SCL) != KAIROS_ERR_OK)
+      |                            ^~~~
+      |                            |
+      |                            int *
+In file included from /home/artur/projects/personal/kairos/components/core/hal/time/time.h:5,
+                 from /home/artur/projects/personal/kairos/components/core/hal/time/time.c:1:
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:55:40: note: expected 'i2c_dev_t *' but argument is of type 'int *'
+   55 | esp_err_t pcf8563_init_desc(i2c_dev_t *dev, i2c_port_t port, gpio_num_t sda_gpio, gpio_num_t scl_gpio);
+      |                             ~~~~~~~~~~~^~~
+/home/artur/projects/personal/kairos/components/core/hal/time/time.c:11:10: error: too many arguments to function 'pcf8563_init_desc'
+   11 |   while (pcf8563_init_desc(&dev, PCF8563_ADDR, 0, PIN_SDA, PIN_SCL) != KAIROS_ERR_OK)
+      |          ^~~~~~~~~~~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/hal/time/time.h:5,
+                 from /home/artur/projects/personal/kairos/components/core/hal/time/time.c:1:
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:55:11: note: declared here
+   55 | esp_err_t pcf8563_init_desc(i2c_dev_t *dev, i2c_port_t port, gpio_num_t sda_gpio, gpio_num_t scl_gpio);
+      |           ^~~~~~~~~~~~~~~~~
+/home/artur/projects/personal/kairos/components/core/hal/time/time.c:17:16: error: implicit declaration of function 'pcf8563_init'; did you mean 'pcf8563_init_desc'? [-Werror=implicit-function-declaration]
+   17 |         while (pcf8563_init(&dev) != ESP_OK)
+      |                ^~~~~~~~~~~~
+      |                pcf8563_init_desc
+cc1: some warnings being treated as errors
+[2/14] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+In file included from /home/artur/projects/personal/kairos/components/core/hal/time/time.h:5,
+                 from /home/artur/projects/personal/kairos/components/core/hal/modules/modules.h:5,
+                 from /home/artur/projects/personal/kairos/components/core/lib/system/system.h:5,
+                 from /home/artur/projects/personal/kairos/components/core/kairos.h:14,
+                 from /home/artur/projects/personal/kairos/main/main.c:1:
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:72:51: warning: 'struct tm' declared inside parameter list will not be visible outside of this definition or declaration
+   72 | esp_err_t pcf8563_set_time(i2c_dev_t *dev, struct tm *time);
+      |                                                   ^~
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:82:51: warning: 'struct tm' declared inside parameter list will not be visible outside of this definition or declaration
+   82 | esp_err_t pcf8563_get_time(i2c_dev_t *dev, struct tm *time, bool *valid);
+      |                                                   ^~
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:182:85: warning: 'struct tm' declared inside parameter list will not be visible outside of this definition or declaration
+  182 | esp_err_t pcf8563_set_alarm(i2c_dev_t *dev, bool int_enable, uint32_t flags, struct tm *time);
+      |                                                                                     ^~
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:193:88: warning: 'struct tm' declared inside parameter list will not be visible outside of this definition or declaration
+  193 | esp_err_t pcf8563_get_alarm(i2c_dev_t *dev, bool *int_enabled, uint32_t *flags, struct tm *time);
+      |                                                                                        ^~
+[3/14] Building C object esp-idf/core/CMakeFiles/__idf_core.dir/hal/modules/modules.c.obj
+FAILED: esp-idf/core/CMakeFiles/__idf_core.dir/hal/modules/modules.c.obj 
+/home/artur/.espressif/tools/xtensa-esp32-elf/esp-2022r1-RC1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  -I/home/artur/projects/personal/kairos/build/config -I/home/artur/projects/personal/kairos/components/core -I/home/artur/projects/personal/kairos/components/core/test -I/home/artur/projects/personal/kairos/components/core/drv/protocols -I/home/artur/projects/personal/kairos/components/core/drv/rtc -I/home/artur/projects/personal/kairos/components/core/hal/time -I/home/artur/projects/personal/kairos/components/core/hal/modules -I/home/artur/projects/personal/kairos/components/core/lib/system -I/home/artur/esp/esp-idf/components/newlib/platform_include -I/home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include -I/home/artur/esp/esp-idf/components/freertos/esp_additions/include/freertos -I/home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -I/home/artur/esp/esp-idf/components/freertos/esp_additions/include -I/home/artur/esp/esp-idf/components/esp_hw_support/include -I/home/artur/esp/esp-idf/components/esp_hw_support/include/soc -I/home/artur/esp/esp-idf/components/esp_hw_support/include/soc/esp32 -I/home/artur/esp/esp-idf/components/esp_hw_support/port/esp32/. -I/home/artur/esp/esp-idf/components/esp_hw_support/port/esp32/private_include -I/home/artur/esp/esp-idf/components/heap/include -I/home/artur/esp/esp-idf/components/log/include -I/home/artur/esp/esp-idf/components/soc/include -I/home/artur/esp/esp-idf/components/soc/esp32/. -I/home/artur/esp/esp-idf/components/soc/esp32/include -I/home/artur/esp/esp-idf/components/hal/esp32/include -I/home/artur/esp/esp-idf/components/hal/include -I/home/artur/esp/esp-idf/components/hal/platform_port/include -I/home/artur/esp/esp-idf/components/esp_rom/include -I/home/artur/esp/esp-idf/components/esp_rom/include/esp32 -I/home/artur/esp/esp-idf/components/esp_rom/esp32 -I/home/artur/esp/esp-idf/components/esp_common/include -I/home/artur/esp/esp-idf/components/esp_system/include -I/home/artur/esp/esp-idf/components/esp_system/port/soc -I/home/artur/esp/esp-idf/components/esp_system/port/include/private -I/home/artur/esp/esp-idf/components/xtensa/include -I/home/artur/esp/esp-idf/components/xtensa/esp32/include -I/home/artur/esp/esp-idf/components/lwip/include -I/home/artur/esp/esp-idf/components/lwip/include/apps -I/home/artur/esp/esp-idf/components/lwip/include/apps/sntp -I/home/artur/esp/esp-idf/components/lwip/lwip/src/include -I/home/artur/esp/esp-idf/components/lwip/port/esp32/include -I/home/artur/esp/esp-idf/components/lwip/port/esp32/include/arch -I/home/artur/esp/esp-idf/components/driver/include -I/home/artur/esp/esp-idf/components/driver/deprecated -I/home/artur/esp/esp-idf/components/driver/esp32/include -I/home/artur/esp/esp-idf/components/esp_pm/include -I/home/artur/esp/esp-idf/components/esp_ringbuf/include -I/home/artur/esp/esp-idf/components/nvs_flash/include -I/home/artur/esp/esp-idf/components/spi_flash/include -I/home/artur/esp/esp-idf/components/esp_netif/include -I/home/artur/esp/esp-idf/components/esp_event/include -mlongcalls -Wno-frame-address  -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-error=format= -Wno-format -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fmacro-prefix-map=/home/artur/projects/personal/kairos=. -fmacro-prefix-map=/home/artur/esp/esp-idf=/IDF -fstrict-volatile-bitfields -Wno-error=unused-but-set-variable -fno-jump-tables -fno-tree-switch-conversion -DconfigENABLE_FREERTOS_DEBUG_OCDAWARE=1 -std=gnu17 -Wno-old-style-declaration -D_GNU_SOURCE -DIDF_VER=\"v5.0-dev-4547-gfde4afc67a\" -DESP_PLATFORM -D_POSIX_READER_WRITER_LOCKS -MD -MT esp-idf/core/CMakeFiles/__idf_core.dir/hal/modules/modules.c.obj -MF esp-idf/core/CMakeFiles/__idf_core.dir/hal/modules/modules.c.obj.d -o esp-idf/core/CMakeFiles/__idf_core.dir/hal/modules/modules.c.obj -c /home/artur/projects/personal/kairos/components/core/hal/modules/modules.c
+In file included from /home/artur/projects/personal/kairos/components/core/hal/time/time.h:5,
+                 from /home/artur/projects/personal/kairos/components/core/hal/modules/modules.h:5,
+                 from /home/artur/projects/personal/kairos/components/core/hal/modules/modules.c:1:
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:72:51: warning: 'struct tm' declared inside parameter list will not be visible outside of this definition or declaration
+   72 | esp_err_t pcf8563_set_time(i2c_dev_t *dev, struct tm *time);
+      |                                                   ^~
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:82:51: warning: 'struct tm' declared inside parameter list will not be visible outside of this definition or declaration
+   82 | esp_err_t pcf8563_get_time(i2c_dev_t *dev, struct tm *time, bool *valid);
+      |                                                   ^~
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:182:85: warning: 'struct tm' declared inside parameter list will not be visible outside of this definition or declaration
+  182 | esp_err_t pcf8563_set_alarm(i2c_dev_t *dev, bool int_enable, uint32_t flags, struct tm *time);
+      |                                                                                     ^~
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:193:88: warning: 'struct tm' declared inside parameter list will not be visible outside of this definition or declaration
+  193 | esp_err_t pcf8563_get_alarm(i2c_dev_t *dev, bool *int_enabled, uint32_t *flags, struct tm *time);
+      |                                                                                        ^~
+/home/artur/projects/personal/kairos/components/core/hal/modules/modules.c: In function 'init_modules':
+/home/artur/projects/personal/kairos/components/core/hal/modules/modules.c:6:13: error: implicit declaration of function 'i2c_init'; did you mean 'i2cdev_init'? [-Werror=implicit-function-declaration]
+    6 |   passed |= i2c_init();
+      |             ^~~~~~~~
+      |             i2cdev_init
+cc1: some warnings being treated as errors
+[4/14] Building C object esp-idf/core/CMakeFiles/__idf_core.dir/lib/system/system.c.obj
+In file included from /home/artur/projects/personal/kairos/components/core/hal/time/time.h:5,
+                 from /home/artur/projects/personal/kairos/components/core/hal/modules/modules.h:5,
+                 from /home/artur/projects/personal/kairos/components/core/lib/system/system.h:5,
+                 from /home/artur/projects/personal/kairos/components/core/lib/system/system.c:1:
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:72:51: warning: 'struct tm' declared inside parameter list will not be visible outside of this definition or declaration
+   72 | esp_err_t pcf8563_set_time(i2c_dev_t *dev, struct tm *time);
+      |                                                   ^~
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:82:51: warning: 'struct tm' declared inside parameter list will not be visible outside of this definition or declaration
+   82 | esp_err_t pcf8563_get_time(i2c_dev_t *dev, struct tm *time, bool *valid);
+      |                                                   ^~
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:182:85: warning: 'struct tm' declared inside parameter list will not be visible outside of this definition or declaration
+  182 | esp_err_t pcf8563_set_alarm(i2c_dev_t *dev, bool int_enable, uint32_t flags, struct tm *time);
+      |                                                                                     ^~
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:193:88: warning: 'struct tm' declared inside parameter list will not be visible outside of this definition or declaration
+  193 | esp_err_t pcf8563_get_alarm(i2c_dev_t *dev, bool *int_enabled, uint32_t *flags, struct tm *time);
+      |                                                                                        ^~
+[5/14] Performing build step for 'bootloader'
+[1/1] cd /home/artur/projects/personal/kairos/build/bootloader/esp-idf/esptool_py && /home/artur/.espressif/python_env/idf5.0_py3.10_env/bin/python /home/artur/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/artur/projects/personal/kairos/build/bootloader/bootloader.bin
+Bootloader binary size 0x6680 bytes. 0x980 bytes (8%) free.
+[6/12] Building C object esp-idf/core/CMakeFiles/__idf_core.dir/drv/rtc/pcf8563.c.obj
+FAILED: esp-idf/core/CMakeFiles/__idf_core.dir/drv/rtc/pcf8563.c.obj 
+/home/artur/.espressif/tools/xtensa-esp32-elf/esp-2022r1-RC1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  -I/home/artur/projects/personal/kairos/build/config -I/home/artur/projects/personal/kairos/components/core -I/home/artur/projects/personal/kairos/components/core/test -I/home/artur/projects/personal/kairos/components/core/drv/protocols -I/home/artur/projects/personal/kairos/components/core/drv/rtc -I/home/artur/projects/personal/kairos/components/core/hal/time -I/home/artur/projects/personal/kairos/components/core/hal/modules -I/home/artur/projects/personal/kairos/components/core/lib/system -I/home/artur/esp/esp-idf/components/newlib/platform_include -I/home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include -I/home/artur/esp/esp-idf/components/freertos/esp_additions/include/freertos -I/home/artur/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -I/home/artur/esp/esp-idf/components/freertos/esp_additions/include -I/home/artur/esp/esp-idf/components/esp_hw_support/include -I/home/artur/esp/esp-idf/components/esp_hw_support/include/soc -I/home/artur/esp/esp-idf/components/esp_hw_support/include/soc/esp32 -I/home/artur/esp/esp-idf/components/esp_hw_support/port/esp32/. -I/home/artur/esp/esp-idf/components/esp_hw_support/port/esp32/private_include -I/home/artur/esp/esp-idf/components/heap/include -I/home/artur/esp/esp-idf/components/log/include -I/home/artur/esp/esp-idf/components/soc/include -I/home/artur/esp/esp-idf/components/soc/esp32/. -I/home/artur/esp/esp-idf/components/soc/esp32/include -I/home/artur/esp/esp-idf/components/hal/esp32/include -I/home/artur/esp/esp-idf/components/hal/include -I/home/artur/esp/esp-idf/components/hal/platform_port/include -I/home/artur/esp/esp-idf/components/esp_rom/include -I/home/artur/esp/esp-idf/components/esp_rom/include/esp32 -I/home/artur/esp/esp-idf/components/esp_rom/esp32 -I/home/artur/esp/esp-idf/components/esp_common/include -I/home/artur/esp/esp-idf/components/esp_system/include -I/home/artur/esp/esp-idf/components/esp_system/port/soc -I/home/artur/esp/esp-idf/components/esp_system/port/include/private -I/home/artur/esp/esp-idf/components/xtensa/include -I/home/artur/esp/esp-idf/components/xtensa/esp32/include -I/home/artur/esp/esp-idf/components/lwip/include -I/home/artur/esp/esp-idf/components/lwip/include/apps -I/home/artur/esp/esp-idf/components/lwip/include/apps/sntp -I/home/artur/esp/esp-idf/components/lwip/lwip/src/include -I/home/artur/esp/esp-idf/components/lwip/port/esp32/include -I/home/artur/esp/esp-idf/components/lwip/port/esp32/include/arch -I/home/artur/esp/esp-idf/components/driver/include -I/home/artur/esp/esp-idf/components/driver/deprecated -I/home/artur/esp/esp-idf/components/driver/esp32/include -I/home/artur/esp/esp-idf/components/esp_pm/include -I/home/artur/esp/esp-idf/components/esp_ringbuf/include -I/home/artur/esp/esp-idf/components/nvs_flash/include -I/home/artur/esp/esp-idf/components/spi_flash/include -I/home/artur/esp/esp-idf/components/esp_netif/include -I/home/artur/esp/esp-idf/components/esp_event/include -mlongcalls -Wno-frame-address  -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-error=format= -Wno-format -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fmacro-prefix-map=/home/artur/projects/personal/kairos=. -fmacro-prefix-map=/home/artur/esp/esp-idf=/IDF -fstrict-volatile-bitfields -Wno-error=unused-but-set-variable -fno-jump-tables -fno-tree-switch-conversion -DconfigENABLE_FREERTOS_DEBUG_OCDAWARE=1 -std=gnu17 -Wno-old-style-declaration -D_GNU_SOURCE -DIDF_VER=\"v5.0-dev-4547-gfde4afc67a\" -DESP_PLATFORM -D_POSIX_READER_WRITER_LOCKS -MD -MT esp-idf/core/CMakeFiles/__idf_core.dir/drv/rtc/pcf8563.c.obj -MF esp-idf/core/CMakeFiles/__idf_core.dir/drv/rtc/pcf8563.c.obj.d -o esp-idf/core/CMakeFiles/__idf_core.dir/drv/rtc/pcf8563.c.obj -c /home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.c
+In file included from /home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.c:1:
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:72:51: warning: 'struct tm' declared inside parameter list will not be visible outside of this definition or declaration
+   72 | esp_err_t pcf8563_set_time(i2c_dev_t *dev, struct tm *time);
+      |                                                   ^~
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:82:51: warning: 'struct tm' declared inside parameter list will not be visible outside of this definition or declaration
+   82 | esp_err_t pcf8563_get_time(i2c_dev_t *dev, struct tm *time, bool *valid);
+      |                                                   ^~
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:182:85: warning: 'struct tm' declared inside parameter list will not be visible outside of this definition or declaration
+  182 | esp_err_t pcf8563_set_alarm(i2c_dev_t *dev, bool int_enable, uint32_t flags, struct tm *time);
+      |                                                                                     ^~
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:193:88: warning: 'struct tm' declared inside parameter list will not be visible outside of this definition or declaration
+  193 | esp_err_t pcf8563_get_alarm(i2c_dev_t *dev, bool *int_enabled, uint32_t *flags, struct tm *time);
+      |                                                                                        ^~
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.c:45: warning: "CHECK" redefined
+   45 | #define CHECK(x) do { esp_err_t __; if ((__ = x) != ESP_OK) return __; } while (0)
+      | 
+In file included from /home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.c:1:
+/home/artur/projects/personal/kairos/components/core/drv/protocols/i2c.h:197: note: this is the location of the previous definition
+  197 | #define CHECK(x) do { kairos_err_t __; if ((__ = x) != KAIROS_ERR_OK) return __; } while (0)
+      | 
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.c:46: warning: "CHECK_ARG" redefined
+   46 | #define CHECK_ARG(ARG) do { if (!(ARG)) return ESP_ERR_INVALID_ARG; } while (0)
+      | 
+In file included from /home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:4,
+                 from /home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.c:1:
+/home/artur/projects/personal/kairos/components/core/drv/protocols/i2c.h:198: note: this is the location of the previous definition
+  198 | #define CHECK_ARG(VAL) do { if (!(VAL)) return KAIROS_INVALID_ARGS; } while (0)
+      | 
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.c:126:51: warning: 'struct tm' declared inside parameter list will not be visible outside of this definition or declaration
+  126 | esp_err_t pcf8563_set_time(i2c_dev_t *dev, struct tm *time)
+      |                                                   ^~
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.c:126:11: error: conflicting types for 'pcf8563_set_time'; have 'esp_err_t(i2c_dev_t *, struct tm *)' {aka 'int(i2c_dev_t *, struct tm *)'}
+  126 | esp_err_t pcf8563_set_time(i2c_dev_t *dev, struct tm *time)
+      |           ^~~~~~~~~~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.c:1:
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:72:11: note: previous declaration of 'pcf8563_set_time' with type 'esp_err_t(i2c_dev_t *, struct tm *)' {aka 'int(i2c_dev_t *, struct tm *)'}
+   72 | esp_err_t pcf8563_set_time(i2c_dev_t *dev, struct tm *time);
+      |           ^~~~~~~~~~~~~~~~
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.c: In function 'pcf8563_set_time':
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.c:130:20: error: invalid use of undefined type 'struct tm'
+  130 |     bool ovf = time->tm_year >= 200;
+      |                    ^~
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.c:133:21: error: invalid use of undefined type 'struct tm'
+  133 |         dec2bcd(time->tm_sec),
+      |                     ^~
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.c:134:21: error: invalid use of undefined type 'struct tm'
+  134 |         dec2bcd(time->tm_min),
+      |                     ^~
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.c:135:21: error: invalid use of undefined type 'struct tm'
+  135 |         dec2bcd(time->tm_hour),
+      |                     ^~
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.c:136:21: error: invalid use of undefined type 'struct tm'
+  136 |         dec2bcd(time->tm_mday),
+      |                     ^~
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.c:137:21: error: invalid use of undefined type 'struct tm'
+  137 |         dec2bcd(time->tm_wday),
+      |                     ^~
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.c:138:21: error: invalid use of undefined type 'struct tm'
+  138 |         dec2bcd(time->tm_mon + 1) | (ovf ? BV(BIT_YEAR_CENTURY) : 0),
+      |                     ^~
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.c:139:21: error: invalid use of undefined type 'struct tm'
+  139 |         dec2bcd(time->tm_year - (ovf ? 200 : 100))
+      |                     ^~
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.c: At top level:
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.c:149:51: warning: 'struct tm' declared inside parameter list will not be visible outside of this definition or declaration
+  149 | esp_err_t pcf8563_get_time(i2c_dev_t *dev, struct tm *time, bool *valid)
+      |                                                   ^~
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.c:149:11: error: conflicting types for 'pcf8563_get_time'; have 'esp_err_t(i2c_dev_t *, struct tm *, _Bool *)' {aka 'int(i2c_dev_t *, struct tm *, _Bool *)'}
+  149 | esp_err_t pcf8563_get_time(i2c_dev_t *dev, struct tm *time, bool *valid)
+      |           ^~~~~~~~~~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.c:1:
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:82:11: note: previous declaration of 'pcf8563_get_time' with type 'esp_err_t(i2c_dev_t *, struct tm *, _Bool *)' {aka 'int(i2c_dev_t *, struct tm *, _Bool *)'}
+   82 | esp_err_t pcf8563_get_time(i2c_dev_t *dev, struct tm *time, bool *valid);
+      |           ^~~~~~~~~~~~~~~~
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.c: In function 'pcf8563_get_time':
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.c:160:9: error: invalid use of undefined type 'struct tm'
+  160 |     time->tm_sec  = bcd2dec(data[0] & ~BV(BIT_VL));
+      |         ^~
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.c:161:9: error: invalid use of undefined type 'struct tm'
+  161 |     time->tm_min  = bcd2dec(data[1] & MASK_MIN);
+      |         ^~
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.c:162:9: error: invalid use of undefined type 'struct tm'
+  162 |     time->tm_hour = bcd2dec(data[2] & MASK_HOUR);
+      |         ^~
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.c:163:9: error: invalid use of undefined type 'struct tm'
+  163 |     time->tm_mday = bcd2dec(data[3] & MASK_MDAY);
+      |         ^~
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.c:164:9: error: invalid use of undefined type 'struct tm'
+  164 |     time->tm_wday = bcd2dec(data[4] & MASK_WDAY);
+      |         ^~
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.c:165:9: error: invalid use of undefined type 'struct tm'
+  165 |     time->tm_mon  = bcd2dec(data[5] & MASK_MON) - 1;
+      |         ^~
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.c:166:9: error: invalid use of undefined type 'struct tm'
+  166 |     time->tm_year = bcd2dec(data[6]) + (data[5] & BV(BIT_YEAR_CENTURY) ? 200 : 100);
+      |         ^~
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.c: At top level:
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.c:268:85: warning: 'struct tm' declared inside parameter list will not be visible outside of this definition or declaration
+  268 | esp_err_t pcf8563_set_alarm(i2c_dev_t *dev, bool int_enable, uint32_t flags, struct tm *time)
+      |                                                                                     ^~
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.c:268:11: error: conflicting types for 'pcf8563_set_alarm'; have 'esp_err_t(i2c_dev_t *, _Bool,  uint32_t,  struct tm *)' {aka 'int(i2c_dev_t *, _Bool,  long unsigned int,  struct tm *)'}
+  268 | esp_err_t pcf8563_set_alarm(i2c_dev_t *dev, bool int_enable, uint32_t flags, struct tm *time)
+      |           ^~~~~~~~~~~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.c:1:
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:182:11: note: previous declaration of 'pcf8563_set_alarm' with type 'esp_err_t(i2c_dev_t *, _Bool,  uint32_t,  struct tm *)' {aka 'int(i2c_dev_t *, _Bool,  long unsigned int,  struct tm *)'}
+  182 | esp_err_t pcf8563_set_alarm(i2c_dev_t *dev, bool int_enable, uint32_t flags, struct tm *time);
+      |           ^~~~~~~~~~~~~~~~~
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.c: In function 'pcf8563_set_alarm':
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.c:276:21: error: invalid use of undefined type 'struct tm'
+  276 |         dec2bcd(time->tm_min) | (flags & PCF8563_ALARM_MATCH_MIN ? 0 : BV(BIT_AE)),
+      |                     ^~
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.c:277:21: error: invalid use of undefined type 'struct tm'
+  277 |         dec2bcd(time->tm_hour) | (flags & PCF8563_ALARM_MATCH_HOUR ? 0 : BV(BIT_AE)),
+      |                     ^~
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.c:278:21: error: invalid use of undefined type 'struct tm'
+  278 |         dec2bcd(time->tm_mday) | (flags & PCF8563_ALARM_MATCH_DAY ? 0 : BV(BIT_AE)),
+      |                     ^~
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.c:279:21: error: invalid use of undefined type 'struct tm'
+  279 |         dec2bcd(time->tm_wday) | (flags & PCF8563_ALARM_MATCH_WEEKDAY ? 0 : BV(BIT_AE)),
+      |                     ^~
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.c: At top level:
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.c:287:88: warning: 'struct tm' declared inside parameter list will not be visible outside of this definition or declaration
+  287 | esp_err_t pcf8563_get_alarm(i2c_dev_t *dev, bool *int_enabled, uint32_t *flags, struct tm *time)
+      |                                                                                        ^~
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.c:287:11: error: conflicting types for 'pcf8563_get_alarm'; have 'esp_err_t(i2c_dev_t *, _Bool *, uint32_t *, struct tm *)' {aka 'int(i2c_dev_t *, _Bool *, long unsigned int *, struct tm *)'}
+  287 | esp_err_t pcf8563_get_alarm(i2c_dev_t *dev, bool *int_enabled, uint32_t *flags, struct tm *time)
+      |           ^~~~~~~~~~~~~~~~~
+In file included from /home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.c:1:
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.h:193:11: note: previous declaration of 'pcf8563_get_alarm' with type 'esp_err_t(i2c_dev_t *, _Bool *, uint32_t *, struct tm *)' {aka 'int(i2c_dev_t *, _Bool *, long unsigned int *, struct tm *)'}
+  193 | esp_err_t pcf8563_get_alarm(i2c_dev_t *dev, bool *int_enabled, uint32_t *flags, struct tm *time);
+      |           ^~~~~~~~~~~~~~~~~
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.c: In function 'pcf8563_get_alarm':
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.c:309:9: error: invalid use of undefined type 'struct tm'
+  309 |     time->tm_min = bcd2dec(data[0] & MASK_ALARM);
+      |         ^~
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.c:310:9: error: invalid use of undefined type 'struct tm'
+  310 |     time->tm_hour = bcd2dec(data[1] & MASK_ALARM);
+      |         ^~
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.c:311:9: error: invalid use of undefined type 'struct tm'
+  311 |     time->tm_mday = bcd2dec(data[2] & MASK_ALARM);
+      |         ^~
+/home/artur/projects/personal/kairos/components/core/drv/rtc/pcf8563.c:312:9: error: invalid use of undefined type 'struct tm'
+  312 |     time->tm_wday = bcd2dec(data[3] & MASK_ALARM);
+      |         ^~
+ninja: build stopped: subcommand failed.

@@ -1,0 +1,144 @@
+[0;32mI (13) boot: ESP-IDF v5.0-dev-4547-gfde4afc67a 2nd stage bootloader[0m
+[0;32mI (13) boot: compile time 00:10:40[0m
+[0;32mI (13) boot: chip revision: V100[0m
+[0;32mI (17) boot_comm: chip revision: 1, min. bootloader chip revision: 0[0m
+[0;32mI (24) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (28) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (33) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (38) boot: Enabling RNG early entropy source...[0m
+[0;32mI (43) boot: Partition Table:[0m
+[0;32mI (47) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (54) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (61) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (69) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (76) boot: End of partition table[0m
+[0;32mI (80) boot_comm: chip revision: 1, min. application chip revision: 0[0m
+[0;32mI (88) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=09ab4h ( 39604) map[0m
+[0;32mI (110) esp_image: segment 1: paddr=00019adc vaddr=3ffb0000 size=02698h (  9880) load[0m
+[0;32mI (114) esp_image: segment 2: paddr=0001c17c vaddr=40080000 size=03e9ch ( 16028) load[0m
+[0;32mI (123) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=1896ch (100716) map[0m
+[0;32mI (161) esp_image: segment 4: paddr=00038994 vaddr=40083e9c size=08e88h ( 36488) load[0m
+[0;32mI (176) esp_image: segment 5: paddr=00041824 vaddr=50000000 size=00010h (    16) load[0m
+[0;32mI (183) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (183) boot: Disabling RNG early entropy source...[0m
+[0;32mI (196) cpu_start: Pro cpu up.[0m
+[0;32mI (197) cpu_start: Starting app cpu, entry point is 0x4008117c[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (211) cpu_start: Pro cpu start user code[0m
+[0;32mI (211) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (211) cpu_start: Application information:[0m
+[0;32mI (216) cpu_start: Project name:     kairos[0m
+[0;32mI (220) cpu_start: App version:      1[0m
+[0;32mI (225) cpu_start: Compile time:     Aug  5 2022 18:21:25[0m
+[0;32mI (231) cpu_start: ELF file SHA256:  fa09f060e74d8b39...[0m
+[0;32mI (237) cpu_start: ESP-IDF:          v5.0-dev-4547-gfde4afc67a[0m
+[0;32mI (244) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (251) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (257) heap_init: At 3FFB2FF8 len 0002D008 (180 KiB): DRAM[0m
+[0;32mI (263) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (269) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (276) heap_init: At 4008CD24 len 000132DC (76 KiB): IRAM[0m
+[0;32mI (283) spi_flash: detected chip: gd[0m
+[0;32mI (286) spi_flash: flash io: dio[0m
+[0;33mW (290) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (304) cpu_start: Starting scheduler on PRO CPU.[0m
+[0;32mI (0) cpu_start: Starting scheduler on APP CPU.[0m
+[0;32mI (314) KAIROS: Starting system...[0m
+[0;32mI (314) RTC: Initializing RTC[0m
+[0;32mI (324) SYSTEM: System initiated![0m
+[0;32mI (324) i2crtc: 2022-09-06 14:19:44, VALID[0m
+[0;32mI (1334) i2crtc: 2022-09-06 14:19:45, VALID[0m
+[0;32mI (2334) i2crtc: 2022-09-06 14:19:46, VALID[0m
+[0;32mI (3334) i2crtc: 2022-09-06 14:19:47, VALID[0m
+[0;32mI (4334) i2crtc: 2022-09-06 14:19:48, VALID[0m
+[0;32mI (5334) i2crtc: 2022-09-06 14:19:49, VALID[0m
+[0;32mI (6334) i2crtc: 2022-09-06 14:19:50, VALID[0m
+[0;32mI (7334) i2crtc: 2022-09-06 14:19:51, VALID[0m
+[0;32mI (8334) i2crtc: 2022-09-06 14:19:52, VALID[0m
+[0;32mI (9334) i2crtc: 2022-09-06 14:19:53, VALID[0m
+[0;32mI (10334) i2crtc: 2022-09-06 14:19:54, VALID[0m
+[0;32mI (11334) i2crtc: 2022-09-06 14:19:55, VALID[0m
+[0;32mI (12334) i2crtc: 2022-09-06 14:19:56, VALID[0m
+[0;32mI (13334) i2crtc: 2022-09-06 14:19:57, VALID[0m
+[0;32mI (14334) i2crtc: 2022-09-06 14:19:58, VALID[0m
+[0;32mI (15334) i2crtc: 2022-09-06 14:19:59, VALID[0m
+[0;32mI (16334) i2crtc: 2022-09-06 14:20:00, VALID[0m
+[0;32mI (17334) i2crtc: 2022-09-06 14:20:01, VALID[0m
+[0;32mI (18334) i2crtc: 2022-09-06 14:20:02, VALID[0m
+[0;32mI (19334) i2crtc: 2022-09-06 14:20:03, VALID[0m
+[0;32mI (20334) i2crtc: 2022-09-06 14:20:04, VALID[0m
+[0;32mI (21334) i2crtc: 2022-09-06 14:20:05, VALID[0m
+[0;32mI (22334) i2crtc: 2022-09-06 14:20:06, VALID[0m
+[0;32mI (23334) i2crtc: 2022-09-06 14:20:07, VALID[0m
+[0;32mI (24334) i2crtc: 2022-09-06 14:20:08, VALID[0m
+[0;32mI (25334) i2crtc: 2022-09-06 14:20:09, VALID[0m
+[0;32mI (26334) i2crtc: 2022-09-06 14:20:10, VALID[0m
+[0;32mI (27334) i2crtc: 2022-09-06 14:20:11, VALID[0m
+[0;32mI (28334) i2crtc: 2022-09-06 14:20:12, VALID[0m
+[0;32mI (29334) i2crtc: 2022-09-06 14:20:13, VALID[0m
+[0;32mI (30334) i2crtc: 2022-09-06 14:20:14, VALID[0m
+[0;32mI (31334) i2crtc: 2022-09-06 14:20:15, VALID[0m
+[0;32mI (32334) i2crtc: 2022-09-06 14:20:16, VALID[0m
+[0;32mI (33334) i2crtc: 2022-09-06 14:20:17, VALID[0m
+[0;32mI (34334) i2crtc: 2022-09-06 14:20:18, VALID[0m
+[0;32mI (35334) i2crtc: 2022-09-06 14:20:19, VALID[0m
+[0;32mI (36334) i2crtc: 2022-09-06 14:20:20, VALID[0m
+[0;32mI (37334) i2crtc: 2022-09-06 14:20:21, VALID[0m
+[0;32mI (38334) i2crtc: 2022-09-06 14:20:22, VALID[0m
+[0;32mI (39334) i2crtc: 2022-09-06 14:20:23, VALID[0m
+[0;32mI (40334) i2crtc: 2022-09-06 14:20:24, VALID[0m
+[0;32mI (41334) i2crtc: 2022-09-06 14:20:25, VALID[0m
+[0;32mI (42334) i2crtc: 2022-09-06 14:20:26, VALID[0m
+[0;32mI (43334) i2crtc: 2022-09-06 14:20:27, VALID[0m
+[0;32mI (44334) i2crtc: 2022-09-06 14:20:28, VALID[0m
+[0;32mI (45334) i2crtc: 2022-09-06 14:20:29, VALID[0m
+[0;32mI (46334) i2crtc: 2022-09-06 14:20:30, VALID[0m
+[0;32mI (47334) i2crtc: 2022-09-06 14:20:31, VALID[0m
+[0;32mI (48334) i2crtc: 2022-09-06 14:20:32, VALID[0m
+[0;32mI (49334) i2crtc: 2022-09-06 14:20:33, VALID[0m
+[0;32mI (50334) i2crtc: 2022-09-06 14:20:34, VALID[0m
+[0;32mI (51334) i2crtc: 2022-09-06 14:20:35, VALID[0m
+[0;32mI (52334) i2crtc: 2022-09-06 14:20:36, VALID[0m
+[0;32mI (53334) i2crtc: 2022-09-06 14:20:37, VALID[0m
+[0;32mI (54334) i2crtc: 2022-09-06 14:20:38, VALID[0m
+[0;32mI (55334) i2crtc: 2022-09-06 14:20:39, VALID[0m
+[0;32mI (56334) i2crtc: 2022-09-06 14:20:40, VALID[0m
+[0;32mI (57334) i2crtc: 2022-09-06 14:20:41, VALID[0m
+[0;32mI (58334) i2crtc: 2022-09-06 14:20:42, VALID[0m
+[0;32mI (59334) i2crtc: 2022-09-06 14:20:43, VALID[0m
+[0;32mI (60334) i2crtc: 2022-09-06 14:20:44, VALID[0m
+[0;32mI (61334) i2crtc: 2022-09-06 14:20:45, VALID[0m
+[0;32mI (62334) i2crtc: 2022-09-06 14:20:46, VALID[0m
+[0;32mI (63334) i2crtc: 2022-09-06 14:20:47, VALID[0m
+[0;32mI (64334) i2crtc: 2022-09-06 14:20:48, VALID[0m
+[0;32mI (65334) i2crtc: 2022-09-06 14:20:49, VALID[0m
+[0;32mI (66334) i2crtc: 2022-09-06 14:20:50, VALID[0m
+[0;32mI (67334) i2crtc: 2022-09-06 14:20:51, VALID[0m
+[0;32mI (68334) i2crtc: 2022-09-06 14:20:52, VALID[0m
+[0;32mI (69334) i2crtc: 2022-09-06 14:20:53, VALID[0m
+[0;32mI (70334) i2crtc: 2022-09-06 14:20:54, VALID[0m
+[0;32mI (71334) i2crtc: 2022-09-06 14:20:55, VALID[0m
+[0;32mI (72334) i2crtc: 2022-09-06 14:20:56, VALID[0m
+[0;32mI (73334) i2crtc: 2022-09-06 14:20:57, VALID[0m
+[0;32mI (74334) i2crtc: 2022-09-06 14:20:58, VALID[0m
+[0;32mI (75334) i2crtc: 2022-09-06 14:20:59, VALID[0m
+[0;32mI (76334) i2crtc: 2022-09-06 14:21:00, VALID[0m
+[0;32mI (77334) i2crtc: 2022-09-06 14:21:01, VALID[0m
+[0;32mI (78334) i2crtc: 2022-09-06 14:21:02, VALID[0m
+[0;32mI (79334) i2crtc: 2022-09-06 14:21:03, VALID[0m
+[0;32mI (80334) i2crtc: 2022-09-06 14:21:04, VALID[0m
+[0;32mI (81334) i2crtc: 2022-09-06 14:21:05, VALID[0m
+[0;32mI (82334) i2crtc: 2022-09-06 14:21:06, VALID[0m
+[0;32mI (83334) i2crtc: 2022-09-06 14:21:07, VALID[0m
+[0;32mI (84334) i2crtc: 2022-09-06 14:21:08, VALID[0m
+[0;32mI (85334) i2crtc: 2022-09-06 14:21:09, VALID[0m
+[0;32mI (86334) i2crtc: 2022-09-06 14:21:10, VALID[0m
+[0;32mI (87334) i2crtc: 2022-09-06 14:21:11, VALID[0m
+[0;32mI (88334) i2crtc: 2022-09-06 14:21:12, VALID[0m
+[0;32mI (89334) i2crtc: 2022-09-06 14:21:13, VALID[0m
+[0;32mI (90334) i2crtc: 2022-09-06 14:21:14, VALID[0m
+[0;32mI (91334) i2crtc: 2022-09-06 14:21:15, VALID[0m
+[0;32mI (92334) i2crtc: 2022-09-06 14:21:16, VALID[0m
+[0;32mI (93334) i2crtc: 2022-09-06 14:21:17, VALID[0m
+[0;32mI (94334) i2crtc: 2022-09-06 14:21:18, VALID[0m
+[0;32mI (95334) i2crtc: 2022-09-06 14:21:19, VALID[0m
